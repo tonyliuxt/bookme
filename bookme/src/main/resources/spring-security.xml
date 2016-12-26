@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bean:beans
+	xmlns:bean="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xmlns="http://www.springframework.org/schema/security"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+		http://www.springframework.org/schema/security
+		http://www.springframework.org/schema/security/spring-security-4.1.xsd">
+		
+	<security:global-method-security secured-annotations="enabled" pre-post-annotations="enabled" jsr250-annotations="enabled"/>
+	
+	<http realm="Protected API"
+		pattern="/mobile/**"
+		use-expressions="true"
+		create-session="stateless"
+		entry-point-ref="unauthorizedEntryPoint"
+		authentication-manager-ref="restAuthenticationManager">
+		<headers>
+			<frame-options policy="SAMEORIGIN"/>
+		</headers>
+		<csrf disabled="true"/>
+		<custom-filter ref="restAuthenticationFilter" position="FORM_LOGIN_FILTER"/>
+		<intercept-url pattern="/mobile/**" access="isFullyAuthenticated()"/>
+	</http>
+	
+	<http use-expressions="true">
+	    <intercept-url pattern="/admin" access="hasRole('ROLE_ADMIN')"/>
+	    <intercept-url pattern="/contact" access="permitAll"/>
+		<intercept-url pattern="/login" access="permitAll"/>
+		<intercept-url pattern="/**" access="permitAll"/>
+			    <form-login login-page="/login"
+	    			authentication-success-handler-ref="mySuccessHandler"
+	    			login-processing-url="/j_spring_security_check" 
+	    			authentication-failure-url="/login?error" 
+	    			username-parameter="username" 
+	    			password-parameter="password"/>
+		<logout logout-success-url="/login?logout" />
+		<headers>
+			<header name="X-Token-Valid" value="false"/>
+			<frame-options policy="SAMEORIGIN"/>
+			<frame-options policy="ALLOW-FROM" strategy="whitelist" value="http://127.0.0.1:8090/"/>
+		</headers>
+		<csrf disabled="true"/> 
+	    <logout/>
+	</http>
+
+ 	<bean:bean id="unauthorizedEntryPoint" class="com.nanjing.au.bookme.security.main.restsec.UnauthorizedEntryPoint"/>
+	<bean:bean id="userDetailService" class="com.nanjing.au.bookme.security.main.secimpl.MyUserDetailsService"/>
+
+	<authentication-manager id="restAuthenticationManager">
+		<authentication-provider user-service-ref="userDetailService">
+		</authentication-provider>
+	</authentication-manager>
+	
+	<bean:bean id="restAuthenticationFilter" class="com.nanjing.au.bookme.security.main.restsec.TokenAuthenticationFilter"
+		c:authenticationService-ref="authenticationService" c:logoutLink="/rest"/>
+			
+	<bean:bean id="authenticationService" class="com.nanjing.au.bookme.security.main.secimpl.AuthenticationServiceDefault"
+		c:authenticationManager-ref="restAuthenticationManager" c:tokenManager-ref="tokenManager"/>
+
+	<bean:bean id="tokenManager" class="com.nanjing.au.bookme.security.main.secimpl.TokenManagerSingle"/>
+
+ </bean:beans>

@@ -1,0 +1,94 @@
+
+*{
+	font-size:12px; 
+	box-sizing:border-box; 
+}
+
+   html,body{ margin:0;padding:0;background:#ddd;color:#333;font-family:'Open Sans','Trebuchet MS','Arial',sans-serif;font-size:14px; }
+   .container{ width:100%; height:100%; float:left;position:relative; background:#fff; padding:5px; }
+   a{ text-decoration:none;color:#c33; }
+   
+   /* header and footer */
+   header,footer,article,nav,section{ float:left;padding: 5px; }
+   header,footer{ width:100%; }
+   
+   header,footer{ background-color:#333;color:#fff;text-align:right;height:100px; }
+   header{ font-size:1.8em;font-weight:bold; }
+   header big{ line-height:100px;vertical-align:middle; font-size:1.2em;}
+   .logo{ float:left; line-height:120px; vertical-align:middle; }
+   
+   footer{ background-color:#666;text-align:center;height:50px; }
+   footer a{ text-decoration:underline;color:#fff;font-weight:bold; }
+   
+   /* navigation on the left hand side */
+   nav{ text-align:center;width:23%; height:100%; margin-right:1%;border:1px solid #ccc;margin:5px; }
+   nav a{ display:block;width:100%;background-color:#c33;color:#fff;height:30px;margin-bottom:10px;padding:10px;border-radius:3px;line-height:10px;vertical-align:middle; }
+   nav a:hover,nav a:active{ background-color:#226; }
+   a.visited{ background-color:#226; }
+   
+   /* <article> tag is our 'content area' */
+   article{ width:75%; }
+   h1{ padding:0;margin:0 0 20px 0; }
+   
+   /* section */
+   article section{ padding:0; }
+   
+   /* basic page division */
+   .halves,.thirds{ width:49%;float:left;margin-right:2%; }
+   .thirds{ width:32.66666%;margin-right:1%; }
+   
+   .last{ margin-right:0; }
+
+h2 {
+    font-size:18px;
+    font-weight:bold;
+    margin:0;
+    margin-bottom:15px;
+}
+.demo-info{
+	padding:0 0 12px 0;
+}
+.demo-tip{
+	display:none;
+}
+
+.show-details-right {
+  text-align: right;
+  font-weight: bold;
+}
+.show-details-left {
+  text-align: left;
+}
+.show-details-center {
+  text-align: center;
+  font-weight: bold;
+}
+
+.ftitle{ 
+	padding-left:20px;
+}
+.fitem{
+	padding-left:20px;
+}
+
+        #fm{
+            margin:0;
+            padding:10px 30px;
+        }
+        .ftitle{
+            font-size:14px;
+            font-weight:bold;
+            padding:5px 0;
+            margin-bottom:10px;
+            border-bottom:1px solid #ccc;
+        }
+        .fitem{
+            margin-bottom:5px;
+        }
+        .fitem label{
+            display:inline-block;
+            width:100px;
+        }
+        .fitem input{
+            width:220px;
+        }
