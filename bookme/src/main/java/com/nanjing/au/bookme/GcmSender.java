@@ -30,14 +30,14 @@ public class GcmSender {
 	public static void main(String args[]){
 		MailTaskVO uvo = new MailTaskVO();
 		uvo.setPhone("0452382276");
-		uvo.setToWho("Tony");
-		uvo.setBody("I want book a lesson.");
+		uvo.setToWho("TonyLiu");
+		uvo.setBody("can I book a lesson.");
 		
 		JSONObject nuvo = getNotification(uvo);
 		sendGcmData(nuvo);
 
-		JSONObject muvo = getMessage(uvo);
-		sendGcmData(muvo);
+		//JSONObject muvo = getMessage(uvo);
+		//sendGcmData(muvo);
 	}
 
 	/**
@@ -55,6 +55,7 @@ public class GcmSender {
         JSONObject jGcmData = new JSONObject();
         JSONObject jData = new JSONObject();
         jData.put("title", uvo.getToWho());
+        jData.put("phone", uvo.getPhone());
         jData.put("text",  uvo.getBody());
              
         // What to send in GCM message.
@@ -77,6 +78,7 @@ public class GcmSender {
         JSONObject jGcmData = new JSONObject();
         JSONObject jData = new JSONObject();
         jData.put("title", uvo.getToWho());
+        jData.put("phone", uvo.getPhone());
         jData.put("text",  uvo.getBody());
              
         // What to send in GCM message.

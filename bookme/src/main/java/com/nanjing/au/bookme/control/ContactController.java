@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.nanjing.au.bookme.Constants;
+import com.nanjing.au.bookme.GcmSender;
 import com.nanjing.au.bookme.UtilLibs;
 import com.nanjing.au.bookme.dao.StaticMongoTemplate;
 import com.nanjing.au.bookme.entity.ContactMessage;
@@ -61,7 +62,11 @@ public class ContactController {
     			StaticMongoTemplate.getStaticMongoTemplate().insert(webmessage);
     		}
     		
+    		// Reply email
     		autoEmailReply(contactmsg);
+    		
+    		// Notify mobile
+    		autoNotifyMobile(contactmsg);
     		
     	}catch(Exception ex){
     		ex.printStackTrace();
@@ -84,8 +89,15 @@ public class ContactController {
     	MailSender.send(uvo);
     }
     
-    private void autoSmsReply(ContactMessage contactmsg){
+    private void autoNotifyMobile(ContactMessage contactmsg){
     	
+    	MailTaskVO uvo = new MailTaskVO();
+    	uvo.setBody(MailSender.mailBody);
+    	uvo.setSubject(MailSender.mailSubject);
+    	uvo.setTo(contactmsg.getEmail());
+    	uvo.setToWho(contactmsg.getName());
+    	
+    	GcmSender.sendGcmData(GcmSender.getNotification(uvo));
     }
 
 }
