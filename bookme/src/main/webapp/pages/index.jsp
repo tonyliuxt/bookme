@@ -1,7 +1,8 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
-<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ page contentType="text/html;charset=UTF-8" %>
+ 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -72,9 +73,7 @@
                     <div class="navbar-brand">
                         <a href="https://nanjing.com.au" class="navbar-logo"><img src="assets/images/logo.png" alt='<fmt:message key="index.logo.name" />'></a>
                         <a class="navbar-caption" href="https://nanjing.com.au">
-							<big class="mbr-price-term" style="color:red">L</big>earning 
-							<big class="mbr-price-term" style="color:white">I</big>nto 
-							<big class="mbr-price-term" style="color:white">U</big>sing 
+							<big class="mbr-price-term" style="color:red">L</big><spring:message code="index.logo.name" text="earning Into Using" />
 						</a>
                     </div>
 
@@ -90,7 +89,7 @@
 						<li class="nav-item"><a class="nav-link link" href="#features3-d">BASIC STAGES</a></li>
 						<li class="nav-item"><a class="nav-link link" href="#pricing-table1-b">PRICE</a></li>
 						<li class="nav-item"><a class="nav-link link" href="#form1-0">CONTACT</a></li>
-						<li class="nav-item nav-btn"><a class="nav-link btn btn-white btn-white-outline" href="https://nanjing.com.au/">中文/English</a></li></ul>
+						<li class="nav-item nav-btn"><a class="nav-link btn btn-white btn-white-outline" href="http://localhost:9090/bookme/index?locale=zh_CN">中文/English</a></li></ul>
                     
 					<button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
                         <div class="close-icon"></div>
@@ -385,7 +384,7 @@
                 <p><br>
 					<strong>Related Links</strong>
 							<li>
-								<a class="text-white" href="https://www.vicroads.vic.gov.au/">VicRoads</a>
+								<a class="text-white" href="https://www.vicroads.vic.gov.au/" target="_blank">VicRoads</a>
 							</li>
 				</p>
             </div>

@@ -1,6 +1,8 @@
 package com.nanjing.au.bookme.control;
 
 
+import java.util.Locale;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.log4j.Logger;
@@ -20,14 +22,14 @@ public class WebUserController {
 	private Logger omtlogger = Logger.getLogger(WebUserController.class);
 	
 	@RequestMapping(value="/index", method = RequestMethod.GET)
-	public String index(HttpServletRequest request) {
-    	omtlogger.info("Enter into index list...");
+	public String index(Locale locale, HttpServletRequest request) {
+    	omtlogger.info("Enter into index list... with locale:" + locale);
     	return "index";
 	}
 	
 	@RequestMapping(value="/", method = RequestMethod.GET)
-	public String root(HttpServletRequest request) {
-    	omtlogger.info("Enter into index list...");
+	public String root(Locale locale,HttpServletRequest request) {
+    	omtlogger.info("Enter into index list... with locale:" + locale);
     	return "index";
 	}
 }
