@@ -28,9 +28,6 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 <script type="text/javascript">
-	$(document).ready(function(){
-		
-	});	
 	//contactForm.onsubmit
 	function submitMessage(){
 		var url = '<%=request.getContextPath()%>/contact/post';
@@ -60,6 +57,30 @@
 	}
 
 </script>
+<style> 
+#map2{
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    z-Index:1000;
+}
+
+#map2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    z-Index:1000;
+}
+
+#map {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    z-Index:1000;
+}
+</style>
 </head>
 <body>
 <section id="menu-0">
@@ -85,11 +106,14 @@
                     </button>
 
                     <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar">
-						<li class="nav-item"><a class="nav-link link" href="#menu-1">OVERVIEW</a></li>
-						<li class="nav-item"><a class="nav-link link" href="#features3-d">BASIC STAGES</a></li>
-						<li class="nav-item"><a class="nav-link link" href="#pricing-table1-b">PRICE</a></li>
-						<li class="nav-item"><a class="nav-link link" href="#form1-0">CONTACT</a></li>
-						<li class="nav-item nav-btn"><a class="nav-link btn btn-white btn-white-outline" href="http://localhost:9090/bookme/index?locale=zh_CN">中文/English</a></li></ul>
+						<li class="nav-item"><a class="nav-link link" href="#menu-1"><spring:message code="index.header.overview" text="OVERVIEW" /></a></li>
+						<li class="nav-item"><a class="nav-link link" href="#features3-d"><spring:message code="index.header.stages" text="BASIC STAGES" /></a></li>
+						<li class="nav-item"><a class="nav-link link" href="#pricing-table1-b"><spring:message code="index.header.price" text="PRICE" /></a></li>
+						<li class="nav-item"><a class="nav-link link" href="#form1-0"><spring:message code="index.header.contact" text="CONTACT" /></a></li>
+						<li class="nav-item nav-link btn">
+							<a href="?language=en">English</a> <big style="color:white"> | </big> <a href="?language=zh_CN">中文</a>
+						</li>
+					</ul>
                     
 					<button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
                         <div class="close-icon"></div>
@@ -116,13 +140,45 @@
                         
                         <div class="mbr-table-cell mbr-right-padding-md-up mbr-valign-top col-md-7">
                             <div class="mbr-figure"><img src="assets/images/cover.png"></div>
+                        
+			                <div class="mbr-map" style="height:220px;" id="map">
+			                	<!-- col-xs-12 col-md-9 <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBEVfHnUmSPt5yS14ugoekmR4CmrcMHCBc&amp;q=place_id:ChIJy2a9frZr1moRQNuMIXVWBAU" allowfullscreen=""></iframe>  -->
+			                </div>
+			                  <script>
+						      // This example uses a symbol to add a vector-based icon to a marker.
+						      // The symbol uses one of the predefined vector paths ('CIRCLE') supplied by the
+						      // Google Maps JavaScript API.
+						
+						      function initMap() {
+						        var map = new google.maps.Map(document.getElementById('map'), {
+						          zoom: 10,
+						          center: {lat: -37.8568213, lng: 145.1641455} //Burwood VicRoads -37.8568213 | 145.1641455  Glen center: -37.8857, lng: 145.1652
+						        });
+						         
+						        var cityCircle = new google.maps.Circle({
+						              strokeColor: '#FF0000',
+						              strokeOpacity: 0.5,
+						              strokeWeight: 1,
+						              fillColor: '#FF0000',
+						              fillOpacity: 0.15,
+						              map: map,
+						              center: {lat: -37.8568213, lng: 145.1641455},
+						              radius: 12*1000
+						        });
+						      }
+						    </script>
+						    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDksqwsGiLGHB6mNOioSoh78OyEe04a3mI&amp;callback=initMap">
+						    </script>
                         </div>
+                        
+                        
                         <div class="mbr-table-cell col-md-5 text-xs-center text-md-left">
 
-                            <h3 class="mbr-section-title display-2">DI Liu</h3>
+                            <h3 class="mbr-section-title display-2"><spring:message code="index.overview.titleliu" text="DI Liu"/></h3>
 
                             <div class="mbr-section-text lead">
-                                <p>Welcome to Liu's Driving School, an independent driving instructor based on Glen Waverley / Burwood East which is close to Burwood VicRoad. <p>
+                                <p>Welcome to Liu's Driving School, an independent driving instructor based on <p>
+                                <p>Glen Waverley / Burwood East which is close to Burwood VicRoad. <p>
 								<p>I am a fully qualified TSC approved driving instructor and offer individual tailored tuition to students of all ages and abilities on a one to one basis.<p>
 								<p>I hope you find the website useful, if you have any feedback, suggestions for the site or questions then please do not hesitate to 
 								<a class="nav-link link" href="#form1-0"> contact me </a>
@@ -366,30 +422,6 @@
 
                     </form>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="mbr-section mbr-section-md-padding mbr-footer footer2" id="contacts2-2" style="background-color: rgb(46, 46, 46); padding-top: 70px; padding-bottom: 70px;">
-    
-    <div class="container">
-        <div class="row">
-            <div class="mbr-footer-content col-xs-12 col-md-3">
-                <p>
-					<strong>Contact Me</strong><br>
-					Email: tony.liuxt@gmail.com<br>
-					Phone: 0452 382 276
-				</p><br>
-                <p><br>
-					<strong>Related Links</strong>
-							<li>
-								<a class="text-white" href="https://www.vicroads.vic.gov.au/" target="_blank">VicRoads</a>
-							</li>
-				</p>
-            </div>
-            <div class="col-xs-12 col-md-9">
-                <div class="mbr-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBEVfHnUmSPt5yS14ugoekmR4CmrcMHCBc&amp;q=place_id:ChIJy2a9frZr1moRQNuMIXVWBAU" allowfullscreen=""></iframe></div>
             </div>
         </div>
     </div>
