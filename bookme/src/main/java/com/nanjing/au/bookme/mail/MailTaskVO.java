@@ -1,11 +1,14 @@
 package com.nanjing.au.bookme.mail;
 
+import java.util.Locale;
+
 public class MailTaskVO {
 	private String to;
 	private String toWho;
 	private String subject;
 	private String body;
 	private String phone;
+	private Locale locale;
 	
 	public String getTo() {
 		return to;
@@ -36,6 +39,12 @@ public class MailTaskVO {
 	}
 	public void setPhone(String phone) {
 		this.phone = phone;
+	}
+	public Locale getLocale() {
+		return locale;
+	}
+	public void setLocale(Locale locale) {
+		this.locale = locale;
 	}
 	
 }

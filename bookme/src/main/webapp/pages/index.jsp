@@ -73,11 +73,11 @@
 }
 
 #map {
-    border-radius: 25px;
+    border-radius: 20px;
     background: url(paper.gif);
     background-position: left top;
     background-repeat: repeat;
-    padding: 20px; 
+    padding: 15px; 
     z-Index:1000;
 }
 </style>
@@ -92,8 +92,8 @@
                 <div class="mbr-table-cell">
 
                     <div class="navbar-brand">
-                        <a href="https://nanjing.com.au" class="navbar-logo"><img src="assets/images/logo.png" alt='<fmt:message key="index.logo.name" />'></a>
-                        <a class="navbar-caption" href="https://nanjing.com.au">
+                        <a href="#" class="navbar-logo"><img src="assets/images/logo.png" alt='<fmt:message key="index.logo.name" />'></a>
+                        <a class="navbar-caption" href="#">
 							<big class="mbr-price-term" style="color:red">L</big><spring:message code="index.logo.name" text="earning Into Using" />
 						</a>
                     </div>
@@ -154,7 +154,12 @@
 						          zoom: 10,
 						          center: {lat: -37.8568213, lng: 145.1641455} //Burwood VicRoads -37.8568213 | 145.1641455  Glen center: -37.8857, lng: 145.1652
 						        });
-						         
+						        
+						        var marker = new google.maps.Marker({
+						            position: {lat: -37.8568213, lng: 145.1641455},
+						            map: map
+						        });
+						        
 						        var cityCircle = new google.maps.Circle({
 						              strokeColor: '#FF0000',
 						              strokeOpacity: 0.5,
@@ -177,15 +182,15 @@
                             <h3 class="mbr-section-title display-2"><spring:message code="index.overview.titleliu" text="DI Liu"/></h3>
 
                             <div class="mbr-section-text lead">
-                                <p>Welcome to Liu's Driving School, an independent driving instructor based on <p>
-                                <p>Glen Waverley / Burwood East which is close to Burwood VicRoad. <p>
-								<p>I am a fully qualified TSC approved driving instructor and offer individual tailored tuition to students of all ages and abilities on a one to one basis.<p>
-								<p>I hope you find the website useful, if you have any feedback, suggestions for the site or questions then please do not hesitate to 
-								<a class="nav-link link" href="#form1-0"> contact me </a>
+                                <p><spring:message code="index.overview.introfirst" text="Welcome to Liu's Driving School, an independent driving instructor based on"/><p>
+                                <p><spring:message code="index.overview.introsecond" text="Glen Waverley / Burwood East / Vermount South / Wheelers Hill / Notting Hill / Mulgrave / Blackburn / Boxhill which is close to Burwood VicRoad."/><p>
+								<p><spring:message code="index.overview.introthird" text="I am a fully qualified TSC approved driving instructor and offer individual tailored tuition to students of all ages and abilities on a one to one basis."/><p>
+								<p><spring:message code="index.overview.introfourth" text="I hope you find the website useful, if you have any feedback, suggestions for the site or questions then please do not hesitate to"/> 
+								<a class="nav-link link" href="#form1-0"> <spring:message code="index.overview.introfifth" text="Contact me"/> </a>
 								</p>
                             </div>
 
-                            <div class="mbr-section-btn"><a class="btn btn-primary" href="https://nanjing.com.au">MORE</a></div>
+                            <div class="mbr-section-btn"><a class="btn btn-primary" href="#"><spring:message code="index.common.more" text="More"/></a></div>
 
                         </div>
 
@@ -206,8 +211,8 @@
       <div class="container">
           <div class="row">
               <div class="col-xs-12 text-xs-center">
-                  <h3 class="mbr-section-title display-2">BSIC STAGES</h3>
-                  <small class="mbr-section-subtitle">Basically, there are four stages before your are on boarding.</small>
+                  <h3 class="mbr-section-title display-2"><spring:message code="index.stages.title" text="BSIC STAGES"/></h3>
+                  <small class="mbr-section-subtitle"><spring:message code="index.stages.desc" text="Basically, there are four stages before your are really on boarding."/></small>
               </div>
           </div>
       </div>
@@ -218,11 +223,20 @@
               <div class="card cart-block">
                   <div class="card-img"><img src="assets/images/stage1.jpg" class="card-img-top"></div>
                   <div class="card-block">
-                    <h4 class="card-title">THEORY TEST</h4>
-                    <h5 class="card-subtitle">Including Learner Permit Test and Hazard Perception Test</h5>
-                    <p class="card-text">Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.</p>
-                    <div class="card-btn"><a href="https://nanjing.com.au" class="btn btn-primary">MORE</a></div>
-                    </div>
+                    <h4 class="card-title"><spring:message code="index.stages.one" text="THEORY TEST"/></h4>
+                    <h5 class="card-subtitle"><spring:message code="index.stages.one.desc" text="Including Learner Permit Test and Hazard Perception Test"/></h5>
+                    <p class="card-text">
+                    	<spring:message code="index.stages.one.dd1" text="You should firstly "/><a href="https://www.vicroads.vic.gov.au/licences/your-ls/get-your-ls/lpt" target="_blank"><spring:message code="index.stages.one.dd2" text="Practice Online"/></a>, 
+                    	<spring:message code="index.stages.one.dd3" text="when you feel confident to attend a real test you can "/><a href="https://billing.vicroads.vic.gov.au/bookings/Learner/TermsAndConditions" target="_blank"><spring:message code="index.stages.one.dd4" text="Book a Learner Permit test"/></a> 
+                    	<spring:message code="index.stages.one.dd5" text="which costs around $40.90, after passing this, then you can"/>
+                    	<a href="https://billing.vicroads.vic.gov.au/bookings/Probationary/TermsAndConditions" target="_blank"><spring:message code="index.stages.one.dd6" text="Book a Hazard Perception test"/></a> 
+                    	<spring:message code="index.stages.one.dd7" text="which costs around $35.5."/> 
+                    	<spring:message code="index.stages.one.dd8" text="After passing the two tests, you can start the second stage -->"/>
+                    </p>
+                    <!-- 
+                    <div class="card-btn"><a href="#" class="btn btn-primary"><spring:message code="index.common.more" text="MORE"/></a></div>
+                     -->
+                   </div>
                 </div>
             </div>
         </div>
@@ -231,10 +245,18 @@
                 <div class="card cart-block">
                     <div class="card-img"><img src="assets/images/stage2.jpg" class="card-img-top"></div>
                     <div class="card-block">
-                        <h4 class="card-title">DRIVING WITH DI</h4>
-                        <h5 class="card-subtitle">Learning experiences and skills from DI for the safe driving</h5>
-                        <p class="card-text">One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.</p>
-                        <div class="card-btn"><a href="https://nanjing.com.au" class="btn btn-primary">MORE</a></div>
+                        <h4 class="card-title"><spring:message code="index.stages.two" text="DRIVING WITH DI"/></h4>
+                        <h5 class="card-subtitle"><spring:message code="index.stages.two.desc" text="Learning experiences and skills from DI for the safe driving"/></h5>
+                        <p class="card-text">
+	                        <spring:message code="index.stages.two.dd1" text="Do you always feel a headache at the thought of parking in the supermarket car park?"/>
+	                        <spring:message code="index.stages.two.dd2" text="Do you usually get a scared horn behind when changing lanes or running into a roundabout?"/>
+	                        <spring:message code="index.stages.two.dd4" text="Do you tend to avoid driving on freeway or driving to a far distance destination?"/>
+	                        <spring:message code="index.stages.two.dd3" text="If the answer is yes, that is where the Driving Instructor can help."/>
+	                        <spring:message code="index.stages.two.dd5" text="When you feel confident to have a solo driving you can start the third stage-->"/>
+                        </p>
+                    <!-- 
+                    <div class="card-btn"><a href="#" class="btn btn-primary"><spring:message code="index.common.more" text="MORE"/></a></div></div>
+                     -->
                     </div>
                 </div>
             </div>
@@ -244,10 +266,18 @@
                 <div class="card cart-block">
                     <div class="card-img"><img src="assets/images/stage3.jpg" class="card-img-top"></div>
                     <div class="card-block">
-                        <h4 class="card-title">DRIVING TEST</h4>
-                        <h5 class="card-subtitle">Getting your sole driving accreditation by passing the VicRoads Practice Test</h5>
-                        <p class="card-text">Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.</p>
-                        <div class="card-btn"><a href="https://nanjing.com.au" class="btn btn-primary">MORE</a></div>
+                        <h4 class="card-title"><spring:message code="index.stages.three" text="DRIVING TEST"/></h4>
+                        <h5 class="card-subtitle"><spring:message code="index.stages.three.desc" text="Getting your sole driving accreditation by passing the VicRoads Practice Test"/></h5>
+                        <p class="card-text">
+                        	<spring:message code="index.stages.three.dd1" text="You can "/>
+                        	<a href="https://billing.vicroads.vic.gov.au/bookings/Probationary/TermsAndConditions" target="_blank"><spring:message code="index.stages.three.dd2" text="Book a Drive Test"/></a>
+                        	<spring:message code="index.stages.three.dd3" text="online, which costs around $60.70. Basically, it lasts around 30 minutes and includes two stages"/>
+	                        <spring:message code="index.stages.three.dd4" text="First stage is around 10 minutes including a parallel parking and a 3-point-turn,"/>
+	                        <spring:message code="index.stages.three.dd5" text="Second stage is around 20 minutes including an array of testing items."/>
+                        </p>
+                    <!-- 
+                    <div class="card-btn"><a href="#" class="btn btn-primary"><spring:message code="index.common.more" text="MORE"/></a></div></div>
+                     -->
                     </div>
                 </div>
             </div>
@@ -257,10 +287,16 @@
                 <div class="card cart-block">
                     <div class="card-img"><img src="assets/images/stage4.jpg" class="card-img-top"></div>
                     <div class="card-block">
-                        <h4 class="card-title">CONTINUE ON BOARD</h4>
-                        <h5 class="card-subtitle">Attaining your own experiences and skills on your daily driving</h5>
-                        <p class="card-text">Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>
-                        <div class="card-btn"><a href="https://nanjing.com.au" class="btn btn-primary">MORE</a></div>
+                        <h4 class="card-title"><spring:message code="index.stages.four" text="Solo Driving"/></h4>
+                        <h5 class="card-subtitle"><spring:message code="index.stages.four.desc" text="Attaining your own experiences and skills and form your own driving philosophy"/></h5>
+                        <p class="card-text">
+                        	<spring:message code="index.stages.four.dd1" text="It is true that you cannot learn all things during the past three stages, like"/>
+                        	<spring:message code="index.stages.four.dd2" text="all kinds of road conditions in different weather conditions, some special road signs like Hook-Turn,"/>
+                        	<spring:message code="index.stages.four.dd3" text="basic local driving etiquette like give way to drivers who not legally but reasonably have the right to use the road."/>
+                        </p>
+                    <!-- 
+                    <div class="card-btn"><a href="#" class="btn btn-primary"><spring:message code="index.common.more" text="MORE"/></a></div></div>
+                     -->
                     </div>
                 </div>
             </div>
@@ -272,14 +308,12 @@
 
 <section class="mbr-section" id="pricing-table1-b" style="background-color: rgb(48, 48, 48); padding-top: 80px; padding-bottom: 80px;">
 
-    
-
     <div class="mbr-section mbr-section__container mbr-section__container--middle">
       <div class="container">
           <div class="row">
               <div class="col-xs-12 text-xs-center">
-                  <h3 class="mbr-section-title display-2">PRICING TABLE</h3>
-                  <small class="mbr-section-subtitle">We kindly provide reasonable prices for different kinds of Learners.</small>
+                  <h3 class="mbr-section-title display-2"><spring:message code="index.price.title" text="PRICING TABLE"/></h3>
+                  <small class="mbr-section-subtitle"><spring:message code="index.price.desc" text="We kindly provide reasonable prices for different kinds of Learners."/></small>
               </div>
           </div>
       </div>
@@ -292,8 +326,8 @@
                     <div class="mbr-plan-header card-block">
                       
                       <div class="card-title">
-                        <h3 class="mbr-plan-title">Single-Lesson</h3>
-                        <small class="mbr-plan-subtitle">[90 minutes/Lesson]</small>
+                        <h3 class="mbr-plan-title"><spring:message code="index.price.single" text="Single-Lesson"/></h3>
+                        <small class="mbr-plan-subtitle"><spring:message code="index.price.single.desc" text="[90 minutes/Lesson]"/></small>
                       </div>
                       <div class="card-text">
                           <div class="mbr-price">
@@ -310,8 +344,8 @@
                     <div class="mbr-plan-header card-block">
                       
                       <div class="card-title">
-                        <h3 class="mbr-plan-title">Multi-Lesson</h3>
-                        <small class="mbr-plan-subtitle">[4]*[90 minutes/Lesson]</small>
+                        <h3 class="mbr-plan-title"><spring:message code="index.price.mfour" text="2-5 Lessons"/></h3>
+                        <small class="mbr-plan-subtitle"><spring:message code="index.price.mfour.desc" text="[90 minutes/Lesson]"/></small>
                       </div>
                       <div class="card-text">
                           <div class="mbr-price">
@@ -326,10 +360,10 @@
             <div class="col-xs-12  col-md-6 col-xl-3">
                 <div class="mbr-plan card text-xs-center">
                     <div class="mbr-plan-header card-block bg-primary">
-                      <div class="mbr-plan-label">HOT!</div>
+                      <div class="mbr-plan-label"><spring:message code="index.price.hot" text="HOT!"/></div>
                       <div class="card-title">
-                        <h3 class="mbr-plan-title">Multi-Lesson</h3>
-                        <small class="mbr-plan-subtitle">[6+]*[90 minutes/Lesson]</small>
+                        <h3 class="mbr-plan-title"><spring:message code="index.price.msix" text="6+ Lessons"/></h3>
+                        <small class="mbr-plan-subtitle"><spring:message code="index.price.msix.desc" text="[90 minutes/Lesson]"/></small>
                       </div>
                       <div class="card-text">
                           <div class="mbr-price">
@@ -346,8 +380,8 @@
                     <div class="mbr-plan-header card-block">
                       
                       <div class="card-title">
-                        <h3 class="mbr-plan-title">Driving Test</h3>
-                        <small class="mbr-plan-subtitle">Single Test</small>
+                        <h3 class="mbr-plan-title"><spring:message code="index.price.test" text="Driving Test"/></h3>
+                        <small class="mbr-plan-subtitle"><spring:message code="index.price.test.desc" text="[90 minutes/Lesson]"/></small>
                       </div>
                       <div class="card-text">
                           <div class="mbr-price">
@@ -369,8 +403,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-xs-center">
-                    <h3 class="mbr-section-title display-2">CONTACT FORM</h3>
-                    <small class="mbr-section-subtitle">Please Fill Out This Form and We'll Call You Back.</small>
+                    <h3 class="mbr-section-title display-2"><spring:message code="index.contact.title" text="CONTACT FORM"/></h3>
+                    <small class="mbr-section-subtitle"><spring:message code="index.contact.desc" text="Please Fill Out This Form and We'll Call You Back."/></small>
                 </div>
             </div>
         </div>
@@ -381,44 +415,44 @@
                 <div class="col-xs-12 col-lg-10 col-lg-offset-1" data-form-type="formoid">
 
                     <div data-form-alert="true">
-                        <div hidden="" data-form-alert-success="true" class="alert alert-form alert-success text-xs-center">Thanks for filling out form!</div>
+                        <div hidden="" data-form-alert-success="true" class="alert alert-form alert-success text-xs-center"><spring:message code="index.contact.feedback" text="Thanks for filling out form!"/></div>
                     </div>
 
-                    <form name="contactForm" action="https://nanjing.com.au/" method="post" data-form-title="CONTACT FORM" >
+                    <form name="contactForm" action="#/" method="post" data-form-title="CONTACT FORM" >
                         <input type="hidden" value="bhmUJHz2F6/w+Cv5QyKySj3GoEsERGa0ojop1f2Uh4x3rO6SUHkXilk7zx5Z4MapjB591ABJs5XR5uKDHsDVjZ9bSKrRA/Zu86kWHNnoxfEU5xtnLAfJ2lNv+NWKL+ny" data-form-email="true">
 
                         <div class="row row-sm-offset">
 
                             <div class="col-xs-12 col-md-4">
                                 <div class="form-group">
-                                    <label class="form-control-label" for="form1-0-name">Name<span class="form-asterisk" style="color:red"> * </span></label>
+                                    <label class="form-control-label" for="form1-0-name"><spring:message code="index.contact.name" text="Name"/><span class="form-asterisk" style="color:red"> * </span></label>
                                     <input type="text" class="form-control" name="name" required="" data-form-field="Name" id="form1-0-name">
                                 </div>
                             </div>
 
                             <div class="col-xs-12 col-md-4">
                                 <div class="form-group">
-                                    <label class="form-control-label" for="form1-0-email">Email<span class="form-asterisk" style="color:red"> * </span></label>
+                                    <label class="form-control-label" for="form1-0-email"><spring:message code="index.contact.email" text="Email"/><span class="form-asterisk" style="color:red"> * </span></label>
                                     <input type="email" class="form-control" name="email" required="" data-form-field="Email" id="form1-0-email">
                                 </div>
                             </div>
 
                             <div class="col-xs-12 col-md-4">
                                 <div class="form-group">
-                                    <label class="form-control-label" for="form1-0-phone">Phone<span class="form-asterisk" style="color:red"> * </span></label>
+                                    <label class="form-control-label" for="form1-0-phone"><spring:message code="index.contact.phone" text="Phone"/><span class="form-asterisk" style="color:red"> * </span></label>
                                     <input type="tel" class="form-control" name="phone" required="" data-form-field="Phone" id="form1-0-phone">
                                 </div>
                             </div>
 
                             <div class="col-xs-12 col-md-12">
 								<div class="form-group">
-									<label class="form-control-label" for="form1-0-message">Message<span class="form-asterisk" style="color:red"> * </span></label>
+									<label class="form-control-label" for="form1-0-message"><spring:message code="index.contact.message" text="Message"/><span class="form-asterisk" style="color:red"> * </span></label>
 									<textarea class="form-control" name="message" rows="7" data-form-field="Message" required="" id="form1-0-message"></textarea>
 								</div>
                             </div>
                         </div>
 
-                        <div><button type="submit" class="btn btn-primary"  onclick="submitMessage()">Submit</button></div>
+                        <div><button type="submit" class="btn btn-primary"  onclick="submitMessage()"><spring:message code="index.contact.submit" text="Submit"/></button></div>
 
                     </form>
                 </div>
@@ -429,7 +463,7 @@
 
 <footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-2" style="background-color: rgb(32, 32, 32); padding-top: 1.05rem; padding-bottom: 1.05rem;">
 		    <div class="card-block">
-		        <p class="text-xs-center">Copyright (c) 2017 nanjing.com.au.</p>
+		        <p class="text-xs-center">Copyright (c) 2017 pigeonbooking.com.au</p>
 		    </div>
 </footer>
 

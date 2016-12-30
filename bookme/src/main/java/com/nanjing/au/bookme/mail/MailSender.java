@@ -1,6 +1,7 @@
 package com.nanjing.au.bookme.mail;
 
 import java.util.Properties;
+import java.util.ResourceBundle;
 
 import javax.mail.MessagingException;
 import javax.mail.PasswordAuthentication;
@@ -19,15 +20,6 @@ public class MailSender {
 	public static String mailUsername = "liudrivingschool@gmail.com";
 	public static String mailPassword = "liuwang2@yunnan";
 
-	public static String mailSubject = "Welcome to Liu's Driving School.";
-	public static String mailBody = "Thanks for lodging your message from <a href='http://192.168.0.10:8080/bookme/'>Liu's Driving School</a>. "+
-									"<BR><BR>Your message has been received and recorded." +
-									"<BR><BR>DI Liu will directly reach you on your phone if available or reply your email for more details.";
-
-	public static String mailSignature = "<BR><BR>Yours faithfully," + 
-										 "<BR><BR><B>Tony Liu</B>" +
-										 "<BR><BR>Phone: 0452 382 276"+
-										 "<BR><BR>Email: liudrivingschool@gmail.com";
 	public static String mailHost = "smtp.gmail.com";
 	public static String mailPort = "587";
 
@@ -40,6 +32,9 @@ public class MailSender {
 	 * @param text body of the mail
 	 */
 	public static void send(MailTaskVO uvo){
+		if(uvo == null)	return;
+		ResourceBundle bundle = ResourceBundle.getBundle("messages", uvo.getLocale());
+		
 		final String from = mailUsername;
 		final String pwd = mailPassword;
 
@@ -66,8 +61,8 @@ public class MailSender {
 		}
 		
 		try {
-			String sendsubject = "Dear "+uvo.getToWho() +", "+uvo.getSubject();
-			String sendbody = "Dear "+uvo.getToWho() +", <BR><BR>"+uvo.getSubject() + "<BR><BR>" + uvo.getBody() + mailSignature;
+			String sendsubject = "Dear "+uvo.getToWho() +", "+bundle.getString("index.contact.mailSubject");
+			String sendbody = "Dear "+uvo.getToWho() +", <BR><BR>"+bundle.getString("index.contact.mailSubject") + "<BR><BR>" + bundle.getString("index.contact.mailBody") + bundle.getString("index.contact.mailSignature");
 			simpleMessage.setFrom(fromAddress);
 			simpleMessage.setRecipient(RecipientType.TO, toAddress);
 			simpleMessage.setSubject(sendsubject);
@@ -83,8 +78,6 @@ public class MailSender {
 		
 	public static void main(String args[]){
 		MailTaskVO uvo = new MailTaskVO();
-		uvo.setBody(mailBody);
-		uvo.setSubject(mailSubject);
 		uvo.setTo("liu76xt@gmail.com");
 		send(uvo);
 	}

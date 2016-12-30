@@ -1,6 +1,7 @@
 package com.nanjing.au.bookme.control;
 
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
@@ -33,10 +34,11 @@ import com.nanjing.au.bookme.mail.MailTaskVO;
 @Controller
 @RequestMapping("/contact")
 public class ContactController {
-	
+	private Locale locale;
     @RequestMapping(value="/post", method=RequestMethod.POST, produces=MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public Map<String, String> createMessage(ContactMessage contactmsg, HttpServletRequest request){
+    public Map<String, String> createMessage(Locale inlocale, ContactMessage contactmsg, HttpServletRequest request){
+    	locale = inlocale;
     	Map<String, String> map = new HashMap<String, String>();
     	try{
     		String today = UtilLibs.GetLocalDateFmt(Constants.DATE_DT_FMT);
@@ -81,8 +83,7 @@ public class ContactController {
     	}
     	
     	MailTaskVO uvo = new MailTaskVO();
-    	uvo.setBody(MailSender.mailBody);
-    	uvo.setSubject(MailSender.mailSubject);
+    	uvo.setLocale(locale);
     	uvo.setTo(contactmsg.getEmail());
     	uvo.setToWho(contactmsg.getName());
     	
@@ -92,12 +93,19 @@ public class ContactController {
     private void autoNotifyMobile(ContactMessage contactmsg){
     	
     	MailTaskVO uvo = new MailTaskVO();
-    	uvo.setBody(MailSender.mailBody);
-    	uvo.setSubject(MailSender.mailSubject);
+    	uvo.setLocale(locale);
     	uvo.setTo(contactmsg.getEmail());
     	uvo.setToWho(contactmsg.getName());
     	
     	GcmSender.sendGcmData(GcmSender.getNotification(uvo));
     }
+
+	public Locale getLocale() {
+		return locale;
+	}
+
+	public void setLocale(Locale locale) {
+		this.locale = locale;
+	}
 
 }
