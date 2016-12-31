@@ -9,7 +9,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="LIU's Driving School, Nanjing.com.au">
+  <meta name="generator" content="LIU's Driving School around glen waverley, a driving instructor in Melbourne, pigeonbooking.com.au">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
   <meta name="description" content="">
@@ -67,6 +67,7 @@
 		$('#btnsubmit').hide();
     };
 	
+	// https://developers.google.com/recaptcha/docs/display#config
     var onloadCallback = function() {
         grecaptcha.render('html_element', {
           'sitekey' : '6LcAOBAUAAAAANiMbmDDWopoGd4UAkYr6QLpgzTh',
