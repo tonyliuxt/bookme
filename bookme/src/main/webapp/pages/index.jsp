@@ -31,7 +31,6 @@
 	//contactForm.onsubmit
 	function submitMessage(){
 		var url = '<%=request.getContextPath()%>/contact/post';
-		grecaptcha.reset('html_element');
 	 	$.ajax({ 
 			async:true,
 			type:"POST",
@@ -54,6 +53,7 @@
 				});
 			}
 		});
+		grecaptcha.reset();
 	}
 
 	var verifyCallback = function(response) {
@@ -476,7 +476,7 @@
 						<div id="html_element"></div>
 						<br>
 						<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer> </script>
-                        <div><button type="submit" class="btn btn-primary" id="btnsubmit" style="display:none;" data-sitekey="6LcAOBAUAAAAANiMbmDDWopoGd4UAkYr6QLpgzTh"  data-callback="submitMessage()" onclick="submitMessage()"><spring:message code="index.contact.submit" text="Submit"/></button></div>
+                        <div><button class="btn btn-primary" id="btnsubmit" style="display:none;" data-sitekey="6LcAOBAUAAAAANiMbmDDWopoGd4UAkYr6QLpgzTh"  data-callback="submitMessage()" onclick="submitMessage()"><spring:message code="index.contact.submit" text="Submit"/></button></div>
 
                     </form>
                 </div>
