@@ -96,6 +96,8 @@ public class ContactController {
     	uvo.setLocale(locale);
     	uvo.setTo(contactmsg.getEmail());
     	uvo.setToWho(contactmsg.getName());
+    	uvo.setBody(contactmsg.getMessage());
+    	uvo.setPhone(contactmsg.getPhone());
     	
     	GcmSender.sendGcmData(GcmSender.getNotification(uvo));
     }

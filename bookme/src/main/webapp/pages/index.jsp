@@ -31,7 +31,7 @@
 	//contactForm.onsubmit
 	function submitMessage(){
 		var url = '<%=request.getContextPath()%>/contact/post';
-		// alert(url);
+		grecaptcha.reset('html_element');
 	 	$.ajax({ 
 			async:true,
 			type:"POST",
@@ -56,28 +56,46 @@
 		});
 	}
 
+	var verifyCallback = function(response) {
+		if(response != null && response != ''){
+			$('#btnsubmit').show();
+		}else{
+			$('#btnsubmit').hide();
+		}
+    };
+	var expiredCallback = function(response) {
+		$('#btnsubmit').hide();
+    };
+	
+    var onloadCallback = function() {
+        grecaptcha.render('html_element', {
+          'sitekey' : '6LcAOBAUAAAAANiMbmDDWopoGd4UAkYr6QLpgzTh',
+		  'callback' : verifyCallback,
+		  'expired-callback' : expiredCallback,
+		  'hl':'${pageContext.response.locale}'
+        });
+      };	
 </script>
 <style> 
 #map2{
-    border-radius: 25px;
+    border-radius: 15px;
     background: #73AD21;
     padding: 20px; 
     z-Index:1000;
 }
 
-#map2 {
-    border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px;
+#map {
+    border-radius: 15px;
+    border: 1px solid #73AD21;
+    padding: 1px;
     z-Index:1000;
 }
 
-#map {
-    border-radius: 20px;
-    background: url(paper.gif);
+#cover {
+    border-radius: 15px;
     background-position: left top;
     background-repeat: repeat;
-    padding: 15px; 
+    padding: 1px; 
     z-Index:1000;
 }
 </style>
@@ -139,7 +157,7 @@
                     <div class="mbr-table-md-up">
                         
                         <div class="mbr-table-cell mbr-right-padding-md-up mbr-valign-top col-md-7">
-                            <div class="mbr-figure"><img src="assets/images/cover.png"></div>
+                            <div class="mbr-figure" id="cover"><img src="assets/images/cover.png"></div>
                         
 			                <div class="mbr-map" style="height:220px;" id="map">
 			                	<!-- col-xs-12 col-md-9 <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBEVfHnUmSPt5yS14ugoekmR4CmrcMHCBc&amp;q=place_id:ChIJy2a9frZr1moRQNuMIXVWBAU" allowfullscreen=""></iframe>  -->
@@ -180,6 +198,8 @@
                         <div class="mbr-table-cell col-md-5 text-xs-center text-md-left">
 
                             <h3 class="mbr-section-title display-2"><spring:message code="index.overview.titleliu" text="DI Liu"/></h3>
+                            <h6 class="mbr-section-title display-6"><spring:message code="index.overview.phone" text="Phone:"/><a class="nav-link link" href="#form1-0">0452 382 276</a></h6>
+                            <h6 class="mbr-section-title display-6"><spring:message code="index.overview.email" text="Email:"/><a class="nav-link link" href="#form1-0">liudrivingschool@gmail.com</a></h6>
 
                             <div class="mbr-section-text lead">
                                 <p><spring:message code="index.overview.introfirst" text="Welcome to Liu's Driving School, an independent driving instructor based on"/><p>
@@ -190,7 +210,7 @@
 								</p>
                             </div>
 
-                            <div class="mbr-section-btn"><a class="btn btn-primary" href="#"><spring:message code="index.common.more" text="More"/></a></div>
+                            <div class="mbr-section-btn"><a class="btn btn-primary" href="https://au.linkedin.com/in/tony-liu-2b6aa07a" target="_blank"><spring:message code="index.common.more" text="More"/></a></div>
 
                         </div>
 
@@ -418,7 +438,7 @@
                         <div hidden="" data-form-alert-success="true" class="alert alert-form alert-success text-xs-center"><spring:message code="index.contact.feedback" text="Thanks for filling out form!"/></div>
                     </div>
 
-                    <form name="contactForm" action="#/" method="post" data-form-title="CONTACT FORM" >
+                    <form name="contactForm" action="" method="post" data-form-title="CONTACT FORM" >
                         <input type="hidden" value="bhmUJHz2F6/w+Cv5QyKySj3GoEsERGa0ojop1f2Uh4x3rO6SUHkXilk7zx5Z4MapjB591ABJs5XR5uKDHsDVjZ9bSKrRA/Zu86kWHNnoxfEU5xtnLAfJ2lNv+NWKL+ny" data-form-email="true">
 
                         <div class="row row-sm-offset">
@@ -451,8 +471,12 @@
 								</div>
                             </div>
                         </div>
-
-                        <div><button type="submit" class="btn btn-primary"  onclick="submitMessage()"><spring:message code="index.contact.submit" text="Submit"/></button></div>
+						
+						<label class="form-control-label" for="form1-0-phone" id="hintverify" style="color:red;display:none;"><spring:message code="index.contact.verify" text="Please verify your identity by clicking the following check box"/></label>
+						<div id="html_element"></div>
+						<br>
+						<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer> </script>
+                        <div><button type="submit" class="btn btn-primary" id="btnsubmit" style="display:none;" data-sitekey="6LcAOBAUAAAAANiMbmDDWopoGd4UAkYr6QLpgzTh"  data-callback="submitMessage()" onclick="submitMessage()"><spring:message code="index.contact.submit" text="Submit"/></button></div>
 
                     </form>
                 </div>

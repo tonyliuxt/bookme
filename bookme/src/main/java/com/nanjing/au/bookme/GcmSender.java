@@ -23,8 +23,8 @@ public class GcmSender {
 
 	private final static Logger mylogger = LoggerFactory.getLogger(GcmSender.class);
 
+	public static String API_TOKEN = "eMYfBcLL-Po:APA91bHskXirOEi4HA9GxAsK6-zqEMSn5Bf55Fq_c4W_iF8C34MDcbGACZq435kX5KzWMrUclJlhYyzlXLbe98OTLr_ZgIb8zgiObg2zTk7glO_PiTWpP2AqPAUheUr_Z-U4NsjKZp74";
 	public static final String API_URL = "https://android.googleapis.com/gcm/send";
-	public static final String API_TOKEN = "eMYfBcLL-Po:APA91bHskXirOEi4HA9GxAsK6-zqEMSn5Bf55Fq_c4W_iF8C34MDcbGACZq435kX5KzWMrUclJlhYyzlXLbe98OTLr_ZgIb8zgiObg2zTk7glO_PiTWpP2AqPAUheUr_Z-U4NsjKZp74";
 	public static final String API_KEY = "AIzaSyCKTBcJe6PpJaUYl6fR1jirsiLcI_bkVbY";//"AIzaSyD1_GTfpjJEnUW1viopUfxi5pmAPoOIXY4";//
 	
 	public static void main(String args[]){
@@ -54,7 +54,7 @@ public class GcmSender {
         // Prepare JSON containing the GCM message content. What to send and where to send.
         JSONObject jGcmData = new JSONObject();
         JSONObject jData = new JSONObject();
-        jData.put("title", uvo.getToWho());
+        jData.put("title", uvo.getToWho() + ":"+ uvo.getPhone() +":"+uvo.getTo());
         jData.put("phone", uvo.getPhone());
         jData.put("text",  uvo.getBody());
              
