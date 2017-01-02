@@ -1,5 +1,7 @@
 package com.nanjing.au.bookme.security.main.domain;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Component;
@@ -14,13 +16,14 @@ import com.nanjing.au.bookme.dao.StaticMongoTemplate;
  */
 @Component
 public class UserDao {
-
+	private final Logger mylogger = LoggerFactory.getLogger(UserDao.class);
 	public static final String password = "HwwHMzoKHlUSVSAfVCEuBglCQVohClQlIwEcXltdOx5a";   // T210QE1lbDEyMw - Omt@Mel123
 	public static final String roleadmin = "ROLE_ADMIN";
 	public static final String fullname = "Administrator";
 	public static final String roleuser = "ROLE_USER";
 	
 	public User getByLogin(String login) {
+		mylogger.info("auth to:" + login);
 		if(login.contains("@")){
 			return retrieveUser(login);
 		}

@@ -61,8 +61,8 @@ public class MailSender {
 		}
 		
 		try {
-			String sendsubject = "Dear "+uvo.getToWho() +", "+bundle.getString("index.contact.mailSubject");
-			String sendbody = "Dear "+uvo.getToWho() +", <BR><BR>"+bundle.getString("index.contact.mailSubject") + "<BR><BR>" + bundle.getString("index.contact.mailBody") + bundle.getString("index.contact.mailSignature");
+			String sendsubject = bundle.getString("index.contact.dear")+" "+ uvo.getToWho() +", "+bundle.getString("index.contact.mailSubject");
+			String sendbody = bundle.getString("index.contact.dear")+" "+uvo.getToWho() +", <BR><BR>"+bundle.getString("index.contact.mailSubject") + "<BR><BR>" + bundle.getString("index.contact.mailBody") + bundle.getString("index.contact.mailSignature");
 			simpleMessage.setFrom(fromAddress);
 			simpleMessage.setRecipient(RecipientType.TO, toAddress);
 			simpleMessage.setSubject(sendsubject);

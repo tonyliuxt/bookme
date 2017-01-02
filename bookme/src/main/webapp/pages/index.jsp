@@ -12,7 +12,7 @@
   <meta name="generator" content="LIU's Driving School around glen waverley, a driving instructor in Melbourne, pigeonbooking.com.au">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
-  <meta name="description" content="">
+  <meta name="description" itemprop="description" content="Liu's Driving School, a fully qualified TSC approved driving instructor based on Glen Waverley / Burwood East / Vermount South / Wheelers Hill / Notting Hill / Mulgrave / Blackburn / Boxhill which is close to Burwood VicRoads and offer individual tailored driving tuition to students of all ages and abilities on a one to one basis.">
   <title>Liu's Driving School</title> 
  
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
@@ -54,6 +54,7 @@
 			}
 		});
 		grecaptcha.reset();
+		$('#btnsubmit').hide();
 	}
 
 	var verifyCallback = function(response) {

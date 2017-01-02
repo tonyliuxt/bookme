@@ -23,13 +23,13 @@ public class WebUserController {
 	
 	@RequestMapping(value="/index", method = RequestMethod.GET)
 	public String index(Locale locale, HttpServletRequest request) {
-    	omtlogger.info("Enter into index list... with locale:" + locale);
+    	omtlogger.info("Enter index list... with language:" + locale + "... Ip address:"+request.getRemoteAddr());
     	return "index";
 	}
 	
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String root(Locale locale,HttpServletRequest request) {
-    	omtlogger.info("Enter into index list... with locale:" + locale);
+    	omtlogger.info("Enter index list... with language:" + locale + "... Ip address:"+request.getRemoteAddr());
     	return "index";
 	}
 }

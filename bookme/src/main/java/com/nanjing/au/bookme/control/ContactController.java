@@ -48,7 +48,7 @@ public class ContactController {
         	}
         	
     		Query query = new Query();
-    		query.addCriteria(Criteria.where("ipaddress").is(request.getLocalAddr()));
+    		query.addCriteria(Criteria.where("ipaddress").is(request.getRemoteAddr()));
     		query.addCriteria(Criteria.where("datetime").is(today));
     		
     		WebMessage webmessage = new WebMessage();

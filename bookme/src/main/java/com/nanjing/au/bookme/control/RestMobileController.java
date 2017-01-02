@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.nanjing.au.bookme.GcmSender;
+import com.nanjing.au.bookme.entity.Token;
 import com.nanjing.au.bookme.entity.WebMessage;
 
 /**
@@ -26,12 +27,12 @@ import com.nanjing.au.bookme.entity.WebMessage;
 @RequestMapping(value="/mobile")
 public class RestMobileController {
 	private final Logger mylogger = LoggerFactory.getLogger(RestMobileController.class);
-	
+
 	@RequestMapping(value="/settoken", method=RequestMethod.POST, produces=MediaType.APPLICATION_JSON_VALUE) 
-	public @ResponseBody String setCurrentToken(@RequestBody String token, HttpServletRequest request) {
-		if(token != null && token.length() > 0){
-			mylogger.info("received token:" + token);
-			GcmSender.API_TOKEN = token;
+	public @ResponseBody Token setCurrentToken(@RequestBody Token token, HttpServletRequest request) {
+		if(token != null){
+			GcmSender.API_TOKEN = token.getToken();
+			mylogger.info("received firebase new token:" + GcmSender.API_TOKEN);
 		}
 		return token;
 	}
