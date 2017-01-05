@@ -25,7 +25,7 @@ public class GcmSender {
 
 	public static String API_TOKEN = "fE5NaYHypXU:APA91bH9NTycxSXy5Lr2HAFFZlP8AQd_X_yVbbKgKdoWj82MPGB50QL7EFx8Txwqf_FmsjGXVMC6OL0CTgvux-TKBuhthec-IIcUc4pXmcgUS2L3BRQCW00eXkm2XHQk0myh_zoStTN5";
 	public static final String API_URL = "https://android.googleapis.com/gcm/send";
-	public static final String API_KEY = "AIzaSyCKTBcJe6PpJaUYl6fR1jirsiLcI_bkVbY";//"AIzaSyD1_GTfpjJEnUW1viopUfxi5pmAPoOIXY4";//
+	public static final String API_KEY = "AIzaSyAkiL0WyORmFO6m5IHHchkh5GsvAICB1Tg";//"AIzaSyD1_GTfpjJEnUW1viopUfxi5pmAPoOIXY4";//
 	
 	public static void main(String args[]){
 		MailTaskVO uvo = new MailTaskVO();
