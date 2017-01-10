@@ -11,10 +11,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="LIU's Driving School around glen waverley, a driving instructor in Melbourne, pigeonbooking.com.au">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+  <title>Liu's Driving School in Melbourne, Driving Lessons, Drive School</title> 
   <meta name="description" itemprop="description" content="Liu's Driving School, a fully qualified TSC approved driving instructor based on Glen Waverley / Burwood East / Vermount South / Wheelers Hill / Notting Hill / Mulgrave / Blackburn / Boxhill which is close to Burwood VicRoads and offer individual tailored driving tuition to students of all ages and abilities on a one to one basis.">
-  <title>Liu's Driving School</title> 
- 
+  <meta name="title" content="Origin Driving School Melbourne, Driving Lessons, Drive School"/>
+  <meta name="keywords" content="Driving School, Driving Lessons,Driving Licence,driving schools in Melbourne,Driving Test,Driving Tuition,Learn To Drive,Driver Training,Drives,driving,driving classes Melbourne,Driving Instructor,victorian licence,Drive Lesson Melbourne,drive school"/>
+  <meta property="og:url" content="http://www.pigeonbooking.com.au/" />
+  <meta property="og:title" content="LIU's Driving School" />
+  <meta property="og:description" content="LIU's Driving School, Driving School Melbourne, Drive School, Drive School Melbourne" />
+  <meta property="og:site_name" content="LIU's Driving School" />
+
+  <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
@@ -228,7 +234,7 @@
 </section>
 
 <section class="mbr-cards mbr-section mbr-section-nopadding" id="features3-d" style="background-color: rgb(255, 255, 255);">
-    
+     
     <div class="mbr-section mbr-section__container mbr-section__container--middle" style="padding-top: 80px; padding-bottom: 80px;">
       <div class="container">
           <div class="row">
@@ -328,6 +334,71 @@
     </div>
 </section>
 
+<section class="mbr-section mbr-section-hero mbr-section-full header2 mbr-parallax-background" id="header2-4" style="background-image: url(assets/images/jumbotron.jpg);">
+     <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(0, 0, 0);">
+     </div>
+     
+        <div class="mbr-section mbr-section__container mbr-section__container--middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-xs-center">
+                        <h3 class="mbr-section-title display-2"><spring:message code="index.usersay.title" text="WHAT OUR FANTASTIC STUDENTS SAY"/></h3>
+                        <small class="mbr-section-subtitle"><spring:message code="index.usersay.description" text="Students who have passed the Practice Test would like to comment on the Driving Instructor as"/></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="mbr-testimonials mbr-section mbr-section-nopadding">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-lg-4">
+
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="card-block"><p><spring:message code="index.usersay.one" text=" "/></p></div>
+                        <div class="mbr-author card-footer">
+                            <div class="mbr-author-img"><img src="assets/images/face1.jpg" class="img-circle"></div>
+                            <div class="mbr-author-name">Gavin Wang</div>
+                            <small class="mbr-author-desc"><spring:message code="index.usersay.one.s" text=" "/></small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-lg-4">
+
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="card-block"><p><spring:message code="index.usersay.two" text=" "/></p></div>
+                        <div class="mbr-author card-footer">
+                            <div class="mbr-author-img"><img src="assets/images/face2.jpg" class="img-circle"></div>
+                            <div class="mbr-author-name">Jessica Li</div>
+                            <small class="mbr-author-desc"><spring:message code="index.usersay.two.s" text=" "/></small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-lg-4">
+
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="card-block"><p><spring:message code="index.usersay.three" text=" "/></p></div>
+                        <div class="mbr-author card-footer">
+                            <div class="mbr-author-img"><img src="assets/images/face3.jpg" class="img-circle"></div>
+                            <div class="mbr-author-name">James Wong.</div>
+                            <small class="mbr-author-desc"><spring:message code="index.usersay.three.s" text=" "/></small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
 <section class="mbr-section" id="pricing-table1-b" style="background-color: rgb(48, 48, 48); padding-top: 80px; padding-bottom: 80px;">
 
     <div class="mbr-section mbr-section__container mbr-section__container--middle">
@@ -403,7 +474,7 @@
                       
                       <div class="card-title">
                         <h3 class="mbr-plan-title"><spring:message code="index.price.test" text="Driving Test"/></h3>
-                        <small class="mbr-plan-subtitle"><spring:message code="index.price.test.desc" text="[90 minutes/Lesson]"/></small>
+                        <small class="mbr-plan-subtitle"><spring:message code="index.price.test.desc" text="[50 minutes/Lesson]"/></small>
                       </div>
                       <div class="card-text">
                           <div class="mbr-price">
@@ -489,7 +560,7 @@
 
 <footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-2" style="background-color: rgb(32, 32, 32); padding-top: 1.05rem; padding-bottom: 1.05rem;">
 		    <div class="card-block">
-		        <p class="text-xs-center">Copyright (c) 2017 pigeonbooking.com.au</p>
+		        <p class="text-xs-center">Copyright (c) 2017 pigeonbooking.com.au. All Rights Reserved. [Version:1.0.1]</p>
 		    </div>
 </footer>
 

@@ -28,6 +28,8 @@
 	
 	<http use-expressions="true">
 	    <intercept-url pattern="/admin" access="hasRole('ROLE_ADMIN')"/>
+	    <intercept-url pattern="/welcome" access="hasRole('ROLE_ADMIN')"/>
+	    <intercept-url pattern="/manage/**" access="hasRole('ROLE_ADMIN')"/>
 	    <intercept-url pattern="/contact" access="permitAll"/>
 		<intercept-url pattern="/login" access="permitAll"/>
 		<intercept-url pattern="/**" access="permitAll"/>

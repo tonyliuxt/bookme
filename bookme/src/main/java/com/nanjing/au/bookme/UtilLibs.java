@@ -21,8 +21,14 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.json.JSONObject;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.security.crypto.codec.Base64;
 import org.springframework.util.Base64Utils;
+
+import com.nanjing.au.bookme.dao.StaticMongoTemplate;
+import com.nanjing.au.bookme.entity.RemoteInfo;
 
 /**
  * OMT WEB Service Utility Library
@@ -568,6 +574,40 @@ public class UtilLibs {
 	    }
 		return st.toString();
 	}
+	
+	/**
+	 * Record remote access into mongo
+	 * @param request
+	 * @return
+	 */
+    public static boolean recordClients(String ipaddress){
+    	try{
+    		String today = UtilLibs.GetLocalDateFmt(Constants.SYS_TM_FMT);
+        	if(ipaddress == null) {
+        		return false;
+        	}
+        	
+    		Query query = new Query();
+    		query.addCriteria(Criteria.where("ipaddress").is(ipaddress));
+    		RemoteInfo retinfo = (RemoteInfo)StaticMongoTemplate.getStaticMongoTemplate().findOne(query, RemoteInfo.class);
+    		Update update = new Update();
+    		
+    		if(retinfo != null){
+        		update.set("totalcount", retinfo.getTotalcount().intValue() + 1);
+        		update.set("lastdate", today);
+    		}else{
+        		update.set("firstdate", today);
+        		update.set("totalcount", 1);
+        		update.set("lastdate", today);
+    		}
+			StaticMongoTemplate.getStaticMongoTemplate().upsert(query, update, RemoteInfo.class);
+
+    	}catch(Exception ex){
+    		ex.printStackTrace();
+    	}
+    	return true;
+    }
+	
 	
 	/**
 	 * Keeping the testing code below

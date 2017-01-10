@@ -33,19 +33,20 @@ public class LoginController {
 	public String loginPage() {
 		return "login";
 	}
-
-	@PreAuthorize("hasRole('USER')")
-	@RequestMapping(value=RestFulUri.WEB_WELCOME)
-	public String welcome() {
-		return "user";
-	}
 	
 	@PreAuthorize("hasRole('ADMIN')")
-	@RequestMapping(value="/welcome")
+	@RequestMapping(value=RestFulUri.WEB_WELCOME)
 	public String welcomePage() {
 		return "admin";
 	}
+	
+	@PreAuthorize("hasRole('ADMIN')")
+	@RequestMapping(value=RestFulUri.WEB_MANAGE)
+	public String managePage() {
+		return "manage";
+	}
 
+	
 	@RequestMapping(value=RestFulUri.WEB_LOGOUT, method = RequestMethod.GET)
 	public String logoutPage (HttpServletRequest request, HttpServletResponse response) {
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
