@@ -207,6 +207,7 @@
 
                             <h3 class="mbr-section-title display-2"><spring:message code="index.overview.titleliu" text="DI Liu"/></h3>
                             <h6 class="mbr-section-title display-6"><spring:message code="index.overview.phone" text="Phone:"/><a class="nav-link link" href="#form1-0">0452 382 276</a></h6>
+                            <h6 class="mbr-section-title display-6">Wechat:<a class="nav-link link" href="#">liu76xt</a></h6>
                             <h6 class="mbr-section-title display-6"><spring:message code="index.overview.email" text="Email:"/><a class="nav-link link" href="#form1-0">liudrivingschool@gmail.com</a></h6>
 
                             <div class="mbr-section-text lead">

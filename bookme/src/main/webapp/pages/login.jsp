@@ -11,7 +11,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Login page</title>
+		<title>Liu's Driving School in Melbourne - Login page</title>
 		<link href="<c:url value='/css/bootstrap.css' />"  rel="stylesheet"></link>
 		<link href="<c:url value='/css/app.css' />" rel="stylesheet"></link>
 		<link href="<c:url value='/css/font-awesome.css' />" rel="stylesheet" />
