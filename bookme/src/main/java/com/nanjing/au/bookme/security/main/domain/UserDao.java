@@ -17,7 +17,7 @@ import com.nanjing.au.bookme.dao.StaticMongoTemplate;
 @Component
 public class UserDao {
 	private final Logger mylogger = LoggerFactory.getLogger(UserDao.class);
-	public static final String password = "HwwHMzoKHlUSVSAfVCEuBglCQVohClQlIwEcXltdOx5a";   // T210QE1lbDEyMw - Omt@Mel123
+	public static final String password = "";   
 	public static final String roleadmin = "ROLE_ADMIN";
 	public static final String fullname = "Administrator";
 	public static final String roleuser = "ROLE_USER";
