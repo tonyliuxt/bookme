@@ -38,14 +38,14 @@ public class WebUserController {
 	@RequestMapping(value="/index", method = RequestMethod.GET)
 	public String index(Locale locale, HttpServletRequest request) {
     	omtlogger.info("/index with language:" + locale + "... Ip address:"+request.getRemoteAddr());
-    	UtilLibs.recordClients(request.getRemoteAddr());
+    	//UtilLibs.recordClients(request.getRemoteAddr());
     	return "index";
 	}
 	
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String root(Locale locale,HttpServletRequest request) {
     	omtlogger.info("/ ROOT... with language:" + locale + "... Ip address:"+request.getRemoteAddr());
-    	UtilLibs.recordClients(request.getRemoteAddr());
+    	//UtilLibs.recordClients(request.getRemoteAddr());
     	return "index";
 	}
 	
