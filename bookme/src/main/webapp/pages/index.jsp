@@ -570,7 +570,7 @@
                 <div class="row">
                     <div class="col-xs-12 text-xs-center">
                         <h3 class="mbr-section-title display-2">路局考试考点分析和经验积累</h3>
-                        <small class="mbr-section-subtitle" style="color:white;">开车在路上是考试也是人生</small>
+                        <small class="mbr-section-subtitle" style="color:white;">人生就像一次驾车旅行，为了安全到达目的地，我们需要掌握合适的学习技巧。</small>
                     </div>
                 </div>
             </div>
@@ -615,12 +615,136 @@
 						</div>
                     </div>
                 </div>
-                
-      
             </div>
-
         </div>
+    </div>
 
+    <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-md-12">
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="mbr-author card-header">
+                            <small class="mbr-author-name"> 路局考试直接Fail项和Critical Error </small>
+                        </div>
+                        <div style="background-color: #eeffee;text-align:left;">
+                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
+							路考只是一次考试，一次通过率比较低，考生首先要关注的是行车安全，以下是平常考试的时候遇到比较多的情况：
+							</Br>1.Lane Change的时候没有headcheck，或者虽然做了headcheck但是不具备安全条件的情况下强行变道；
+							</Br>2.倒车或者车辆转弯的时候轮子压到马路牙子Kerb上，如果是两个轮子压上则Immediately Fail；
+							</Br>3.Stop标致【实线】的地方车没有停住，如果导致危险情况则Immediately Fail 否则critical error；
+							</Br>4.Bus stop的地方遇到bus indicate right的时候没有give way则Immediately Fail;
+							</Br>5.Lane change的时候headcheck时间太长导致 行驶方向偏离车道；
+							</Br>6.超速4公里以上【Immediately Fail】；
+							</Br>7.超速低于4公里，持续3-5秒以上【Immediately Fail】
+							</Br>8.ShoolZone或者SchoolTime的时候速度超过40【Immediately Fail】
+							</Br>9.刹车/减速前不看后视镜【如果一点都不看则Immediately Fail】；
+							</Br>10.辅路进主路的【左右转】时候fail give way给右侧【或主路】上的车辆，通常是速度和距离综合判断不准确；
+							</Br>
+							</Br>续考试Immediately fail项汇总，并持续更新：
+							</Br>a.Too slow, 开车速度全程低于限速10km以上，比如默认50的路，总是开的不到40，甚至不到30，限速80的路开的不到70；
+							</Br>b.Don't Check mirrors at all. 基本不看镜子，中镜或者两个后视镜， 特别是减速，停车或者过黄灯的时候不看镜；
+							</Br>c.该减速的时候不减速，甚至加速。
+							</Br>  --比如行驶到斑马线的时候看到有闯红灯的行人不减速，Drive way有倒车出来的不减速，进入环岛的时候左侧有车fail give way的时候不减速。
+							</Br>  --这些情况从法定交规上来说应该是其它车辆或者行人的优先权低于正常的行驶车辆，但为了避免事故发生还是应该slow down后观察安全后通过。
+							</Br>  --如果没有做减速操作，通常是Immediately fail。
+							</Br>
+						</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-md-12">
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="mbr-author card-header">
+                            <small class="mbr-author-name"> 如何拿到属于自己的驾照 </small>
+                        </div>
+                        <div style="background-color: #eeffee;text-align:left;">
+                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
+							维州路局GLS【驾照获取体系】对于年龄的要求：
+							</Br>1.L牌，必须年满16周岁；通过交规理论考试后获取L牌；
+							</Br>	--不满21周岁的，持L牌至少一年才能申请红P；
+							</Br>	--21-24周岁的，持L牌至少6个月才能申请红P；
+							</Br>	--25周岁以上的，持L牌至少3个月才能申请红P；
+							</Br>	--L牌申请红P【P1】的，必须具有至少120小时的驾驶logbook，并且至少包括10小时的晚间驾驶记录
+							</Br>	--L牌不能独立驾驶，必须有full牌的人在副驾驶位置陪伴；
+							</Br>2.红P【P1】，必须年满18周岁；红P最少持有1年才能申请P2【绿P】；
+							</Br>3.绿P【P2】，必须年满19周岁，最少持有3年才能申请full牌；
+							</Br>另外在获取full牌之前，所有以上驾驶者必须：
+							</Br>1. 在车辆的前后明显位置摆放对应的标志牌；
+							</Br>2. 酒精检测BAC为0；
+							</Br>3. 不允许使用手机；
+							</Br>以上是GLS对于年龄的要求，基于如下的一些 惊人的数据：
+							</Br>1. 每年维州有90人死于交通事故，超过1800人在交通事故中受伤严重，这些事故中大多数司机年龄在18-25岁的花季年龄；
+							</Br>2. P牌的独立驾驶者的事故率是 full牌的3倍；
+							</Br>3. 交通事故导致的年轻人死亡数目超过其它任何原因；
+							</Br>
+							</Br>今天有一学员问道国内驾照换维州驾照的问题，于是查了一下 <a href="https://www.vicroads.vic.gov.au/licences/renew-replace-or-update/new-to-victoria/overseas-drivers" target="_blank">维州路局官网换维州驾照</a> ，具体翻译如下：
+							</Br>中国驾照换维州驾照的条件和步骤：
+							</Br>1. 年满18周岁【不是21周岁哦】
+							</Br>2. 你的ID，比如passport【国内户口簿不行啊】
+							</Br>3. 居住在维州【就是说要有居住证明，比如bankstatement或者水电账单上有你的名字与passport上要一致
+							</Br>4. 填写一个换驾照的申请表【路局都有】也可以点击<a href="https://www.vicroads.vic.gov.au/~/media/files/formsandpublications/licences/licence_or_learner_permit_application.ashx" target="_blank"> 申请表下载</a>自己打印
+							</Br>5. 驾照必须和其对应的翻译件一起提供给路局【注意翻译件必须是有资质的NATTI翻译，自己翻译/国内公证翻译件无效】
+							</Br>6. 驾照和翻译件有可能交给相关部门验证【通常99.99%都不会的，人家默认你是守法滴】
+							</Br>7. 通过维州路局的交规考试、危险察觉考试、路考
+							</Br>8. 如果持有海外驾照超过三年，通过路考后可以直接拿full license
+							</Br>
+							</Br>今天碰到一个学员咨询香港驾照换维州驾照的问题，特意查了一下维州路局官网：
+							</Br>简单说明一下，维州路局是 有条件的接受 香港驾照的， 即如果：
+							</Br>1. 年龄在25岁及以上
+							</Br>2. 持有驾照12个月及以上
+							</Br>即可直接换维州驾照， 如果不满足上面两个条件的任何一个，则需要参加路考Drive Test【不需要参加理论和危险察觉考试】
+							</Br>
+							</Br>还是那句话： 我们开车的唯一目的是安全到达目的地，在路上的每一秒都要像新手一样注意力高度集中，
+							</Br>对于年轻人学车，多开多练习，将好的驾驶行为养成习惯是安全保障的第一步。
+						</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-md-12">
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="mbr-author card-header">
+                            <small class="mbr-author-name"> Burwood East路局考点分析 </small>
+                        </div>
+                        <div style="background-color: #eeffee;text-align:left;">
+                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
+							Burwood East路局大家都懂得，考官人好，路况相对简单，地理位置优越，所以报考人多周期长，以下是几个典型考点请参考：
+							</Br>A.考官的指令为左转进左道，而进入到左道在前方两百米结束，考生需要自己完成变道动作，两个典型的路口是
+							</Br>1.BlackBurn Road左转进入Burwood HWY
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/BlackBurnRoad_TurnInto_BurwoodHWY.PNG" style="padding-left:40px; width:90%;height:auto;max-width: 90%；"> 
+							</Br>2.SpringVale Road左转进入Burwood HWY
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/SpringRoad_TurnInto_BurwoodHWY.PNG" style="padding-left:40px; width:90%;height:auto;max-width: 90%；"> 
+							</Br>
+							</Br>B.下坡路的时候变道，很多同学是fail在这个地方变道超速
+							</Br>1. BlackBurn Road过 BurwoodHWY后，下坡变道
+							</Br>2. BlackBurn Road 右转进 Canterbury Road后第一个下坡变道
+							</Br>3. Canterbury Road 右转进 springvale road后小坡变道
+							</Br>4. SpringValeroad过 high bury前，后变道--实实在在的大坡啊
+							</Br>5. High buryroad 准备右拐进 springvaleroad的时候，下坡无指令变道。
+							</Br>
+						</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 </section>
