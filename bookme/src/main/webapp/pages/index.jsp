@@ -747,6 +747,79 @@
         </div>
     </div>
 
+    <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-md-12">
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="mbr-author card-header">
+                            <small class="mbr-author-name"> Heatherton路局考点分析 </small>
+                        </div>
+                        <div style="background-color: #eeffee;text-align:left;">
+                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
+							Heatherton路局，中规中矩，考官比较严肃，周边有厂区，以下是几个典型考点请参考：
+							</Br>1. Heatherton路局内 是shared zone,全程限速10km，注意哦，有的人就是绕路局开一圈就fail回去的，因为在路局里面开超过20km，很容易超速哦。
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton-10limit.PNG" style="padding-left:40px; width:90%;height:auto;max-width: 90%；"> 
+							</Br>
+							</Br>2.Kingston Rd 双向四车道，且大部分路段都是只有一条中线，从西往东限速从60提高为70，或者反向从东往西行驶限速从70将为60，路没有变只是限速牌的变化，是一个大坑
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton70.PNG" style="padding-left:40px; width:90%;height:auto;max-width: 90%；"> 
+							</Br>
+							</Br>3. 弯道处让你右拐到一条小路，容易错过路口，并且右拐的时候不能压到Island上【三次没有按考官的指令行驶是immediately fail】
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton-rightturn.PNG" style="padding-left:40px; width:90%;height:auto;max-width: 90%；"> 
+							</Br>
+							</Br>4. Warrigal road turn left into Cochranes road厂区限速60，限速牌在路口处，没有中线的两车道【如果你一直开低于50，则critical error，考官再找一个ce就fail了】
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton-60.PNG" style="padding-left:40px; width:90%;height:auto;max-width: 90%；"> 
+							</Br>
+						</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-md-12">
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="mbr-author card-header">
+                            <small class="mbr-author-name"> 关于国内的老司机驾驶问题 </small>
+                        </div>
+                        <div style="background-color: #eeffee;text-align:left;">
+                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
+							最近带的国内过来的老司机比较多（10年以上的老司机3个），常见的问题有如下几个：
+							</Br>1. 【刹车前不看后视镜】，最大的安全隐患是路口黄灯急刹被追尾；
+							</Br>
+							</Br>2. 【压（左侧）线行驶】不能保持着车道内，这个可能和国内的左舵驾驶有关，需要通过标线不间断的调整，否则轻则被嘀，还有可能发生碰擦；
+							</Br>
+							</Br>3. 【不熟悉交规】比如问道是否能借用bike lane，Bus lane？T2，T3是什么意思，U-turn要give way给那些车，回答的真实五花八门。于是严肃要求他们回去看路局的<a href="https://www.vicroads.vic.gov.au/safety-and-road-rules/road-rules" target="_blank">交规资料</a>
+							</Br>
+							</Br>4. 【不看盲点】通常什么情况下需要head check也就是看盲点？要看盲点一个重要的原因，就是【澳洲这边默认的是车让人，车让自行车】
+							</Br>    ----1. 变道【changing lanes】
+							</Br>    ----2. 车辆起步【pull out from kerb】
+							</Br>    ----3. 转向【turning】
+							</Br>    ----4. 借道行驶【 temporarily entering a bicycle or bus lane】 
+							</Br>    ----5. 离开/进入车辆【getting into/out of car】
+							</Br>    ----6. 还有一个【倒车，倒车，倒车】重要的事情说三遍，倒车要Headcheck 左右和中间三个地方； 
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/headcheck.gif" style="padding-left:40px; width:90%;height:auto;max-width: 90%；"> 
+							</Br>
+							</Br>5. 【见到路口就减速，见到车辆就减速】，可能是国内的习惯把。比如带一个老司机进环岛，左边有车要进环岛他也赶忙停下，其右侧没有车辆，这时候减速甚至停车就可能被候车追尾。
+							</Br>
+							</Br>6. 【不敢过黄灯】高速的情况下，70-80时速，满速行驶，注意不是起步速度或者低于50时速，原则就是【能过就过，能停就停】
+							</Br>   ----维州的黄灯一般都是5秒的时间，时速80的时候5秒钟能跑多远，黄灯的时候一个路口正常还能通过多少车辆，有多少本地的司机在黄灯的时候甚至是提速通过，如果你一个急刹停住了，而你的后车没有这个意识那根本是停不下来的。
+							</Br>
+							
+						</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>
 
 
