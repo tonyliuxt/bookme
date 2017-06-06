@@ -9,16 +9,12 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="墨尔本东南区驾驶教练,普通话英语, 资深DIA持牌教练, Glen Waverley,Burwood East,Mount Waverley,Heatherton,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>墨尔本东南区驾驶教练-刘教练0452382276-微信:liu76xt</title> 
-  <meta name="description" itemprop="description" content="墨尔本东南区驾驶教练,普通话英语, 资深DIA持牌教练, Glen Waverley,Burwood East,Mount Waverley,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave.">
-  <meta name="title" content="墨尔本东南区驾驶教练, Glen Waverley, 刘教练-0452382276-微信:liu76xt"/>
-  <meta name="keywords" content="墨尔本东南区驾驶教练, 学车教练, 墨尔本驾驶培训, 驾陪, Burwood East路局, Heatherton路局"/>
-  <meta property="og:url" content="http://www.pigeonbooking.com.au/" />
-  <meta property="og:title" content="墨尔本东南区驾驶教练" />
-  <meta property="og:description" content="墨尔本东南区驾驶教练,普通话英语, 资深DIA持牌教练, Glen Waverley,Burwood East,Mount Waverley,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave" />
-  <meta property="og:site_name" content="墨尔本东南区驾驶教练-刘教练" />
+  <title>墨尔本东南区 学车驾驶教练 刘教练0452382276 微信liu76xt</title>
+  <meta name="generator" content="墨尔本东南区 驾驶教练 学车教练 普通话英语 资深DIA持牌教练 Glen Waverley,Burwood East,Mount Waverley,Heatherton,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave">
+  <meta name="description" content="墨尔本东南区 驾驶教练,普通话英语, 资深DIA持牌教练, Glen Waverley,Burwood East,Mount Waverley,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave.">
+  <meta name="title" content="墨尔本东南区 驾驶教练 刘教练0452382276 微信liu76xt Glen Waverley"/>
+  <meta name="keywords" content="墨尔本东南区 驾驶教练 学车教练 墨尔本驾驶培训 驾陪 Burwood East路局  Heatherton路局 墨尔本路考"/>
 
   <link rel="shortcut icon" href="<%=request.getContextPath()%>/assets/images/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
@@ -136,7 +132,7 @@
 						<li class="nav-item"><a class="nav-link link" href="#features3-d"><spring:message code="index.header.stages" text="BASIC STAGES" /></a></li>
 						<li class="nav-item"><a class="nav-link link" href="#pricing-table1-b"><spring:message code="index.header.price" text="PRICE" /></a></li>
 						<li class="nav-item"><a class="nav-link link" href="#form1-0"><spring:message code="index.header.contact" text="CONTACT" /></a></li>
-						<li class="nav-item"><a class="nav-link link" href="#experience">考点分析</a></li>
+						<li class="nav-item"><a class="nav-link link" href="#experience">路考分析</a></li>
 						<li class="nav-item nav-link btn">
 							<a href="?language=en">English</a> <big style="color:white"> | </big> <a href="?language=zh_CN">中文</a>
 						</li>
@@ -220,7 +216,7 @@
 								</p>
                             </div>
 
-                            <div class="mbr-section-btn"><a class="btn btn-primary" href="http://www.yeeyi.com/bbs/thread-3778794-1-1.html" target="_blank"><spring:message code="index.common.more" text="More"/></a></div>
+                            <div class="mbr-section-btn"><a class="btn btn-primary" href="http://www.yeeyi.com/bbs/thread-3778794-1-1.html" target="_blank">路考经验积累</a></div>
 
                         </div>
 
@@ -427,7 +423,7 @@
                       <div class="card-text">
                           <div class="mbr-price">
                             <span class="mbr-price-value">$</span>
-                            <span class="mbr-price-figure">75</span>
+                            <span class="mbr-price-figure">80</span>
                           </div>
                           <small class="mbr-plan-price-desc"></small>
                       </div>
@@ -445,7 +441,7 @@
                       <div class="card-text">
                           <div class="mbr-price">
                             <span class="mbr-price-value">$</span>
-                            <span class="mbr-price-figure">72</span>
+                            <span class="mbr-price-figure">75</span>
                           </div>
                           <small class="mbr-plan-price-desc"></small>
                       </div>
@@ -728,9 +724,9 @@
 							Burwood East路局大家都懂得，考官人好，路况相对简单，地理位置优越，所以报考人多周期长，以下是几个典型考点请参考：
 							</Br>A.考官的指令为左转进左道，而进入到左道在前方两百米结束，考生需要自己完成变道动作，两个典型的路口是
 							</Br>1.BlackBurn Road左转进入Burwood HWY
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/BlackBurnRoad_TurnInto_BurwoodHWY.PNG" style="padding-left:40px; width:90%;height:auto;max-width: 90%；"> 
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/BlackBurnRoad_TurnInto_BurwoodHWY.PNG" style="padding-left:40px; width:70%;height:auto;max-width: 70%；"> 
 							</Br>2.SpringVale Road左转进入Burwood HWY
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/SpringRoad_TurnInto_BurwoodHWY.PNG" style="padding-left:40px; width:90%;height:auto;max-width: 90%；"> 
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/SpringRoad_TurnInto_BurwoodHWY.PNG" style="padding-left:40px; width:70%;height:auto;max-width: 70%；"> 
 							</Br>
 							</Br>B.下坡路的时候变道，很多同学是fail在这个地方变道超速
 							</Br>1. BlackBurn Road过 BurwoodHWY后，下坡变道
@@ -760,16 +756,16 @@
                         <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
 							Heatherton路局，中规中矩，考官比较严肃，周边有厂区，以下是几个典型考点请参考：
 							</Br>1. Heatherton路局内 是shared zone,全程限速10km，注意哦，有的人就是绕路局开一圈就fail回去的，因为在路局里面开超过20km，很容易超速哦。
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton-10limit.PNG" style="padding-left:40px; width:90%;height:auto;max-width: 90%；"> 
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton-10limit.PNG" style="padding-left:40px; width:70%;height:auto;max-width: 70%；"> 
 							</Br>
 							</Br>2.Kingston Rd 双向四车道，且大部分路段都是只有一条中线，从西往东限速从60提高为70，或者反向从东往西行驶限速从70将为60，路没有变只是限速牌的变化，是一个大坑
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton70.PNG" style="padding-left:40px; width:90%;height:auto;max-width: 90%；"> 
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton70.PNG" style="padding-left:40px; width:70%;height:auto;max-width: 70%；"> 
 							</Br>
 							</Br>3. 弯道处让你右拐到一条小路，容易错过路口，并且右拐的时候不能压到Island上【三次没有按考官的指令行驶是immediately fail】
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton-rightturn.PNG" style="padding-left:40px; width:90%;height:auto;max-width: 90%；"> 
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton-rightturn.PNG" style="padding-left:40px; width:70%;height:auto;max-width: 70%；"> 
 							</Br>
 							</Br>4. Warrigal road turn left into Cochranes road厂区限速60，限速牌在路口处，没有中线的两车道【如果你一直开低于50，则critical error，考官再找一个ce就fail了】
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton-60.PNG" style="padding-left:40px; width:90%;height:auto;max-width: 90%；"> 
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton-60.PNG" style="padding-left:40px; width:70%;height:auto;max-width: 70%；"> 
 							</Br>
 						</p>
 						</div>
@@ -804,12 +800,47 @@
 							</Br>    ----4. 借道行驶【 temporarily entering a bicycle or bus lane】 
 							</Br>    ----5. 离开/进入车辆【getting into/out of car】
 							</Br>    ----6. 还有一个【倒车，倒车，倒车】重要的事情说三遍，倒车要Headcheck 左右和中间三个地方； 
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/headcheck.gif" style="padding-left:40px; width:90%;height:auto;max-width: 90%；"> 
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/headcheck.gif" style="padding-left:40px; width:70%;height:auto;max-width: 70%；"> 
 							</Br>
 							</Br>5. 【见到路口就减速，见到车辆就减速】，可能是国内的习惯把。比如带一个老司机进环岛，左边有车要进环岛他也赶忙停下，其右侧没有车辆，这时候减速甚至停车就可能被候车追尾。
 							</Br>
 							</Br>6. 【不敢过黄灯】高速的情况下，70-80时速，满速行驶，注意不是起步速度或者低于50时速，原则就是【能过就过，能停就停】
 							</Br>   ----维州的黄灯一般都是5秒的时间，时速80的时候5秒钟能跑多远，黄灯的时候一个路口正常还能通过多少车辆，有多少本地的司机在黄灯的时候甚至是提速通过，如果你一个急刹停住了，而你的后车没有这个意识那根本是停不下来的。
+							</Br>
+							
+						</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-md-12">
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="mbr-author card-header">
+                            <small class="mbr-author-name"> 关于City里面的HOOK TURN</small>
+                        </div>
+                        <div style="background-color: #eeffee;text-align:left;">
+                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
+							这个还真不知道中文怎么说，因为国内貌似没有这个名称，虽然有这个动作【意思就是 从左道右转】
+							</Br>窃以为在city狭小的空间内，特别是有tramway的地方无法实现单独的右转车道，又不能因为右转不了阻碍直行车，所以才想出这么个点子。好了，进入正题：
+							</Br>在city行驶的时候如果看到了上面那个牌子，而你恰好又要右转，那么动作要领就是：
+							</Br>1. 靠左道行驶【merge into left lane】【两条且必须是两条车道】
+							</Br>2. 打右灯【indicator right】
+							</Br>3. 在本车道的交通信号灯为绿灯的时候继续前行一直到标记处【或者没有标记，则到合理的最远处】【注意车辆必须不能压在人行横道上】
+							</Br>4. 等待，一直到你要右拐进入到车道的交通信号灯变位绿灯，然后启动完成右转。
+							</Br>以上四步是理论也是维州路局官网上关于hookturn的定义，但有一点就是第4步的时候车辆启动前必须做headcheck也就是看盲点的动作，这个动作是避免因为直行车辆因为行驶速度，或者黄灯通过的原因导致该车道交通信号红灯的时候车辆依然没有通过路口，此时如果没有看盲点直接右转会导致fail give way，甚至碰擦导致考试直接失败。
+							</Br>
+							</Br>这个动作通常出现在city，目前还没有在city之外发现这个怪物，喏就是这个图片：
+							</Br> 
+							<img src="<%=request.getContextPath()%>/assets/images/220px-Hook_Turn_Sign_Melbourne.jpg" style="padding-left:40px; width:40%;height:auto;max-width: 40%；"> 
+							<img src="<%=request.getContextPath()%>/assets/images/HookTurn.jpg" style="padding-left:20px; width:50%;height:auto;max-width: 50%；"> 
 							</Br>
 							
 						</p>
