@@ -203,9 +203,9 @@
                         <div class="mbr-table-cell col-md-5 text-xs-center text-md-left">
 
                             <h3 class="mbr-section-title display-2"><spring:message code="index.overview.titleliu" text="DI Liu"/></h3>
-                            <h6 class="mbr-section-title display-6"><spring:message code="index.overview.phone" text="Phone:"/><a class="nav-link link" href="#form1-0">0452 382 276</a></h6>
+                            <h6 class="mbr-section-title display-6"><spring:message code="index.overview.phone" text="Phone:"/><a class="nav-link link" href="tel:0452382276">0452 382 276</a></h6>
                             <h6 class="mbr-section-title display-6">Wechat:<a class="nav-link link" href="#">liu76xt</a></h6>
-                            <h6 class="mbr-section-title display-6"><spring:message code="index.overview.email" text="Email:"/><a class="nav-link link" href="#form1-0">liudrivingschool@gmail.com</a></h6>
+                            <h6 class="mbr-section-title display-6"><spring:message code="index.overview.email" text="Email:"/><a class="nav-link link" href="mailto:liudrivingschool@gmail.com" target="_top">liudrivingschool@gmail.com</a></h6>
 
                             <div class="mbr-section-text lead">
                                 <p><spring:message code="index.overview.introfirst" text="Welcome to Liu's Driving School, an independent driving instructor based on"/><p>
@@ -252,7 +252,8 @@
                     <h4 class="card-title"><spring:message code="index.stages.one" text="THEORY TEST"/></h4>
                     <h5 class="card-subtitle"><spring:message code="index.stages.one.desc" text="Including Learner Permit Test and Hazard Perception Test"/></h5>
                     <p class="card-text">
-                    	<spring:message code="index.stages.one.dd1" text="You should firstly "/><a href="https://www.vicroads.vic.gov.au/licences/your-ls/get-your-ls/lpt" target="_blank"><spring:message code="index.stages.one.dd2" text="Practice Online"/></a>, 
+                    	<spring:message code="index.stages.one.dd1" text="You should firstly "/><a href="https://www.vicroads.vic.gov.au/licences/your-ls/get-your-ls/lpt" target="_blank"><spring:message code="index.stages.one.dd2" text="Practice Online"/></a>
+                    	或者参考 <a href="#hptdescription" > 危险察觉考试 </a>， 
                     	<spring:message code="index.stages.one.dd3" text="when you feel confident to attend a real test you can "/><a href="https://billing.vicroads.vic.gov.au/bookings/Learner/TermsAndConditions" target="_blank"><spring:message code="index.stages.one.dd4" text="Book a Learner Permit test"/></a> 
                     	<spring:message code="index.stages.one.dd5" text="which costs around $40.90, after passing this, then you can"/>
                     	<a href="https://billing.vicroads.vic.gov.au/bookings/Probationary/TermsAndConditions" target="_blank"><spring:message code="index.stages.one.dd6" text="Book a Hazard Perception test"/></a> 
@@ -594,7 +595,7 @@
                 <div class="col-xs-12 col-md-12">
                     <div class="mbr-testimonial card mbr-testimonial-lg">
                         <div class="mbr-author card-header">
-                            <small class="mbr-author-name"> 路局考试车辆检查考试内容 </small>
+                            <h4 class="card-title">路局考试车辆检查考试内容 </h4> 
                         </div>
                         <div style="background-color: #eeffee;text-align:left;">
                         <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
@@ -636,7 +637,7 @@
                 <div class="col-xs-12 col-md-12">
                     <div class="mbr-testimonial card mbr-testimonial-lg">
                         <div class="mbr-author card-header">
-                            <small class="mbr-author-name"> 路局考试直接Fail项和Critical Error </small>
+                            <h4 class="card-title">路局考试直接Fail项和Critical Error </h4>
                         </div>
                         <div style="background-color: #eeffee;text-align:left;">
                         <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
@@ -675,7 +676,7 @@
                 <div class="col-xs-12 col-md-12">
                     <div class="mbr-testimonial card mbr-testimonial-lg">
                         <div class="mbr-author card-header">
-                            <small class="mbr-author-name"> 如何拿到属于自己的驾照 </small>
+                            <h4 class="card-title"> 如何拿到属于自己的驾照 </h4>
                         </div>
                         <div style="background-color: #eeffee;text-align:left;">
                         <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
@@ -734,7 +735,7 @@
                 <div class="col-xs-12 col-md-12">
                     <div class="mbr-testimonial card mbr-testimonial-lg">
                         <div class="mbr-author card-header">
-                            <small class="mbr-author-name"> Burwood East路局考点分析 </small>
+                            <h4 class="card-title"> Burwood East路局考点分析 </h4>
                         </div>
                         <div style="background-color: #eeffee;text-align:left;">
                         <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
@@ -767,7 +768,7 @@
                 <div class="col-xs-12 col-md-12">
                     <div class="mbr-testimonial card mbr-testimonial-lg">
                         <div class="mbr-author card-header">
-                            <small class="mbr-author-name"> Heatherton路局考点分析 </small>
+                            <h4 class="card-title"> Heatherton路局考点分析 </h4>
                         </div>
                         <div style="background-color: #eeffee;text-align:left;">
                         <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
@@ -799,7 +800,7 @@
                 <div class="col-xs-12 col-md-12">
                     <div class="mbr-testimonial card mbr-testimonial-lg">
                         <div class="mbr-author card-header">
-                            <small class="mbr-author-name"> 关于国内的老司机驾驶问题 </small>
+                            <h4 class="card-title"> 关于国内的老司机驾驶问题 </h4>
                         </div>
                         <div style="background-color: #eeffee;text-align:left;">
                         <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
@@ -841,7 +842,7 @@
                 <div class="col-xs-12 col-md-12">
                     <div class="mbr-testimonial card mbr-testimonial-lg">
                         <div class="mbr-author card-header">
-                            <small class="mbr-author-name"> 关于City里面的HOOK TURN</small>
+                            <h4 class="card-title"> 关于City里面的HOOK TURN </h4>
                         </div>
                         <div style="background-color: #eeffee;text-align:left;">
                         <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
@@ -858,6 +859,36 @@
 							</Br> 
 							<img src="<%=request.getContextPath()%>/assets/images/220px-Hook_Turn_Sign_Melbourne.jpg" style="padding-left:40px; width:40%;height:auto;max-width: 40%；"> 
 							<img src="<%=request.getContextPath()%>/assets/images/HookTurn.jpg" style="padding-left:20px; width:50%;height:auto;max-width: 50%；"> 
+							</Br>
+							
+						</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;" id="hptdescription">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-md-12">
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="mbr-author card-header">
+                            <h4 class="card-title"> 关于危险察觉考试 Hazard Perception Test </h4>
+                        </div>
+                        <div style="background-color: #eeffee;text-align:left;">
+                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
+							危险察觉考试目前维州路局没有网上练习的题库，只有南澳路局网站有一个类似的：<a href="http://mylicence.sa.gov.au/hazard-perception-test" target="_blank">危险察觉考试网上练习</a>
+							</Br>维州路局官网有一个图片实例说明，<a href="https://www.vicroads.vic.gov.au/licences/your-ps/get-your-ps/hazard-perception-test" target="_blank"> 维州危险察觉考试说明 </a>
+							</Br>关于Hazard Perception Test，这个地方给几个提示，希望有用：
+							</Br>1. 危险察觉考试，在路局的电脑上，真正的考试之前都会有4个真题供考试者练习，没有时间限制，建议开始考试之前多做几遍练习，找找感觉。
+							</Br>2. 考试的过程中有三种情况：a. 点击鼠标Slow down减速  b.点击鼠标启动或者加速 c.没有任何动作直到小视频结束。
+							</Br>3. 比如考试的过程中看到 
+    						</Br>    -- 行人过马路，有人停车打开车门，黄色的警示牌，前车刹车，路口红灯亮等情况需要在【合适的时机】点击鼠标slowdown减速
+    						</Br>    -- 车辆右拐而直行无车，前方自行车回到自己的自行车道，通过道路坡顶的时候需要在【合适的时机】点击鼠标加速或者启动
+							</Br>	 -- 危险察觉考试只要正确率达到54%就能通过，所以不用紧张，祝您好运！
 							</Br>
 							
 						</p>
