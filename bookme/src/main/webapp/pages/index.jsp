@@ -233,7 +233,7 @@
 
 <section class="mbr-cards mbr-section mbr-section-nopadding" id="features3-d" style="background-color: rgb(255, 255, 255);">
      
-    <div class="mbr-section mbr-section__container mbr-section__container--middle" style="padding-top: 80px; padding-bottom: 80px;">
+    <div class="mbr-section mbr-section__container mbr-section__container--middle" style="padding-top: 60px; padding-bottom: 60px;">
       <div class="container">
           <div class="row">
               <div class="col-xs-12 text-xs-center">
@@ -351,37 +351,51 @@
     <div class="mbr-testimonials mbr-section mbr-section-nopadding">
         <div class="container">
             <div class="row">
-
-                <div class="col-xs-12 col-lg-4">
-
-                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                <div class="col-xs-12 col-md-6">
+                    <div class="mbr-testimonial card mbr-testimonial-md">
                         <div class="card-block"><p><spring:message code="index.usersay.one" text=" "/></p></div>
                         <div class="mbr-author card-footer">
-                            <div class="mbr-author-img"><img src="<%=request.getContextPath()%>/assets/images/face1.jpg" class="img-circle"></div>
+                            <div class="mbr-author-img"><img src="<%=request.getContextPath()%>/assets/images/learner1.jpg" class="img-circle"></div>
                             <div class="mbr-author-name">Gavin Wang</div>
                             <small class="mbr-author-desc"><spring:message code="index.usersay.one.s" text=" "/></small>
                         </div>
                     </div>
                 </div>
                 
-                <div class="col-xs-12 col-lg-4">
-
-                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                <div class="col-xs-12 col-md-6">
+                    <div class="mbr-testimonial card mbr-testimonial-md">
                         <div class="card-block"><p><spring:message code="index.usersay.two" text=" "/></p></div>
                         <div class="mbr-author card-footer">
-                            <div class="mbr-author-img"><img src="<%=request.getContextPath()%>/assets/images/face2.jpg" class="img-circle"></div>
+                            <div class="mbr-author-img"><img src="<%=request.getContextPath()%>/assets/images/driver2.jpg" class="img-circle"></div>
                             <div class="mbr-author-name">Jessica Li</div>
                             <small class="mbr-author-desc"><spring:message code="index.usersay.two.s" text=" "/></small>
                         </div>
                     </div>
                 </div>
                 
-                <div class="col-xs-12 col-lg-4">
+            </div>
 
-                    <div class="mbr-testimonial card mbr-testimonial-lg">
+        </div>
+
+    <div class="mbr-testimonials mbr-section mbr-section-nopadding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="mbr-testimonial card mbr-testimonial-md">
+                        <div class="card-block"><p><spring:message code="index.usersay.four" text=" "/></p></div>
+                        <div class="mbr-author card-footer">
+                            <div class="mbr-author-img"><img src="<%=request.getContextPath()%>/assets/images/driver4.jpg" class="img-circle"></div>
+                            <div class="mbr-author-name">Justin Li.</div>
+                            <small class="mbr-author-desc"><spring:message code="index.usersay.four.s" text=" "/></small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-6">
+                    <div class="mbr-testimonial card mbr-testimonial-md">
                         <div class="card-block"><p><spring:message code="index.usersay.three" text=" "/></p></div>
                         <div class="mbr-author card-footer">
-                            <div class="mbr-author-img"><img src="<%=request.getContextPath()%>/assets/images/face3.jpg" class="img-circle"></div>
+                            <div class="mbr-author-img"><img src="<%=request.getContextPath()%>/assets/images/learner3.jpg" class="img-circle"></div>
                             <div class="mbr-author-name">James Wong.</div>
                             <small class="mbr-author-desc"><spring:message code="index.usersay.three.s" text=" "/></small>
                         </div>
@@ -397,7 +411,7 @@
 </section>
 
 
-<section class="mbr-section" id="pricing-table1-b" style="background-color: rgb(48, 48, 48); padding-top: 80px; padding-bottom: 60px;">
+<section class="mbr-section" id="pricing-table1-b" style="background-color: rgb(48, 48, 48); padding-top: 60px; padding-bottom: 60px;">
 
     <div class="mbr-section mbr-section__container mbr-section__container--middle">
       <div class="container">
@@ -477,7 +491,7 @@
                       <div class="card-text">
                           <div class="mbr-price">
                             <span class="mbr-price-value">$</span>
-                            <span class="mbr-price-figure">120</span>
+                            <span class="mbr-price-figure">130</span>
                           </div>
                           <small class="mbr-plan-price-desc"></small>
                       </div>
@@ -677,7 +691,10 @@
 							</Br>另外在获取full牌之前，所有以上驾驶者必须：
 							</Br>1. 在车辆的前后明显位置摆放对应的标志牌；
 							</Br>2. 酒精检测BAC为0；
-							</Br>3. 不允许使用手机；
+							</Br>3. 不允许使用任何类型手机；
+							</Br>4. 对于红P，还不能搭载16-22岁的年轻人【但不包括自己的配偶或者兄弟姐妹】,不能拖挂车.
+							</Br>5. 红P或者绿P所能开的车有一些限制，简单来说就是通常意义上的6-8缸车，或者经过性能改造的车不能开，或者是大马力涡轮增压的车
+							</Br>	具体可以根据车的品牌，型号和生产年份确定哪些车P牌不能开 <a href="http://vicroads.redbook.com.au/search/", target="_blank">维州P牌有哪些车不能开</a>							
 							</Br>以上是GLS对于年龄的要求，基于如下的一些 惊人的数据：
 							</Br>1. 每年维州有90人死于交通事故，超过1800人在交通事故中受伤严重，这些事故中大多数司机年龄在18-25岁的花季年龄；
 							</Br>2. P牌的独立驾驶者的事故率是 full牌的3倍；
@@ -724,9 +741,9 @@
 							Burwood East路局大家都懂得，考官人好，路况相对简单，地理位置优越，所以报考人多周期长，以下是几个典型考点请参考：
 							</Br>A.考官的指令为左转进左道，而进入到左道在前方两百米结束，考生需要自己完成变道动作，两个典型的路口是
 							</Br>1.BlackBurn Road左转进入Burwood HWY
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/BlackBurnRoad_TurnInto_BurwoodHWY.PNG" style="padding-left:40px; width:70%;height:auto;max-width: 70%；"> 
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/BlackBurnRoad_TurnInto_BurwoodHWY.PNG" style="padding-left:40px; width:80%;height:auto;max-width: 80%；"> 
 							</Br>2.SpringVale Road左转进入Burwood HWY
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/SpringRoad_TurnInto_BurwoodHWY.PNG" style="padding-left:40px; width:70%;height:auto;max-width: 70%；"> 
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/SpringRoad_TurnInto_BurwoodHWY.PNG" style="padding-left:40px; width:80%;height:auto;max-width: 80%；"> 
 							</Br>
 							</Br>B.下坡路的时候变道，很多同学是fail在这个地方变道超速
 							</Br>1. BlackBurn Road过 BurwoodHWY后，下坡变道
