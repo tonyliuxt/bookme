@@ -469,12 +469,12 @@
                       <div class="mbr-plan-label"><spring:message code="index.price.hot" text="HOT!"/></div>
                       <div class="card-title">
                         <h3 class="mbr-plan-title"><spring:message code="index.price.msix" text="6+ Lessons"/></h3>
-                        <small class="mbr-plan-subtitle"><spring:message code="index.price.msix.desc" text="[90 minutes/Lesson]"/></small>
+                        <small class="mbr-plan-subtitle"><spring:message code="index.price.msix.desc" text="Including 30 mins practice before Road Test"/></small>
                       </div>
                       <div class="card-text">
                           <div class="mbr-price">
                             <span class="mbr-price-value">$</span>
-                            <span class="mbr-price-figure">70</span>
+                            <span class="mbr-price-figure">550</span>
                           </div>
                           <small class="mbr-plan-price-desc"></small>
                       </div>
@@ -637,6 +637,36 @@
                 <div class="col-xs-12 col-md-12">
                     <div class="mbr-testimonial card mbr-testimonial-lg">
                         <div class="mbr-author card-header">
+                            <h4 class="card-title">路考第一阶段结束前的最后一个指令</h4> 
+                        </div>
+                        <div style="background-color: #eeffee;text-align:left;">
+                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
+							考试第一阶段结束后会有一个指令：Find a safe place, pull over at the kerb and stop. 找一个安全的地方靠路边停车，需要注意：
+							</Br>1. No stop标志牌的地方不能停
+							</Br>2. Bus station前后15米的地方不能停
+							</Br>3. 别人家门口的Drive way不能停
+							</Br>4. T字路口中心点10米范围不能停
+							</Br>5. 最好也不要给自己找麻烦找一个小的车位平行停车
+							</Br>听到考官指令后，需要：
+							</Br>1. 打左灯，看中镜和左侧镜，并Headcheck看左侧的盲点
+							</Br>2. 然后减速观察左前方，在排除以上不能停的地方后，缓慢靠左侧路边停车
+							</Br>3. 注意不能停的离马路边太远，最好30cm以内
+							</Br>4. 停止后，挂P档拉手刹，等待考官的下一个指令
+						</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-md-12">
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="mbr-author card-header">
                             <h4 class="card-title">路局考试直接Fail项和Critical Error </h4>
                         </div>
                         <div style="background-color: #eeffee;text-align:left;">
@@ -654,13 +684,21 @@
 							</Br>10.辅路进主路的【左右转】时候fail give way给右侧【或主路】上的车辆，通常是速度和距离综合判断不准确；
 							</Br>
 							</Br>续考试Immediately fail项汇总，并持续更新：
-							</Br>a.Too slow, 开车速度全程低于限速10km以上，比如默认50的路，总是开的不到40，甚至不到30，限速80的路开的不到70；
-							</Br>b.Don't Check mirrors at all. 基本不看镜子，中镜或者两个后视镜， 特别是减速，停车或者过黄灯的时候不看镜；
-							</Br>c.该减速的时候不减速，甚至加速。
+							</Br>A.Too slow, 开车速度全程低于限速10km以上，比如默认50的路，总是开的不到40，甚至不到30，限速80的路开的不到70；
+							</Br>
+							</Br>B.Didn't Check the mirrors at all. 基本不看镜子，中镜或者两个后视镜， 特别是减速，停车或者过黄灯的时候不看镜；
+							</Br>
+							</Br>C.该减速的时候不减速，甚至加速。
 							</Br>  --比如行驶到斑马线的时候看到有闯红灯的行人不减速，Drive way有倒车出来的不减速，进入环岛的时候左侧有车fail give way的时候不减速。
 							</Br>  --这些情况从法定交规上来说应该是其它车辆或者行人的优先权低于正常的行驶车辆，但为了避免事故发生还是应该slow down后观察安全后通过。
 							</Br>  --如果没有做减速操作，通常是Immediately fail。
 							</Br>
+							</Br>D. 辅路左拐进主路左道【left turn into left lane】，fail give way 主路上右侧车道的车，当车完成左拐进入主路后，右侧车道的车迅速超过，考官直接让前方停车考试结束。
+							</Br>
+							</Br>E.考试第一阶段考官给的指令是：Next street turn left, 考生因为减速不够错过路口，结果没有打灯就急停在路中间，结果fail.
+							</Br>  --相当于是两个critical errors：1.考官指令没做到，2.没有打灯停在路中间虽然后面没车。
+							</Br>  --规避措施：当听到考官的指令后，应该看中镜，打灯，减速观察找路口，万一不小心错过，则不用太紧张，看中镜--打左灯--看盲点靠左边停车，或者说sorry，然后问考官what should I do。
+							</Br>  --考试的时候考官的指令偶尔有一次没做到不会直接fail，但如有三次没做到则肯定会fail。
 						</p>
 						</div>
                     </div>
@@ -889,6 +927,34 @@
     						</Br>    -- 行人过马路，有人停车打开车门，黄色的警示牌，前车刹车，路口红灯亮等情况需要在【合适的时机】点击鼠标slowdown减速
     						</Br>    -- 车辆右拐而直行无车，前方自行车回到自己的自行车道，通过道路坡顶的时候需要在【合适的时机】点击鼠标加速或者启动
 							</Br>	 -- 危险察觉考试只要正确率达到54%就能通过，所以不用紧张，祝您好运！
+							</Br>
+							
+						</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;" id="hptdescription">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-md-12">
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="mbr-author card-header">
+                            <h4 class="card-title"> 路考中关于速度的判断 </h4>
+                        </div>
+                        <div style="background-color: #eeffee;text-align:left;">
+                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
+							路考中因为超速被fail是最可惜最无话可说的，所以一定要注意关注时速表，特别是下坡变道的时候，
+							</Br>关于速度的判断以限速牌为准，转弯换路后立即观察路两侧找限速牌，或者停车等待红绿灯的时候观察找限速牌，如果没有看到限速牌参考：
+    						</Br>1. 单车道50，有些是比较宽的单行车道限速60，如果不确定可以开到50看到限速牌后再提速。
+							</Br>2. 两车道默认时速60。
+							</Br>3. 三车道及以上70-80，如果不确定可以开到70不会too slow，开一段后就能看到限速牌 。
+    						</Br>4. 维州默认Buildup区是50。
+							</Br>5. 两边有停车的Buildup区建议开40左右。
 							</Br>
 							
 						</p>
