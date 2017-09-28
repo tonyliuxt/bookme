@@ -48,6 +48,20 @@ public class WebUserController {
     	//UtilLibs.recordClients(request.getRemoteAddr());
     	return "index";
 	}
+
+	@RequestMapping(value="/web", method = RequestMethod.GET)
+	public String web(Locale locale,HttpServletRequest request) {
+    	omtlogger.info("/ web... with language:" + locale + "... Ip address:"+request.getRemoteAddr());
+    	//UtilLibs.recordClients(request.getRemoteAddr());
+    	return "web";
+	}
+
+	@RequestMapping(value="/handy", method = RequestMethod.GET)
+	public String handy(Locale locale,HttpServletRequest request) {
+    	omtlogger.info("/ handy... with language:" + locale + "... Ip address:"+request.getRemoteAddr());
+    	//UtilLibs.recordClients(request.getRemoteAddr());
+    	return "handy";
+	}
 	
 	@RequestMapping(value="/manage/accesslist", method=RequestMethod.POST)
 	@ResponseBody

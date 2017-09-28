@@ -10,12 +10,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>墨尔本东南区 学车驾驶教练 刘教练0452382276 微信liu76xt</title>
-  <meta name="title" content="墨尔本东南区 学车驾驶教练 刘教练0452382276 微信liu76xt"/>
-  <meta name="description" content="墨尔本东南区 驾驶教练,普通话英语,资深DIA持牌教练； 灵活的套餐计划,一对一的课程设置,授课覆盖Glen Waverley,Burwood East为中心20公里范围内门到门接送授课；精通 BurwoodEast路局,Heatherton路局等维州路考考点分析。Mount Waverley,Heatherton,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave">
-  
-  <meta name="generator" content="墨尔本东南区 驾驶教练 学车教练 普通话英语 资深DIA持牌教练 Glen Waverley,Burwood East,Mount Waverley,Heatherton,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave">
-  <meta name="keywords" content="墨尔本东南区 驾驶教练 学车教练 精通 Burwood East路局  Heatherton路局 维州路考考点分析 路考经验积累"/>
+  <title>墨尔本网站制作-高登工作室-专注中小商业网站制作-SEO搜索排名-网站维护</title>
+  <meta name="generator" content="墨尔本网站制作-高登工作室-专注中小商业网站制作-SEO搜索排名-网站维护">
+  <meta name="description" content="墨尔本网站制作-高登工作室-专注中小商业网站制作-SEO搜索排名-网站维护">
+  <meta name="title" content="墨尔本网站制作-高登工作室-专注中小商业网站制作-SEO搜索排名-网站维护"/>
+  <meta name="keywords" content="墨尔本网站制作-高登工作室-专注中小商业网站制作-SEO搜索排名-网站维护"/>
 
   <link rel="shortcut icon" href="<%=request.getContextPath()%>/assets/images/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
@@ -217,7 +216,7 @@
 								</p>
                             </div>
 
-                            <div class="mbr-section-btn"><a class="btn btn-primary" href="http://www.yeeyi.com/bbs/thread-3778794-1-1.html" target="_blank">维州路考经验</a></div>
+                            <div class="mbr-section-btn"><a class="btn btn-primary" href="http://www.yeeyi.com/bbs/thread-3778794-1-1.html" target="_blank">路考经验积累</a></div>
 
                         </div>
 
@@ -421,7 +420,6 @@
               <div class="col-xs-12 text-xs-center">
                   <h3 class="mbr-section-title display-2"><spring:message code="index.price.title" text="PRICING TABLE"/></h3>
                   <small class="mbr-section-subtitle"><spring:message code="index.price.desc" text="We kindly provide reasonable prices for different kinds of Learners."/></small>
-                  <!--  small class="mbr-plan-subtitle">以下价格优惠活动日期从2017/09/10到2017/10/31</small -->
               </div>
           </div>
       </div>
@@ -452,7 +450,7 @@
                     <div class="mbr-plan-header card-block">
                       
                       <div class="card-title">
-                        <h3 class="mbr-plan-title">2-8<spring:message code="index.price.mfour" text="2-5 Lessons"/></h3>
+                        <h3 class="mbr-plan-title"><spring:message code="index.price.mfour" text="2-5 Lessons"/></h3>
                         <small class="mbr-plan-subtitle"><spring:message code="index.price.mfour.desc" text="[90 minutes/Lesson]"/></small>
                       </div>
                       <div class="card-text">
@@ -470,14 +468,13 @@
                     <div class="mbr-plan-header card-block bg-primary">
                       <div class="mbr-plan-label"><spring:message code="index.price.hot" text="HOT!"/></div>
                       <div class="card-title">
-                        <h3 class="mbr-plan-title">8 <spring:message code="index.price.msix" text="6+ Lessons"/></h3>
+                        <h3 class="mbr-plan-title"><spring:message code="index.price.msix" text="6+ Lessons"/></h3>
                         <small class="mbr-plan-subtitle"><spring:message code="index.price.msix.desc" text="Including 30 mins practice before Road Test"/></small>
-                        
                       </div>
                       <div class="card-text">
                           <div class="mbr-price">
                             <span class="mbr-price-value">$</span>
-                            <span class="mbr-price-figure">700</span>
+                            <span class="mbr-price-figure">550</span>
                           </div>
                           <small class="mbr-plan-price-desc"></small>
                       </div>
@@ -583,7 +580,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 text-xs-center">
-                        <h3 class="mbr-section-title display-2">维州路考考点分析和经验积累</h3>
+                        <h3 class="mbr-section-title display-2">路局考试考点分析和经验积累</h3>
                         <small class="mbr-section-subtitle" style="color:white;">人生就像一次驾车旅行，为了安全到达目的地，我们需要掌握合适的学习技巧。</small>
                     </div>
                 </div>
@@ -598,7 +595,7 @@
                 <div class="col-xs-12 col-md-12">
                     <div class="mbr-testimonial card mbr-testimonial-lg">
                         <div class="mbr-author card-header">
-                            <h4 class="card-title">维州路考车辆检查考试内容 </h4> 
+                            <h4 class="card-title">路局考试车辆检查考试内容 </h4> 
                         </div>
                         <div style="background-color: #eeffee;text-align:left;">
                         <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
@@ -625,370 +622,6 @@
 							</Br>附录：路考报到携带的资料【请提前5分钟到柜台报到】：
 							</Br>1. 如果有Learner Permit驾照的，带上Learner驾照和Hazard Perception考试结果即可；
 							</Br>2. 如果持有海外驾照，则需携带海外驾照原件/附页 以及对应的翻译件，护照/住址证明/Hazard Perception考试结果；
-						</p>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-xs-12 col-md-12">
-                    <div class="mbr-testimonial card mbr-testimonial-lg">
-                        <div class="mbr-author card-header">
-                            <h4 class="card-title">路考第一阶段结束前的最后一个指令</h4> 
-                        </div>
-                        <div style="background-color: #eeffee;text-align:left;">
-                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
-							考试第一阶段结束后会有一个指令：Find a safe place, pull over at the kerb and stop. 找一个安全的地方靠路边停车，需要注意：
-							</Br>1. No stop标志牌的地方不能停
-							</Br>2. Bus station前后15米的地方不能停
-							</Br>3. 别人家门口的Drive way不能停
-							</Br>4. T字路口中心点10米范围不能停
-							</Br>5. 最好也不要给自己找麻烦找一个小的车位平行停车
-							</Br>听到考官指令后，需要：
-							</Br>1. 打左灯，看中镜和左侧镜，并Headcheck看左侧的盲点
-							</Br>2. 然后减速观察左前方，在排除以上不能停的地方后，缓慢靠左侧路边停车
-							</Br>3. 注意不能停的离马路边太远，最好30cm以内
-							</Br>4. 停止后，挂P档拉手刹，等待考官的下一个指令
-						</p>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-xs-12 col-md-12">
-                    <div class="mbr-testimonial card mbr-testimonial-lg">
-                        <div class="mbr-author card-header">
-                            <h4 class="card-title">路局考试直接Fail项和Critical Error </h4>
-                        </div>
-                        <div style="background-color: #eeffee;text-align:left;">
-                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
-							路考只是一次考试，一次通过率比较低，考生首先要关注的是行车安全，以下是平常考试的时候遇到比较多的情况：
-							</Br>1.Lane Change的时候没有headcheck，或者虽然做了headcheck但是不具备安全条件的情况下强行变道；
-							</Br>2.倒车或者车辆转弯的时候轮子压到马路牙子Kerb上，如果是两个轮子压上则Immediately Fail；
-							</Br>3.Stop标致【实线】的地方车没有停住，如果导致危险情况则Immediately Fail 否则critical error；
-							</Br>4.Bus stop的地方遇到bus indicate right的时候没有give way则Immediately Fail;
-							</Br>5.Lane change的时候headcheck时间太长导致 行驶方向偏离车道；
-							</Br>6.超速4公里以上【Immediately Fail】；
-							</Br>7.超速低于4公里，持续3-5秒以上【Immediately Fail】
-							</Br>8.ShoolZone或者SchoolTime的时候速度超过40【Immediately Fail】
-							</Br>9.刹车/减速前不看后视镜【如果一点都不看则Immediately Fail】；
-							</Br>10.辅路进主路的【左右转】时候fail give way给右侧【或主路】上的车辆，通常是速度和距离综合判断不准确；
-							</Br>
-							</Br>续考试Immediately fail项汇总，并持续更新：
-							</Br>A.Too slow, 开车速度全程低于限速10km以上，比如默认50的路，总是开的不到40，甚至不到30，限速80的路开的不到70；
-							</Br>
-							</Br>B.Didn't Check the mirrors at all. 基本不看镜子，中镜或者两个后视镜， 特别是减速，停车或者过黄灯的时候不看镜；
-							</Br>
-							</Br>C.该减速的时候不减速，甚至加速。
-							</Br>  --比如行驶到斑马线的时候看到有闯红灯的行人不减速，Drive way有倒车出来的不减速，进入环岛的时候左侧有车fail give way的时候不减速。
-							</Br>  --这些情况从法定交规上来说应该是其它车辆或者行人的优先权低于正常的行驶车辆，但为了避免事故发生还是应该slow down后观察安全后通过。
-							</Br>  --如果没有做减速操作，通常是Immediately fail。
-							</Br>
-							</Br>D. 辅路左拐进主路左道【left turn into left lane】，fail give way 主路上右侧车道的车，当车完成左拐进入主路后，右侧车道的车迅速超过，考官直接让前方停车考试结束。
-							</Br>
-							</Br>E.考试第一阶段考官给的指令是：Next street turn left, 考生因为减速不够错过路口，结果没有打灯就急停在路中间，结果fail.
-							</Br>  --相当于是两个critical errors：1.考官指令没做到，2.没有打灯停在路中间虽然后面没车。
-							</Br>  --规避措施：当听到考官的指令后，应该看中镜，打灯，减速观察找路口，万一不小心错过，则不用太紧张，看中镜--打左灯--看盲点靠左边停车，或者说sorry，然后问考官what should I do。
-							</Br>  --考试的时候考官的指令偶尔有一次没做到不会直接fail，但如有三次没做到则肯定会fail。
-						</p>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-xs-12 col-md-12">
-                    <div class="mbr-testimonial card mbr-testimonial-lg">
-                        <div class="mbr-author card-header">
-                            <h4 class="card-title"> 如何拿到属于自己的驾照 </h4>
-                        </div>
-                        <div style="background-color: #eeffee;text-align:left;">
-                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
-							维州路局GLS【驾照获取体系】对于年龄的要求：
-							</Br>1.L牌，必须年满16周岁；通过交规理论考试后获取L牌；
-							</Br>	--不满21周岁的，持L牌至少一年才能申请红P；
-							</Br>	--21-24周岁的，持L牌至少6个月才能申请红P；
-							</Br>	--25周岁以上的，持L牌至少3个月才能申请红P；
-							</Br>	--L牌申请红P【P1】的，必须具有至少120小时的驾驶logbook，并且至少包括10小时的晚间驾驶记录
-							</Br>	--L牌不能独立驾驶，必须有full牌的人在副驾驶位置陪伴；
-							</Br>2.红P【P1】，必须年满18周岁；红P最少持有1年才能申请P2【绿P】；
-							</Br>3.绿P【P2】，必须年满19周岁，最少持有3年才能申请full牌；
-							</Br>另外在获取full牌之前，所有以上驾驶者必须：
-							</Br>1. 在车辆的前后明显位置摆放对应的标志牌；
-							</Br>2. 酒精检测BAC为0；
-							</Br>3. 不允许使用任何类型手机；
-							</Br>4. 对于红P，还不能搭载16-22岁的年轻人【但不包括自己的配偶或者兄弟姐妹】,不能拖挂车.
-							</Br>5. 红P或者绿P所能开的车有一些限制，简单来说就是通常意义上的6-8缸车，或者经过性能改造的车不能开，或者是大马力涡轮增压的车
-							</Br>	具体可以根据车的品牌，型号和生产年份确定哪些车P牌不能开 <a href="http://vicroads.redbook.com.au/search/", target="_blank">维州P牌有哪些车不能开</a>							
-							</Br>以上是GLS对于年龄的要求，基于如下的一些 惊人的数据：
-							</Br>1. 每年维州有90人死于交通事故，超过1800人在交通事故中受伤严重，这些事故中大多数司机年龄在18-25岁的花季年龄；
-							</Br>2. P牌的独立驾驶者的事故率是 full牌的3倍；
-							</Br>3. 交通事故导致的年轻人死亡数目超过其它任何原因；
-							</Br>
-							</Br>今天有一学员问道国内驾照换维州驾照的问题，于是查了一下 <a href="https://www.vicroads.vic.gov.au/licences/renew-replace-or-update/new-to-victoria/overseas-drivers" target="_blank">维州路局官网换维州驾照</a> ，具体翻译如下：
-							</Br>中国驾照换维州驾照的条件和步骤：
-							</Br>1. 年满18周岁【不是21周岁哦】
-							</Br>2. 你的ID，比如passport【国内户口簿不行啊】
-							</Br>3. 居住在维州【就是说要有居住证明，比如bankstatement或者水电账单上有你的名字与passport上要一致
-							</Br>4. 填写一个换驾照的申请表【路局都有】也可以点击<a href="https://www.vicroads.vic.gov.au/~/media/files/formsandpublications/licences/licence_or_learner_permit_application.ashx" target="_blank"> 申请表下载</a>自己打印
-							</Br>5. 驾照必须和其对应的翻译件一起提供给路局【注意翻译件必须是有资质的NATTI翻译，自己翻译/国内公证翻译件无效】
-							</Br>6. 驾照和翻译件有可能交给相关部门验证【通常99.99%都不会的，人家默认你是守法滴】
-							</Br>7. 通过维州路局的交规考试、危险察觉考试、路考
-							</Br>8. 如果持有海外驾照超过三年，通过路考后可以直接拿full license
-							</Br>
-							</Br>今天碰到一个学员咨询香港驾照换维州驾照的问题，特意查了一下维州路局官网：
-							</Br>简单说明一下，维州路局是 有条件的接受 香港驾照的， 即如果：
-							</Br>1. 年龄在25岁及以上
-							</Br>2. 持有驾照12个月及以上
-							</Br>即可直接换维州驾照， 如果不满足上面两个条件的任何一个，则需要参加路考Drive Test【不需要参加理论和危险察觉考试】
-							</Br>
-							</Br>还是那句话： 我们开车的唯一目的是安全到达目的地，在路上的每一秒都要像新手一样注意力高度集中，
-							</Br>对于年轻人学车，多开多练习，将好的驾驶行为养成习惯是安全保障的第一步。
-						</p>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-xs-12 col-md-12">
-                    <div class="mbr-testimonial card mbr-testimonial-lg">
-                        <div class="mbr-author card-header">
-                            <h4 class="card-title"> Burwood East路局考点分析 </h4>
-                        </div>
-                        <div style="background-color: #eeffee;text-align:left;">
-                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
-							Burwood East路局大家都懂得，考官人好，路况相对简单，地理位置优越，所以报考人多周期长，以下是几个典型考点请参考：
-							</Br>A.考官的指令为左转进左道，而进入到左道在前方两百米结束，考生需要自己完成变道动作，两个典型的路口是
-							</Br>1.BlackBurn Road左转进入Burwood HWY
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/BlackBurnRoad_TurnInto_BurwoodHWY.PNG" style="padding-left:40px; width:80%;height:auto;max-width: 80%；"> 
-							</Br>2.SpringVale Road左转进入Burwood HWY
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/SpringRoad_TurnInto_BurwoodHWY.PNG" style="padding-left:40px; width:80%;height:auto;max-width: 80%；"> 
-							</Br>
-							</Br>B.下坡路的时候变道，很多同学是fail在这个地方变道超速
-							</Br>1. BlackBurn Road过 BurwoodHWY后，下坡变道
-							</Br>2. BlackBurn Road 右转进 Canterbury Road后第一个下坡变道
-							</Br>3. Canterbury Road 右转进 springvale road后小坡变道
-							</Br>4. SpringValeroad过 high bury前，后变道--实实在在的大坡啊
-							</Br>5. High buryroad 准备右拐进 springvaleroad的时候，下坡无指令变道。
-							</Br>
-						</p>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-xs-12 col-md-12">
-                    <div class="mbr-testimonial card mbr-testimonial-lg">
-                        <div class="mbr-author card-header">
-                            <h4 class="card-title"> Heatherton路局考点分析 </h4>
-                        </div>
-                        <div style="background-color: #eeffee;text-align:left;">
-                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
-							Heatherton路局，中规中矩，考官比较严肃，周边有厂区，以下是几个典型考点请参考：
-							</Br>1. Heatherton路局内 是shared zone,全程限速10km，注意哦，有的人就是绕路局开一圈就fail回去的，因为在路局里面开超过20km，很容易超速哦。
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton-10limit.PNG" style="padding-left:40px; width:70%;height:auto;max-width: 70%；"> 
-							</Br>
-							</Br>2.Kingston Rd 双向四车道，且大部分路段都是只有一条中线，从西往东限速从60提高为70，或者反向从东往西行驶限速从70将为60，路没有变只是限速牌的变化，是一个大坑
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton70.PNG" style="padding-left:40px; width:70%;height:auto;max-width: 70%；"> 
-							</Br>
-							</Br>3. 弯道处让你右拐到一条小路，容易错过路口，并且右拐的时候不能压到Island上【三次没有按考官的指令行驶是immediately fail】
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton-rightturn.PNG" style="padding-left:40px; width:70%;height:auto;max-width: 70%；"> 
-							</Br>
-							</Br>4. Warrigal road turn left into Cochranes road厂区限速60，限速牌在路口处，没有中线的两车道【如果你一直开低于50，则critical error，考官再找一个ce就fail了】
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton-60.PNG" style="padding-left:40px; width:70%;height:auto;max-width: 70%；"> 
-							</Br>
-						</p>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-   <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-xs-12 col-md-12">
-                    <div class="mbr-testimonial card mbr-testimonial-lg">
-                        <div class="mbr-author card-header">
-                            <h4 class="card-title"> 关于国内的老司机驾驶问题 </h4>
-                        </div>
-                        <div style="background-color: #eeffee;text-align:left;">
-                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
-							最近带的国内过来的老司机比较多（10年以上的老司机3个），常见的问题有如下几个：
-							</Br>1. 【刹车前不看后视镜】，最大的安全隐患是路口黄灯急刹被追尾；
-							</Br>
-							</Br>2. 【压（左侧）线行驶】不能保持着车道内，这个可能和国内的左舵驾驶有关，需要通过标线不间断的调整，否则轻则被嘀，还有可能发生碰擦；
-							</Br>
-							</Br>3. 【不熟悉交规】比如问道是否能借用bike lane，Bus lane？T2，T3是什么意思，U-turn要give way给那些车，回答的真实五花八门。于是严肃要求他们回去看路局的<a href="https://www.vicroads.vic.gov.au/safety-and-road-rules/road-rules" target="_blank">交规资料</a>
-							</Br>
-							</Br>4. 【不看盲点】通常什么情况下需要head check也就是看盲点？要看盲点一个重要的原因，就是【澳洲这边默认的是车让人，车让自行车】
-							</Br>    ----1. 变道【changing lanes】
-							</Br>    ----2. 车辆起步【pull out from kerb】
-							</Br>    ----3. 转向【turning】
-							</Br>    ----4. 借道行驶【 temporarily entering a bicycle or bus lane】 
-							</Br>    ----5. 离开/进入车辆【getting into/out of car】
-							</Br>    ----6. 还有一个【倒车，倒车，倒车】重要的事情说三遍，倒车要Headcheck 左右和中间三个地方； 
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/headcheck.gif" style="padding-left:40px; width:70%;height:auto;max-width: 70%；"> 
-							</Br>
-							</Br>5. 【见到路口就减速，见到车辆就减速】，可能是国内的习惯把。比如带一个老司机进环岛，左边有车要进环岛他也赶忙停下，其右侧没有车辆，这时候减速甚至停车就可能被候车追尾。
-							</Br>
-							</Br>6. 【不敢过黄灯】高速的情况下，70-80时速，满速行驶，注意不是起步速度或者低于50时速，原则就是【能过就过，能停就停】
-							</Br>   ----维州的黄灯一般都是5秒的时间，时速80的时候5秒钟能跑多远，黄灯的时候一个路口正常还能通过多少车辆，有多少本地的司机在黄灯的时候甚至是提速通过，如果你一个急刹停住了，而你的后车没有这个意识那根本是停不下来的。
-							</Br>
-							
-						</p>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-   <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-xs-12 col-md-12">
-                    <div class="mbr-testimonial card mbr-testimonial-lg">
-                        <div class="mbr-author card-header">
-                            <h4 class="card-title"> 关于City里面的HOOK TURN </h4>
-                        </div>
-                        <div style="background-color: #eeffee;text-align:left;">
-                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
-							这个还真不知道中文怎么说，因为国内貌似没有这个名称，虽然有这个动作【意思就是 从左道右转】
-							</Br>窃以为在city狭小的空间内，特别是有tramway的地方无法实现单独的右转车道，又不能因为右转不了阻碍直行车，所以才想出这么个点子。好了，进入正题：
-							</Br>在city行驶的时候如果看到了上面那个牌子，而你恰好又要右转，那么动作要领就是：
-							</Br>1. 靠左道行驶【merge into left lane】【两条且必须是两条车道】
-							</Br>2. 打右灯【indicator right】
-							</Br>3. 在本车道的交通信号灯为绿灯的时候继续前行一直到标记处【或者没有标记，则到合理的最远处】【注意车辆必须不能压在人行横道上】
-							</Br>4. 等待，一直到你要右拐进入到车道的交通信号灯变位绿灯，然后启动完成右转。
-							</Br>以上四步是理论也是维州路局官网上关于hookturn的定义，但有一点就是第4步的时候车辆启动前必须做headcheck也就是看盲点的动作，这个动作是避免因为直行车辆因为行驶速度，或者黄灯通过的原因导致该车道交通信号红灯的时候车辆依然没有通过路口，此时如果没有看盲点直接右转会导致fail give way，甚至碰擦导致考试直接失败。
-							</Br>
-							</Br>这个动作通常出现在city，目前还没有在city之外发现这个怪物，喏就是这个图片：
-							</Br> 
-							<img src="<%=request.getContextPath()%>/assets/images/220px-Hook_Turn_Sign_Melbourne.jpg" style="padding-left:40px; width:40%;height:auto;max-width: 40%；"> 
-							<img src="<%=request.getContextPath()%>/assets/images/HookTurn.jpg" style="padding-left:20px; width:50%;height:auto;max-width: 50%；"> 
-							</Br>
-							
-						</p>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-   <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;" id="hptdescription">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-xs-12 col-md-12">
-                    <div class="mbr-testimonial card mbr-testimonial-lg">
-                        <div class="mbr-author card-header">
-                            <h4 class="card-title"> 关于危险察觉考试 Hazard Perception Test 【HPT风险测试】</h4>
-                        </div>
-                        <div style="background-color: #eeffee;text-align:left;">
-                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
-							HPT风险测试考试目前维州路局没有网上练习的题库，只有南澳路局网站有一个类似的：<a href="http://mylicence.sa.gov.au/hazard-perception-test" target="_blank">危险察觉考试网上练习</a>
-							</Br>维州路局官网有一个图片实例说明，<a href="https://www.vicroads.vic.gov.au/licences/your-ps/get-your-ps/hazard-perception-test" target="_blank"> 维州危险察觉考试说明 </a>
-							</Br>关于Hazard Perception Test，这个地方给几个提示，希望有用：
-							</Br>A. 危险察觉考试，在路局的电脑上，真正的考试之前都会有4个真题供考试者练习，没有时间限制，建议开始考试之前多做几遍练习，找找感觉。
-							</Br>B. 考试的过程中有三种情况：a. 点击鼠标Slow down减速  b.点击鼠标启动或者加速 c.没有任何动作直到小视频结束。
-							</Br>C. 在考HPT时一定要留意整个画面，而且那个电脑画面是很模糊的，看到减速标志时要等到接近标志时才能点鼠标。如急转弯标志、路滑标志、行人标志、丁字路口标志、沙地泥泞标志等等。考试的时候当你点击鼠标后，整个画面会消失，不要怕这是正常的，继续做下面的题目。
-							</Br>D. 以下是一个提纲，原文：https://www.6au.com/car/thread-173462-1.html
-							
-</Br>1、乡村公路，你在拖拉机后面，上坡时不能超车一到坡顶视线清晰时（马上点鼠标超车）
-</Br>2、电车在正前方，行驶一会后刹车灯亮了（马上点鼠标减速）
-</Br>3、在小区行驶，走了几秒钟左右，一个男孩从路边跑到左前方停着的车前面（马上点鼠标减速）
-</Br>4、直行，突然右侧一个白色车驶出白色的线（马上点鼠标减速）
-</Br>5、过十字路口，有让车白色的虚线（马上点鼠标减速）
-</Br>6、看见前面的车打信号灯右转（马上点鼠标减速）
-</Br>7、右转的问题，你的车右转，对面车道，有一辆白色车直行过了，路着第二辆车打右转信号灯（马上点鼠标右转）
-</Br>8、漆黑一下，仔细看车走了几秒钟，车灯照着前方路面，发现前面隐约看见停车白色的实线（马上点鼠标减速）
-</Br>9、转弯，对面有车行驶，在临近来车时（马上点鼠标减速）
-</Br>10、直行，电车和一辆绿色的车，电车减速，绿色的车还在行驶（马上点鼠标减速）
-</Br>11、林荫路，时速40，临近路口，看见让车白色的虚线（马上点鼠标减速）
-</Br>12、你的车一开始跟在一辆蓝色车后面（距离很近），一定没有两秒钟距离（马上点鼠标减速）
-</Br>13、在一条弯道上，你在一辆面包车后面，等转弯后，前方视线开阔了（马上点鼠标超车）
-</Br>14、在乡村公路上，你前面的车溅起水（马上点鼠标减速）
-</Br>15、在一条很窄的马路上，你前面有两个骑自行车的人，你完全没有空间超车。因骑自行车的人和你有同样的道路使用权（不能按鼠标超车）在不能变道的情况下一定不能超越。
-</Br>16、跨在电车后面，一会电车的为为停车灯亮了（马上点鼠标减速）
-</Br>17、直行，一个黄色的标志，然后前面的车扬起尘土（马上点鼠标减速）
-</Br>18、经过一个公园，路边一群学生经过路旁停着的白车时，一个小学生踏上马路（马上点鼠标减速）
-</Br>19、过十字路口，有为停车白色实线（马上点鼠标减速）
-</Br>20、你的车一开始就在拐弯处，录像开始时即出现拐弯处的画面（马上点鼠标减速）
-</Br>21、你的车往前行，突然有几块碎片在车前扬起（马上点鼠标减速）
-</Br>22、有两车道，左边有一辆红色的JEEP车，你正前面白色车的刹车灯亮了（马上点鼠标减速）
-</Br>23、在城区，你正前面的车，开一会后刹车灯亮了（马上点鼠标减速）
-</Br>24、在小区行驶，路边有一个跑步的男子，突然他转向马路（马上点鼠标减速）
-</Br>25、在一条漆黑的道路上，车走了几秒发现前面是个环岛，还可以看见让车的虚线（马上点鼠标减速）
-</Br>26、看见停在路边的公共汽车打右转信号灯（马上点鼠标减速）
-</Br>27、U型转弯，对方的车辆一直不断（不能按鼠标）
-</Br>28、两车道，你正前面有一辆车，右前面是电车，电车减速时（马上点鼠标减速）
-</Br>29、路上行驶，在距离交通灯很近时，突然绿灯变黄灯（不能按下鼠标）
-							
-							</Br>
-							
-						</p>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-   <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;" id="hptdescription">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-xs-12 col-md-12">
-                    <div class="mbr-testimonial card mbr-testimonial-lg">
-                        <div class="mbr-author card-header">
-                            <h4 class="card-title"> 路考中关于速度的判断 </h4>
-                        </div>
-                        <div style="background-color: #eeffee;text-align:left;">
-                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
-							路考中因为超速被fail是最可惜最无话可说的，所以一定要注意关注时速表，特别是下坡变道的时候，
-							</Br>关于速度的判断以限速牌为准，转弯换路后立即观察路两侧找限速牌，或者停车等待红绿灯的时候观察找限速牌，如果没有看到限速牌参考：
-    						</Br>1. 单车道50，有些是比较宽的单行车道限速60，如果不确定可以开到50看到限速牌后再提速。
-							</Br>2. 两车道默认时速60。
-							</Br>3. 三车道及以上70-80，如果不确定可以开到70不会too slow，开一段后就能看到限速牌 。
-    						</Br>4. 维州默认Buildup区是50。
-							</Br>5. 两边有停车的Buildup区建议开40左右。
-							</Br>
-							
 						</p>
 						</div>
                     </div>

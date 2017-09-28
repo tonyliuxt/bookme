@@ -1,0 +1,169 @@
+[omni] 2017-07-23 06:34:56,503 - com.nanjing.au.bookme.control.WebUserController -506780722 [http-nio-80-exec-8] INFO   - / ROOT... with language:zh_CN... Ip address:216.244.66.200
+[omni] 2017-07-23 09:24:24,575 - org.springframework.web.servlet.PageNotFound -516948794 [http-nio-80-exec-9] WARN   - No mapping found for HTTP request with URI [/manager/html] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-23 12:03:37,815 - com.nanjing.au.bookme.control.WebUserController -526502034 [http-nio-80-exec-7] INFO   - / ROOT... with language:zh_CN... Ip address:183.129.160.229
+[omni] 2017-07-23 12:42:21,923 - com.nanjing.au.bookme.control.WebUserController -528826142 [http-nio-80-exec-2] INFO   - / ROOT... with language:zh_CN... Ip address:185.188.182.230
+[omni] 2017-07-23 15:29:41,212 - org.springframework.web.servlet.PageNotFound -538865431 [http-nio-80-exec-1] WARN   - No mapping found for HTTP request with URI [/phpMyadmin/index.php%20] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-23 16:01:16,989 - com.nanjing.au.bookme.control.WebUserController -540761208 [http-nio-80-exec-5] INFO   - / ROOT... with language:zh_CN... Ip address:40.77.167.51
+[omni] 2017-07-23 19:23:37,876 - org.springframework.web.servlet.PageNotFound -552902095 [http-nio-80-exec-4] WARN   - No mapping found for HTTP request with URI [/phpmyadmin%20] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-23 19:29:11,721 - com.nanjing.au.bookme.control.WebUserController -553235940 [http-nio-80-exec-10] INFO   - / ROOT... with language:zh_CN... Ip address:198.55.113.207
+[omni] 2017-07-23 19:50:31,129 - org.springframework.web.servlet.PageNotFound -554515348 [http-nio-80-exec-9] WARN   - No mapping found for HTTP request with URI [/robots.txt] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-23 21:49:40,941 - com.nanjing.au.bookme.control.WebUserController -561665160 [http-nio-80-exec-3] INFO   - / ROOT... with language:zh_CN... Ip address:82.49.127.181
+Jul 23, 2017 9:56:55 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character (CR or LF) found in method name
+	at org.apache.coyote.http11.AbstractNioInputBuffer.parseRequestLine(AbstractNioInputBuffer.java:229)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1009)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+[omni] 2017-07-23 21:57:04,384 - com.nanjing.au.bookme.control.WebUserController -562108603 [http-nio-80-exec-8] INFO   - / ROOT... with language:zh_CN... Ip address:164.52.7.132
+[omni] 2017-07-23 21:57:04,559 - com.nanjing.au.bookme.control.WebUserController -562108778 [http-nio-80-exec-4] INFO   - / ROOT... with language:zh_CN... Ip address:164.52.7.132
+[omni] 2017-07-23 22:25:59,895 - com.nanjing.au.bookme.control.WebUserController -563844114 [http-nio-80-exec-10] INFO   - / ROOT... with language:zh_CN... Ip address:190.218.50.6
+[omni] 2017-07-24 00:30:52,150 - com.nanjing.au.bookme.control.WebUserController -571336369 [http-nio-80-exec-9] INFO   - / ROOT... with language:zh_CN... Ip address:144.48.243.115
+[omni] 2017-07-24 00:48:33,085 - org.springframework.web.servlet.PageNotFound -572397304 [http-nio-80-exec-3] WARN   - No mapping found for HTTP request with URI [/robots.txt] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 01:12:14,856 - com.nanjing.au.bookme.control.WebUserController -573819075 [http-nio-80-exec-2] INFO   - / ROOT... with language:zh_CN... Ip address:216.244.66.200
+[omni] 2017-07-24 01:44:09,275 - com.nanjing.au.bookme.control.WebUserController -575733494 [http-nio-80-exec-6] INFO   - / ROOT... with language:zh_CN... Ip address:217.236.170.202
+[omni] 2017-07-24 01:44:10,654 - com.nanjing.au.bookme.control.WebUserController -575734873 [http-nio-80-exec-5] INFO   - / ROOT... with language:zh_CN... Ip address:217.236.170.202
+[omni] 2017-07-24 01:44:11,475 - org.springframework.web.servlet.PageNotFound -575735694 [http-nio-80-exec-8] WARN   - No mapping found for HTTP request with URI [/manager/html] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 01:50:18,607 - org.springframework.web.servlet.PageNotFound -576102826 [http-nio-80-exec-4] WARN   - No mapping found for HTTP request with URI [/robots.txt] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 01:50:18,784 - com.nanjing.au.bookme.control.WebUserController -576103003 [http-nio-80-exec-10] INFO   - / ROOT... with language:zh_CN... Ip address:66.249.71.88
+[omni] 2017-07-24 01:55:51,262 - com.nanjing.au.bookme.control.WebUserController -576435481 [http-nio-80-exec-10] INFO   - / ROOT... with language:zh_CN... Ip address:71.6.202.204
+[omni] 2017-07-24 03:22:14,034 - com.nanjing.au.bookme.control.WebUserController -581618253 [http-nio-80-exec-7] INFO   - / ROOT... with language:zh_CN... Ip address:40.77.167.51
+[omni] 2017-07-24 03:55:49,947 - org.springframework.web.servlet.PageNotFound -583634166 [http-nio-80-exec-1] WARN   - No mapping found for HTTP request with URI [/robots.txt] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 03:55:52,578 - com.nanjing.au.bookme.control.WebUserController -583636797 [http-nio-80-exec-6] INFO   - / ROOT... with language:zh_CN... Ip address:162.210.196.130
+[omni] 2017-07-24 04:29:46,995 - com.nanjing.au.bookme.control.WebUserController -585671214 [http-nio-80-exec-5] INFO   - / ROOT... with language:zh_CN... Ip address:5.188.10.250
+[omni] 2017-07-24 04:29:53,586 - com.nanjing.au.bookme.control.WebUserController -585677805 [http-nio-80-exec-4] INFO   - /index with language:zh_CN... Ip address:5.188.10.250
+[omni] 2017-07-24 04:30:06,439 - org.springframework.web.servlet.PageNotFound -585690658 [http-nio-80-exec-7] WARN   - No mapping found for HTTP request with URI [/struts2-showcase/person/editPerson.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 04:30:13,022 - org.springframework.web.servlet.PageNotFound -585697241 [http-nio-80-exec-1] WARN   - No mapping found for HTTP request with URI [/struts2-showcase/showcase.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 04:30:19,018 - org.springframework.web.servlet.PageNotFound -585703237 [http-nio-80-exec-5] WARN   - No mapping found for HTTP request with URI [/struts-cookbook/processSimple.do] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 04:30:24,866 - org.springframework.web.servlet.PageNotFound -585709085 [http-nio-80-exec-4] WARN   - No mapping found for HTTP request with URI [/portal/client/cms/viewcmspage.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 04:30:30,665 - org.springframework.web.servlet.PageNotFound -585714884 [http-nio-80-exec-9] WARN   - No mapping found for HTTP request with URI [/admin/agent/default.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 04:30:36,478 - com.nanjing.au.bookme.control.WebUserController -585720697 [http-nio-80-exec-7] INFO   - /index with language:zh_CN... Ip address:5.188.10.250
+[omni] 2017-07-24 04:30:43,013 - org.springframework.web.servlet.PageNotFound -585727232 [http-nio-80-exec-1] WARN   - No mapping found for HTTP request with URI [/Dashboard.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 04:30:48,800 - org.springframework.web.servlet.PageNotFound -585733019 [http-nio-80-exec-5] WARN   - No mapping found for HTTP request with URI [/admin/login_login.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 04:31:00,874 - org.springframework.web.servlet.PageNotFound -585745093 [http-nio-80-exec-9] WARN   - No mapping found for HTTP request with URI [/struts/login.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 04:31:06,756 - org.springframework.web.servlet.PageNotFound -585750975 [http-nio-80-exec-7] WARN   - No mapping found for HTTP request with URI [/home.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 04:31:12,756 - org.springframework.web.servlet.PageNotFound -585756975 [http-nio-80-exec-1] WARN   - No mapping found for HTTP request with URI [/Homepage.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 04:31:18,970 - org.springframework.web.servlet.PageNotFound -585763189 [http-nio-80-exec-5] WARN   - No mapping found for HTTP request with URI [/main.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 04:31:25,158 - org.springframework.web.servlet.PageNotFound -585769377 [http-nio-80-exec-4] WARN   - No mapping found for HTTP request with URI [/default.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 04:31:37,722 - org.springframework.web.servlet.PageNotFound -585781941 [http-nio-80-exec-7] WARN   - No mapping found for HTTP request with URI [/contact.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 04:31:43,490 - org.springframework.web.servlet.PageNotFound -585787709 [http-nio-80-exec-1] WARN   - No mapping found for HTTP request with URI [/Homepage.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 05:57:47,812 - com.nanjing.au.bookme.control.WebUserController -590952031 [http-nio-80-exec-5] INFO   - / ROOT... with language:zh_CN... Ip address:66.249.71.88
+[omni] 2017-07-24 06:40:38,750 - org.springframework.web.servlet.PageNotFound -593522969 [http-nio-80-exec-8] WARN   - No mapping found for HTTP request with URI [/robots.txt] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 07:30:19,318 - com.nanjing.au.bookme.control.WebUserController -596503537 [http-nio-80-exec-4] INFO   - / ROOT... with language:zh_CN... Ip address:120.147.53.141
+[omni] 2017-07-24 08:19:49,333 - org.springframework.web.servlet.PageNotFound -599473552 [http-nio-80-exec-4] WARN   - No mapping found for HTTP request with URI [/wp-content/plugins/estatik/readme.txt] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 08:51:17,329 - com.nanjing.au.bookme.control.WebUserController -601361548 [http-nio-80-exec-6] INFO   - / ROOT... with language:zh_CN... Ip address:66.249.79.52
+[omni] 2017-07-24 11:18:08,473 - com.nanjing.au.bookme.control.WebUserController -610172692 [http-nio-80-exec-1] INFO   - / ROOT... with language:zh_CN... Ip address:66.249.71.86
+[omni] 2017-07-24 12:39:26,919 - com.nanjing.au.bookme.control.WebUserController -615051138 [http-nio-80-exec-2] INFO   - / ROOT... with language:zh_CN... Ip address:183.129.160.229
+[omni] 2017-07-24 15:12:18,261 - org.springframework.web.servlet.PageNotFound -624222480 [http-nio-80-exec-8] WARN   - No mapping found for HTTP request with URI [/robots.txt] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 15:12:18,600 - com.nanjing.au.bookme.control.WebUserController -624222819 [http-nio-80-exec-7] INFO   - / ROOT... with language:zh_CN... Ip address:66.249.79.52
+[omni] 2017-07-24 15:48:17,938 - org.springframework.web.servlet.PageNotFound -626382157 [http-nio-80-exec-9] WARN   - No mapping found for HTTP request with URI [/robots.txt] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:36,881 - org.springframework.web.servlet.PageNotFound -627121100 [http-nio-80-exec-4] WARN   - No mapping found for HTTP request with URI [/w00tw00t.at.blackhats.romanian.anti-sec:)] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:37,279 - org.springframework.web.servlet.PageNotFound -627121498 [http-nio-80-exec-6] WARN   - No mapping found for HTTP request with URI [/phpmyadmin/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:37,694 - org.springframework.web.servlet.PageNotFound -627121913 [http-nio-80-exec-1] WARN   - No mapping found for HTTP request with URI [/phpMyAdmin/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:38,106 - org.springframework.web.servlet.PageNotFound -627122325 [http-nio-80-exec-3] WARN   - No mapping found for HTTP request with URI [/mysqlmanager/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:38,517 - org.springframework.web.servlet.PageNotFound -627122736 [http-nio-80-exec-2] WARN   - No mapping found for HTTP request with URI [/p/m/a/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:38,929 - org.springframework.web.servlet.PageNotFound -627123148 [http-nio-80-exec-5] WARN   - No mapping found for HTTP request with URI [/phpmanager/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:39,341 - org.springframework.web.servlet.PageNotFound -627123560 [http-nio-80-exec-8] WARN   - No mapping found for HTTP request with URI [/mysql-admin/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:39,750 - org.springframework.web.servlet.PageNotFound -627123969 [http-nio-80-exec-7] WARN   - No mapping found for HTTP request with URI [/mysqladmin/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:40,161 - org.springframework.web.servlet.PageNotFound -627124380 [http-nio-80-exec-9] WARN   - No mapping found for HTTP request with URI [/webdb/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:40,565 - org.springframework.web.servlet.PageNotFound -627124784 [http-nio-80-exec-10] WARN   - No mapping found for HTTP request with URI [/webadmin/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:40,972 - org.springframework.web.servlet.PageNotFound -627125191 [http-nio-80-exec-4] WARN   - No mapping found for HTTP request with URI [/phpmy-admin/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:41,378 - org.springframework.web.servlet.PageNotFound -627125597 [http-nio-80-exec-6] WARN   - No mapping found for HTTP request with URI [/php-myadmin/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:41,775 - org.springframework.web.servlet.PageNotFound -627125994 [http-nio-80-exec-1] WARN   - No mapping found for HTTP request with URI [/my/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:42,177 - org.springframework.web.servlet.PageNotFound -627126396 [http-nio-80-exec-3] WARN   - No mapping found for HTTP request with URI [/MyAdmin/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:42,579 - org.springframework.web.servlet.PageNotFound -627126798 [http-nio-80-exec-2] WARN   - No mapping found for HTTP request with URI [/phpMyAdmin-2.10.0/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:42,990 - org.springframework.web.servlet.PageNotFound -627127209 [http-nio-80-exec-5] WARN   - No mapping found for HTTP request with URI [/myAdmin/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:43,404 - org.springframework.web.servlet.PageNotFound -627127623 [http-nio-80-exec-8] WARN   - No mapping found for HTTP request with URI [/mysql/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:43,806 - org.springframework.web.servlet.PageNotFound -627128025 [http-nio-80-exec-7] WARN   - No mapping found for HTTP request with URI [/dbadmin/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:44,215 - org.springframework.web.servlet.PageNotFound -627128434 [http-nio-80-exec-9] WARN   - No mapping found for HTTP request with URI [/sqladm/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:44,652 - org.springframework.web.servlet.PageNotFound -627128871 [http-nio-80-exec-10] WARN   - No mapping found for HTTP request with URI [/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:45,059 - org.springframework.web.servlet.PageNotFound -627129278 [http-nio-80-exec-4] WARN   - No mapping found for HTTP request with URI [/PMA/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:45,471 - org.springframework.web.servlet.PageNotFound -627129690 [http-nio-80-exec-6] WARN   - No mapping found for HTTP request with URI [/db/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:45,885 - org.springframework.web.servlet.PageNotFound -627130104 [http-nio-80-exec-1] WARN   - No mapping found for HTTP request with URI [/myadmin/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:00:46,294 - org.springframework.web.servlet.PageNotFound -627130513 [http-nio-80-exec-3] WARN   - No mapping found for HTTP request with URI [/PMA2005/] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 16:18:58,229 - com.nanjing.au.bookme.control.WebUserController -628222448 [http-nio-80-exec-2] INFO   - / ROOT... with language:zh_CN... Ip address:66.249.79.55
+[omni] 2017-07-24 17:11:14,572 - org.springframework.web.servlet.PageNotFound -631358791 [http-nio-80-exec-5] WARN   - No mapping found for HTTP request with URI [/robots.txt] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 17:11:20,240 - com.nanjing.au.bookme.control.WebUserController -631364459 [http-nio-80-exec-7] INFO   - / ROOT... with language:zh_CN... Ip address:40.77.167.51
+[omni] 2017-07-24 18:10:00,146 - com.nanjing.au.bookme.control.WebUserController -634884365 [http-nio-80-exec-4] INFO   - / ROOT... with language:zh_CN... Ip address:103.246.244.55
+[omni] 2017-07-24 18:10:00,382 - org.springframework.web.servlet.PageNotFound -634884601 [http-nio-80-exec-1] WARN   - No mapping found for HTTP request with URI [/HNAP1/] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-24 19:12:39,616 - com.nanjing.au.bookme.control.WebUserController -638643835 [http-nio-80-exec-2] INFO   - / ROOT... with language:zh_CN... Ip address:169.53.184.28
+[omni] 2017-07-24 21:05:51,355 - com.nanjing.au.bookme.control.WebUserController -645435574 [http-nio-80-exec-8] INFO   - / ROOT... with language:zh_CN... Ip address:5.188.10.250
+[omni] 2017-07-25 03:32:51,196 - com.nanjing.au.bookme.control.WebUserController -668655415 [http-nio-80-exec-7] INFO   - / ROOT... with language:zh_CN... Ip address:114.55.226.15
+[omni] 2017-07-25 03:32:51,453 - org.springframework.web.servlet.PageNotFound -668655672 [http-nio-80-exec-9] WARN   - No mapping found for HTTP request with URI [/install/index.php.bak] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 03:47:17,187 - org.springframework.web.servlet.PageNotFound -669521406 [http-nio-80-exec-10] WARN   - No mapping found for HTTP request with URI [/etc/lib/pChart2/examples/index.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 04:33:09,021 - com.nanjing.au.bookme.control.WebUserController -672273240 [http-nio-80-exec-6] INFO   - / ROOT... with language:zh_CN... Ip address:120.21.97.141
+[omni] 2017-07-25 04:39:47,812 - org.springframework.web.servlet.PageNotFound -672672031 [http-nio-80-exec-10] WARN   - No mapping found for HTTP request with URI [/robots.txt] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 05:34:47,165 - org.springframework.web.servlet.PageNotFound -675971384 [http-nio-80-exec-8] WARN   - No mapping found for HTTP request with URI [/robots.txt] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 06:06:32,538 - com.nanjing.au.bookme.control.WebUserController -677876757 [http-nio-80-exec-7] INFO   - / ROOT... with language:zh_CN... Ip address:5.188.10.250
+[omni] 2017-07-25 06:06:39,347 - com.nanjing.au.bookme.control.WebUserController -677883566 [http-nio-80-exec-5] INFO   - /index with language:zh_CN... Ip address:5.188.10.250
+[omni] 2017-07-25 06:06:51,600 - org.springframework.web.servlet.PageNotFound -677895819 [http-nio-80-exec-9] WARN   - No mapping found for HTTP request with URI [/struts2-showcase/person/editPerson.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 06:06:57,388 - org.springframework.web.servlet.PageNotFound -677901607 [http-nio-80-exec-8] WARN   - No mapping found for HTTP request with URI [/struts2-showcase/showcase.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 06:07:03,323 - org.springframework.web.servlet.PageNotFound -677907542 [http-nio-80-exec-7] WARN   - No mapping found for HTTP request with URI [/struts-cookbook/processSimple.do] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 06:07:09,107 - org.springframework.web.servlet.PageNotFound -677913326 [http-nio-80-exec-5] WARN   - No mapping found for HTTP request with URI [/portal/client/cms/viewcmspage.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 06:07:14,852 - org.springframework.web.servlet.PageNotFound -677919071 [http-nio-80-exec-2] WARN   - No mapping found for HTTP request with URI [/admin/agent/default.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 06:07:20,612 - com.nanjing.au.bookme.control.WebUserController -677924831 [http-nio-80-exec-9] INFO   - /index with language:zh_CN... Ip address:5.188.10.250
+[omni] 2017-07-25 06:07:27,123 - org.springframework.web.servlet.PageNotFound -677931342 [http-nio-80-exec-8] WARN   - No mapping found for HTTP request with URI [/Dashboard.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 06:07:32,895 - org.springframework.web.servlet.PageNotFound -677937114 [http-nio-80-exec-7] WARN   - No mapping found for HTTP request with URI [/admin/login_login.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 06:07:44,442 - org.springframework.web.servlet.PageNotFound -677948661 [http-nio-80-exec-2] WARN   - No mapping found for HTTP request with URI [/struts/login.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 06:07:50,203 - org.springframework.web.servlet.PageNotFound -677954422 [http-nio-80-exec-9] WARN   - No mapping found for HTTP request with URI [/home.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 06:07:55,969 - org.springframework.web.servlet.PageNotFound -677960188 [http-nio-80-exec-8] WARN   - No mapping found for HTTP request with URI [/Homepage.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 06:08:01,768 - org.springframework.web.servlet.PageNotFound -677965987 [http-nio-80-exec-7] WARN   - No mapping found for HTTP request with URI [/main.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 06:08:07,540 - org.springframework.web.servlet.PageNotFound -677971759 [http-nio-80-exec-5] WARN   - No mapping found for HTTP request with URI [/default.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 06:08:19,865 - org.springframework.web.servlet.PageNotFound -677984084 [http-nio-80-exec-9] WARN   - No mapping found for HTTP request with URI [/contact.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 06:08:25,626 - org.springframework.web.servlet.PageNotFound -677989845 [http-nio-80-exec-8] WARN   - No mapping found for HTTP request with URI [/Homepage.action] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 06:42:51,965 - com.nanjing.au.bookme.control.WebUserController -680056184 [http-nio-80-exec-3] INFO   - / ROOT... with language:zh_CN... Ip address:103.246.244.55
+[omni] 2017-07-25 06:42:52,218 - org.springframework.web.servlet.PageNotFound -680056437 [http-nio-80-exec-4] WARN   - No mapping found for HTTP request with URI [/HNAP1/] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 07:33:05,756 - com.nanjing.au.bookme.control.WebUserController -683069975 [http-nio-80-exec-1] INFO   - / ROOT... with language:zh_CN... Ip address:103.78.132.3
+[omni] 2017-07-25 08:00:04,158 - com.nanjing.au.bookme.control.WebUserController -684688377 [http-nio-80-exec-10] INFO   - / ROOT... with language:zh_CN... Ip address:40.77.167.51
+[omni] 2017-07-25 08:22:03,839 - org.springframework.web.servlet.PageNotFound -686008058 [http-nio-80-exec-6] WARN   - No mapping found for HTTP request with URI [/robots.txt] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 09:38:23,220 - com.nanjing.au.bookme.control.WebUserController -690587439 [http-nio-80-exec-4] INFO   - / ROOT... with language:zh_CN... Ip address:120.147.53.141
+[omni] 2017-07-25 09:38:28,487 - com.nanjing.au.bookme.control.WebUserController -690592706 [http-nio-80-exec-8] INFO   - / ROOT... with language:zh_CN... Ip address:120.147.53.141
+[omni] 2017-07-25 10:04:29,848 - com.nanjing.au.bookme.control.WebUserController -692154067 [http-nio-80-exec-7] INFO   - / ROOT... with language:zh_CN... Ip address:40.77.167.51
+[omni] 2017-07-25 11:40:57,883 - com.nanjing.au.bookme.control.WebUserController -697942102 [http-nio-80-exec-5] INFO   - / ROOT... with language:zh_CN... Ip address:123.243.96.157
+[omni] 2017-07-25 12:38:08,118 - com.nanjing.au.bookme.control.WebUserController -701372337 [http-nio-80-exec-7] INFO   - /index with language:zh_CN... Ip address:223.105.4.249
+[omni] 2017-07-25 12:49:25,795 - org.springframework.web.servlet.PageNotFound -702050014 [http-nio-80-exec-5] WARN   - No mapping found for HTTP request with URI [/w00tw00t.at.blackhats.romanian.anti-sec:)] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 12:49:25,840 - org.springframework.web.servlet.PageNotFound -702050059 [http-nio-80-exec-3] WARN   - No mapping found for HTTP request with URI [/phpMyAdmin/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 12:49:25,884 - org.springframework.web.servlet.PageNotFound -702050103 [http-nio-80-exec-8] WARN   - No mapping found for HTTP request with URI [/phpmyadmin/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 12:49:25,928 - org.springframework.web.servlet.PageNotFound -702050147 [http-nio-80-exec-2] WARN   - No mapping found for HTTP request with URI [/pma/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 12:49:25,973 - org.springframework.web.servlet.PageNotFound -702050192 [http-nio-80-exec-4] WARN   - No mapping found for HTTP request with URI [/myadmin/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 12:49:26,023 - org.springframework.web.servlet.PageNotFound -702050242 [http-nio-80-exec-6] WARN   - No mapping found for HTTP request with URI [/MyAdmin/scripts/setup.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 12:52:42,337 - org.springframework.web.servlet.PageNotFound -702246556 [http-nio-80-exec-9] WARN   - No mapping found for HTTP request with URI [/recordings/] in DispatcherServlet with name 'springmvc'
+Jul 25, 2017 12:52:42 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.ArrayIndexOutOfBoundsException: -64
+	at org.apache.coyote.http11.AbstractNioInputBuffer.parseHeader(AbstractNioInputBuffer.java:474)
+	at org.apache.coyote.http11.AbstractNioInputBuffer.parseHeaders(AbstractNioInputBuffer.java:381)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1024)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+[omni] 2017-07-25 13:15:42,344 - org.springframework.web.servlet.PageNotFound -703626563 [http-nio-80-exec-7] WARN   - No mapping found for HTTP request with URI [/robots.txt] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 14:21:11,110 - com.nanjing.au.bookme.control.WebUserController -707555329 [http-nio-80-exec-5] INFO   - / ROOT... with language:en... Ip address:157.55.39.114
+[omni] 2017-07-25 17:48:48,546 - com.nanjing.au.bookme.control.WebUserController -720012765 [http-nio-80-exec-3] INFO   - / ROOT... with language:zh_CN... Ip address:65.255.56.208
+[omni] 2017-07-25 18:03:18,572 - org.springframework.web.servlet.PageNotFound -720882791 [http-nio-80-exec-2] WARN   - No mapping found for HTTP request with URI [/wp-login.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 18:03:19,263 - org.springframework.web.servlet.PageNotFound -720883482 [http-nio-80-exec-4] WARN   - No mapping found for HTTP request with URI [//wp-login.php] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-25 19:21:38,105 - com.nanjing.au.bookme.control.WebUserController -725582324 [http-nio-80-exec-6] INFO   - / ROOT... with language:zh_CN... Ip address:34.249.123.12
+[omni] 2017-07-25 19:43:33,371 - com.nanjing.au.bookme.control.WebUserController -726897590 [http-nio-80-exec-1] INFO   - / ROOT... with language:zh_CN... Ip address:5.188.10.250
+[omni] 2017-07-25 20:58:39,255 - com.nanjing.au.bookme.control.WebUserController -731403474 [http-nio-80-exec-10] INFO   - / ROOT... with language:zh_CN... Ip address:207.46.13.18
+[omni] 2017-07-25 22:05:28,181 - com.nanjing.au.bookme.control.WebUserController -735412400 [http-nio-80-exec-8] INFO   - / ROOT... with language:zh_CN... Ip address:5.188.10.250
+[omni] 2017-07-25 23:53:41,143 - com.nanjing.au.bookme.control.WebUserController -741905362 [http-nio-80-exec-3] INFO   - / ROOT... with language:zh_CN... Ip address:5.188.10.250
+[omni] 2017-07-26 00:23:52,379 - com.nanjing.au.bookme.control.WebUserController -743716598 [http-nio-80-exec-4] INFO   - / ROOT... with language:zh_CN... Ip address:5.188.10.250
+[omni] 2017-07-26 00:35:47,577 - com.nanjing.au.bookme.control.WebUserController -744431796 [http-nio-80-exec-9] INFO   - / ROOT... with language:zh_CN... Ip address:88.182.85.197
+[omni] 2017-07-26 02:46:23,273 - org.springframework.web.servlet.PageNotFound -752267492 [http-nio-80-exec-1] WARN   - No mapping found for HTTP request with URI [/manager/assets/modext/core/modx.js] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-26 03:08:04,189 - com.nanjing.au.bookme.control.WebUserController -753568408 [http-nio-80-exec-10] INFO   - / ROOT... with language:zh_CN... Ip address:209.126.136.4
+[omni] 2017-07-26 03:32:26,208 - com.nanjing.au.bookme.control.WebUserController -755030427 [http-nio-80-exec-8] INFO   - / ROOT... with language:zh_CN... Ip address:120.21.9.68
+[omni] 2017-07-26 03:40:56,827 - org.springframework.web.servlet.PageNotFound -755541046 [http-nio-80-exec-1] WARN   - No mapping found for HTTP request with URI [/manager/html] in DispatcherServlet with name 'springmvc'
+[omni] 2017-07-26 07:51:18,638 - com.nanjing.au.bookme.control.WebUserController -770562857 [http-nio-80-exec-5] INFO   - / ROOT... with language:zh_CN... Ip address:120.147.53.141

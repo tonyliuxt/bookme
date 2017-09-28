@@ -1,1 +1,0 @@
-[omni] 2017-02-06 18:07:37,046 - com.nanjing.au.bookme.GcmSender -0    [main] INFO   - response from Gcm:{"multicast_id":8842588209282613878,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MismatchSenderId"}]}
