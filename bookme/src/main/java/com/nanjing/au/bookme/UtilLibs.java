@@ -29,6 +29,7 @@ import org.springframework.util.Base64Utils;
 
 import com.nanjing.au.bookme.dao.StaticMongoTemplate;
 import com.nanjing.au.bookme.entity.RemoteInfo;
+import com.nanjing.au.bookme.ipinfo.IpInfoTask;
 
 /**
  * OMT WEB Service Utility Library
@@ -599,8 +600,13 @@ public class UtilLibs {
         		update.set("firstdate", today);
         		update.set("totalcount", 1);
         		update.set("lastdate", today);
+
+        		//2. IpInfo with details into db
+    	    	IpInfoTask iptask = new IpInfoTask(ipaddress);
+    	    	iptask.start();
     		}
 			StaticMongoTemplate.getStaticMongoTemplate().upsert(query, update, RemoteInfo.class);
+	    	
 
     	}catch(Exception ex){
     		ex.printStackTrace();

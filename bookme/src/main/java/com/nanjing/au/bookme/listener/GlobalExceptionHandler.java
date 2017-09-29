@@ -33,6 +33,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         responseBody.put("message","You do not have permission to access this document.");
         
     	omtlogger.info("NoHandlerFoundException with:"+request.toString());
+    	//1. Base ipinfo insert into db
     	UtilLibs.recordClients(request.getRemoteAddr());
 
 		return new ResponseEntity<Object>(responseBody,HttpStatus.FORBIDDEN);

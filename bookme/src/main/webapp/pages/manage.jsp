@@ -50,6 +50,9 @@
 			}
 		});
 	}
+	function formatColumn(colName, value, row, index) {
+	    return eval("row."+colName);
+	}
 </script>
 </head>
 
@@ -76,6 +79,7 @@
 	<thead>
 		<tr>
 		    <th field="ipaddress" width="30">IP Address</th>
+			<th field="ipinfoaa" width="30" formatter="(function(v,r,i){return formatColumn('ipinfo.city',v,r,i);})">City</th>
 			<th field="firstdate" width="60">First Access</th>
 			<th field="lastdate" width="50">Last Access</th>
 			<th field="totalcount" width="50">Total Count</th>

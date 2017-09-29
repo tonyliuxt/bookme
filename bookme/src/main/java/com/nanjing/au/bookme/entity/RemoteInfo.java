@@ -1,11 +1,20 @@
 package com.nanjing.au.bookme.entity;
 
+import com.nanjing.au.bookme.ipinfo.IpInfoVO;
+
 public class RemoteInfo {
 	private String ipaddress;
 	private String firstdate;
 	private String lastdate;
 	private Integer totalcount;
+	private IpInfoVO ipinfo;
 	
+	public IpInfoVO getIpinfo() {
+		return ipinfo;
+	}
+	public void setIpinfo(IpInfoVO ipinfo) {
+		this.ipinfo = ipinfo;
+	}
 	public String getIpaddress() {
 		return ipaddress;
 	}
