@@ -11,10 +11,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>墨尔本东南区 学车驾驶教练 刘教练0452382276 微信liu76xt</title>
+  <meta name="title" content="墨尔本东南区 学车驾驶教练 刘教练0452382276 微信liu76xt"/>
+  <meta name="description" content="墨尔本东南区 驾驶教练,普通话英语,资深DIA持牌教练； 灵活的套餐计划,一对一的课程设置,授课覆盖Glen Waverley,Burwood East为中心20公里范围内门到门接送授课；精通 BurwoodEast路局,Heatherton路局等维州路考考点分析。Mount Waverley,Heatherton,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave">
+  
   <meta name="generator" content="墨尔本东南区 驾驶教练 学车教练 普通话英语 资深DIA持牌教练 Glen Waverley,Burwood East,Mount Waverley,Heatherton,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave">
-  <meta name="description" content="墨尔本东南区 驾驶教练,普通话英语, 资深DIA持牌教练, Glen Waverley,Burwood East,Mount Waverley,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave.">
-  <meta name="title" content="墨尔本东南区 驾驶教练 刘教练0452382276 微信liu76xt Glen Waverley"/>
-  <meta name="keywords" content="墨尔本东南区 驾驶教练 学车教练 墨尔本驾驶培训 驾陪 Burwood East路局  Heatherton路局 墨尔本路考"/>
+  <meta name="keywords" content="墨尔本东南区 驾驶教练 学车教练 精通 Burwood East路局  Heatherton路局 维州路考考点分析 路考经验积累"/>
 
   <link rel="shortcut icon" href="<%=request.getContextPath()%>/assets/images/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
@@ -29,6 +30,8 @@
   <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/dropdown/css/style.css">
   <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/theme/css/style.css">
   <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/w3.css">
+  
 <script type="text/javascript">
 	//contactForm.onsubmit
 	function submitMessage(){
@@ -217,7 +220,7 @@
 								</p>
                             </div>
 
-                            <div class="mbr-section-btn"><a class="btn btn-primary" href="http://www.yeeyi.com/bbs/thread-3778794-1-1.html" target="_blank">路考经验积累</a></div>
+                            <div class="mbr-section-btn"><a class="btn btn-primary" href="http://www.yeeyi.com/bbs/thread-3778794-1-1.html" target="_blank">维州路考经验</a></div>
 
                         </div>
 
@@ -421,6 +424,7 @@
               <div class="col-xs-12 text-xs-center">
                   <h3 class="mbr-section-title display-2"><spring:message code="index.price.title" text="PRICING TABLE"/></h3>
                   <small class="mbr-section-subtitle"><spring:message code="index.price.desc" text="We kindly provide reasonable prices for different kinds of Learners."/></small>
+                  <!--  small class="mbr-plan-subtitle">以下价格优惠活动日期从2017/09/10到2017/10/31</small -->
               </div>
           </div>
       </div>
@@ -451,7 +455,7 @@
                     <div class="mbr-plan-header card-block">
                       
                       <div class="card-title">
-                        <h3 class="mbr-plan-title"><spring:message code="index.price.mfour" text="2-5 Lessons"/></h3>
+                        <h3 class="mbr-plan-title">2-8<spring:message code="index.price.mfour" text="2-5 Lessons"/></h3>
                         <small class="mbr-plan-subtitle"><spring:message code="index.price.mfour.desc" text="[90 minutes/Lesson]"/></small>
                       </div>
                       <div class="card-text">
@@ -469,13 +473,14 @@
                     <div class="mbr-plan-header card-block bg-primary">
                       <div class="mbr-plan-label"><spring:message code="index.price.hot" text="HOT!"/></div>
                       <div class="card-title">
-                        <h3 class="mbr-plan-title"><spring:message code="index.price.msix" text="6+ Lessons"/></h3>
-                        <small class="mbr-plan-subtitle"><spring:message code="index.price.msix.desc" text="[90 minutes/Lesson]"/></small>
+                        <h3 class="mbr-plan-title">8 <spring:message code="index.price.msix" text="6+ Lessons"/></h3>
+                        <small class="mbr-plan-subtitle"><spring:message code="index.price.msix.desc" text="Including 30 mins practice before Road Test"/></small>
+                        
                       </div>
                       <div class="card-text">
                           <div class="mbr-price">
                             <span class="mbr-price-value">$</span>
-                            <span class="mbr-price-figure">70</span>
+                            <span class="mbr-price-figure">700</span>
                           </div>
                           <small class="mbr-plan-price-desc"></small>
                       </div>
@@ -581,7 +586,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 text-xs-center">
-                        <h3 class="mbr-section-title display-2">路局考试考点分析和经验积累</h3>
+                        <h3 class="mbr-section-title display-2">维州路考考点分析和经验积累</h3>
                         <small class="mbr-section-subtitle" style="color:white;">人生就像一次驾车旅行，为了安全到达目的地，我们需要掌握合适的学习技巧。</small>
                     </div>
                 </div>
@@ -596,7 +601,7 @@
                 <div class="col-xs-12 col-md-12">
                     <div class="mbr-testimonial card mbr-testimonial-lg">
                         <div class="mbr-author card-header">
-                            <h4 class="card-title">路局考试车辆检查考试内容 </h4> 
+                            <h4 class="card-title">维州路考车辆检查考试内容 </h4> 
                         </div>
                         <div style="background-color: #eeffee;text-align:left;">
                         <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
@@ -638,6 +643,36 @@
                 <div class="col-xs-12 col-md-12">
                     <div class="mbr-testimonial card mbr-testimonial-lg">
                         <div class="mbr-author card-header">
+                            <h4 class="card-title">路考第一阶段结束前的最后一个指令</h4> 
+                        </div>
+                        <div style="background-color: #eeffee;text-align:left;">
+                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
+							考试第一阶段结束后会有一个指令：Find a safe place, pull over at the kerb and stop. 找一个安全的地方靠路边停车，需要注意：
+							</Br>1. No stop标志牌的地方不能停
+							</Br>2. Bus station前后15米的地方不能停
+							</Br>3. 别人家门口的Drive way不能停
+							</Br>4. T字路口中心点10米范围不能停
+							</Br>5. 最好也不要给自己找麻烦找一个小的车位平行停车
+							</Br>听到考官指令后，需要：
+							</Br>1. 打左灯，看中镜和左侧镜，并Headcheck看左侧的盲点
+							</Br>2. 然后减速观察左前方，在排除以上不能停的地方后，缓慢靠左侧路边停车
+							</Br>3. 注意不能停的离马路边太远，最好30cm以内
+							</Br>4. 停止后，挂P档拉手刹，等待考官的下一个指令
+						</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-md-12">
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="mbr-author card-header">
                             <h4 class="card-title">路局考试直接Fail项和Critical Error </h4>
                         </div>
                         <div style="background-color: #eeffee;text-align:left;">
@@ -655,13 +690,21 @@
 							</Br>10.辅路进主路的【左右转】时候fail give way给右侧【或主路】上的车辆，通常是速度和距离综合判断不准确；
 							</Br>
 							</Br>续考试Immediately fail项汇总，并持续更新：
-							</Br>a.Too slow, 开车速度全程低于限速10km以上，比如默认50的路，总是开的不到40，甚至不到30，限速80的路开的不到70；
-							</Br>b.Don't Check mirrors at all. 基本不看镜子，中镜或者两个后视镜， 特别是减速，停车或者过黄灯的时候不看镜；
-							</Br>c.该减速的时候不减速，甚至加速。
+							</Br>A.Too slow, 开车速度全程低于限速10km以上，比如默认50的路，总是开的不到40，甚至不到30，限速80的路开的不到70；
+							</Br>
+							</Br>B.Didn't Check the mirrors at all. 基本不看镜子，中镜或者两个后视镜， 特别是减速，停车或者过黄灯的时候不看镜；
+							</Br>
+							</Br>C.该减速的时候不减速，甚至加速。
 							</Br>  --比如行驶到斑马线的时候看到有闯红灯的行人不减速，Drive way有倒车出来的不减速，进入环岛的时候左侧有车fail give way的时候不减速。
 							</Br>  --这些情况从法定交规上来说应该是其它车辆或者行人的优先权低于正常的行驶车辆，但为了避免事故发生还是应该slow down后观察安全后通过。
 							</Br>  --如果没有做减速操作，通常是Immediately fail。
 							</Br>
+							</Br>D. 辅路左拐进主路左道【left turn into left lane】，fail give way 主路上右侧车道的车，当车完成左拐进入主路后，右侧车道的车迅速超过，考官直接让前方停车考试结束。
+							</Br>
+							</Br>E.考试第一阶段考官给的指令是：Next street turn left, 考生因为减速不够错过路口，结果没有打灯就急停在路中间，结果fail.
+							</Br>  --相当于是两个critical errors：1.考官指令没做到，2.没有打灯停在路中间虽然后面没车。
+							</Br>  --规避措施：当听到考官的指令后，应该看中镜，打灯，减速观察找路口，万一不小心错过，则不用太紧张，看中镜--打左灯--看盲点靠左边停车，或者说sorry，然后问考官what should I do。
+							</Br>  --考试的时候考官的指令偶尔有一次没做到不会直接fail，但如有三次没做到则肯定会fail。
 						</p>
 						</div>
                     </div>
@@ -877,19 +920,48 @@
                 <div class="col-xs-12 col-md-12">
                     <div class="mbr-testimonial card mbr-testimonial-lg">
                         <div class="mbr-author card-header">
-                            <h4 class="card-title"> 关于危险察觉考试 Hazard Perception Test </h4>
+                            <h4 class="card-title"> 关于危险察觉考试 Hazard Perception Test 【HPT风险测试】</h4>
                         </div>
                         <div style="background-color: #eeffee;text-align:left;">
                         <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
-							危险察觉考试目前维州路局没有网上练习的题库，只有南澳路局网站有一个类似的：<a href="http://mylicence.sa.gov.au/hazard-perception-test" target="_blank">危险察觉考试网上练习</a>
+							HPT风险测试考试目前维州路局没有网上练习的题库，只有南澳路局网站有一个类似的：<a href="http://mylicence.sa.gov.au/hazard-perception-test" target="_blank">危险察觉考试网上练习</a>
 							</Br>维州路局官网有一个图片实例说明，<a href="https://www.vicroads.vic.gov.au/licences/your-ps/get-your-ps/hazard-perception-test" target="_blank"> 维州危险察觉考试说明 </a>
 							</Br>关于Hazard Perception Test，这个地方给几个提示，希望有用：
-							</Br>1. 危险察觉考试，在路局的电脑上，真正的考试之前都会有4个真题供考试者练习，没有时间限制，建议开始考试之前多做几遍练习，找找感觉。
-							</Br>2. 考试的过程中有三种情况：a. 点击鼠标Slow down减速  b.点击鼠标启动或者加速 c.没有任何动作直到小视频结束。
-							</Br>3. 比如考试的过程中看到 
-    						</Br>    -- 行人过马路，有人停车打开车门，黄色的警示牌，前车刹车，路口红灯亮等情况需要在【合适的时机】点击鼠标slowdown减速
-    						</Br>    -- 车辆右拐而直行无车，前方自行车回到自己的自行车道，通过道路坡顶的时候需要在【合适的时机】点击鼠标加速或者启动
-							</Br>	 -- 危险察觉考试只要正确率达到54%就能通过，所以不用紧张，祝您好运！
+							</Br>A. 危险察觉考试，在路局的电脑上，真正的考试之前都会有4个真题供考试者练习，没有时间限制，建议开始考试之前多做几遍练习，找找感觉。
+							</Br>B. 考试的过程中有三种情况：a. 点击鼠标Slow down减速  b.点击鼠标启动或者加速 c.没有任何动作直到小视频结束。
+							</Br>C. 在考HPT时一定要留意整个画面，而且那个电脑画面是很模糊的，看到减速标志时要等到接近标志时才能点鼠标。如急转弯标志、路滑标志、行人标志、丁字路口标志、沙地泥泞标志等等。考试的时候当你点击鼠标后，整个画面会消失，不要怕这是正常的，继续做下面的题目。
+							</Br>D. 以下是一个提纲，原文：https://www.6au.com/car/thread-173462-1.html
+							
+</Br>1、乡村公路，你在拖拉机后面，上坡时不能超车一到坡顶视线清晰时（马上点鼠标超车）
+</Br>2、电车在正前方，行驶一会后刹车灯亮了（马上点鼠标减速）
+</Br>3、在小区行驶，走了几秒钟左右，一个男孩从路边跑到左前方停着的车前面（马上点鼠标减速）
+</Br>4、直行，突然右侧一个白色车驶出白色的线（马上点鼠标减速）
+</Br>5、过十字路口，有让车白色的虚线（马上点鼠标减速）
+</Br>6、看见前面的车打信号灯右转（马上点鼠标减速）
+</Br>7、右转的问题，你的车右转，对面车道，有一辆白色车直行过了，路着第二辆车打右转信号灯（马上点鼠标右转）
+</Br>8、漆黑一下，仔细看车走了几秒钟，车灯照着前方路面，发现前面隐约看见停车白色的实线（马上点鼠标减速）
+</Br>9、转弯，对面有车行驶，在临近来车时（马上点鼠标减速）
+</Br>10、直行，电车和一辆绿色的车，电车减速，绿色的车还在行驶（马上点鼠标减速）
+</Br>11、林荫路，时速40，临近路口，看见让车白色的虚线（马上点鼠标减速）
+</Br>12、你的车一开始跟在一辆蓝色车后面（距离很近），一定没有两秒钟距离（马上点鼠标减速）
+</Br>13、在一条弯道上，你在一辆面包车后面，等转弯后，前方视线开阔了（马上点鼠标超车）
+</Br>14、在乡村公路上，你前面的车溅起水（马上点鼠标减速）
+</Br>15、在一条很窄的马路上，你前面有两个骑自行车的人，你完全没有空间超车。因骑自行车的人和你有同样的道路使用权（不能按鼠标超车）在不能变道的情况下一定不能超越。
+</Br>16、跨在电车后面，一会电车的为为停车灯亮了（马上点鼠标减速）
+</Br>17、直行，一个黄色的标志，然后前面的车扬起尘土（马上点鼠标减速）
+</Br>18、经过一个公园，路边一群学生经过路旁停着的白车时，一个小学生踏上马路（马上点鼠标减速）
+</Br>19、过十字路口，有为停车白色实线（马上点鼠标减速）
+</Br>20、你的车一开始就在拐弯处，录像开始时即出现拐弯处的画面（马上点鼠标减速）
+</Br>21、你的车往前行，突然有几块碎片在车前扬起（马上点鼠标减速）
+</Br>22、有两车道，左边有一辆红色的JEEP车，你正前面白色车的刹车灯亮了（马上点鼠标减速）
+</Br>23、在城区，你正前面的车，开一会后刹车灯亮了（马上点鼠标减速）
+</Br>24、在小区行驶，路边有一个跑步的男子，突然他转向马路（马上点鼠标减速）
+</Br>25、在一条漆黑的道路上，车走了几秒发现前面是个环岛，还可以看见让车的虚线（马上点鼠标减速）
+</Br>26、看见停在路边的公共汽车打右转信号灯（马上点鼠标减速）
+</Br>27、U型转弯，对方的车辆一直不断（不能按鼠标）
+</Br>28、两车道，你正前面有一辆车，右前面是电车，电车减速时（马上点鼠标减速）
+</Br>29、路上行驶，在距离交通灯很近时，突然绿灯变黄灯（不能按下鼠标）
+							
 							</Br>
 							
 						</p>
@@ -900,6 +972,90 @@
         </div>
     </div>
 
+   <div class="mbr-testimonials mbr-section mbr-section-nopadding" style="padding-top:20px;" id="hptdescription">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-md-12">
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="mbr-author card-header">
+                            <h4 class="card-title"> 路考中关于速度的判断 </h4>
+                        </div>
+                        <div style="background-color: #eeffee;text-align:left;">
+                        <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
+							路考中因为超速被fail是最可惜最无话可说的，所以一定要注意关注时速表，特别是下坡变道的时候，
+							</Br>关于速度的判断以限速牌为准，转弯换路后立即观察路两侧找限速牌，或者停车等待红绿灯的时候观察找限速牌，如果没有看到限速牌参考：
+    						</Br>1. 单车道50，有些是比较宽的单行车道限速60，如果不确定可以开到50看到限速牌后再提速。
+							</Br>2. 两车道默认时速60。
+							</Br>3. 三车道及以上70-80，如果不确定可以开到70不会too slow，开一段后就能看到限速牌 。
+    						</Br>4. 维州默认Buildup区是50。
+							</Br>5. 两边有停车的Buildup区建议开40左右。
+							</Br>
+							
+						</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="mbr-section" id="roadruletest" style="background-color: rgb(255, 255, 255); padding-top: 60px; padding-bottom: 60px;">
+    <div class="mbr-section mbr-section__container mbr-section__container--middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-xs-center">
+                    <h3 class="mbr-section-title display-2">维州交规考试模拟题</h3>
+                    <small class="mbr-section-subtitle">维州路局交规练习题-中英文对照版本</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mbr-section mbr-section-nopadding">
+        <div class="container">
+        
+			<div class="w3-container w3-teal">
+			<h2>Practice Learner Permit Test</h2>
+			</div>
+			<div class="w3-container">
+			<hr>
+				<div class="w3-row w3-margin">
+			  	<h4>Q 1: Which driver needs to do a head check to see the other vehicle?</h4>
+			
+			    <div class="w3-twothird w3-container">
+			      <div class="w3-third" style="width:40%;height:100%;">
+			        <img src="https://www.vicroads.vic.gov.au/~/media/images/licences/learner-permit-practice-test/k0047.jpg" style="width:100%;height:100%;">
+			      </div>
+			      <div class="w3-third" style="padding-left:20px;width:60%;height:100%;">
+			      <p>
+			      <input id="a" class="w3-radio" type="radio" name="gender" value="male">
+			      <label for="a" class="w3-label">The driver of vehicle A only</label></p>
+			
+			      <p>
+			      <input id="b" class="w3-radio" type="radio" name="gender" value="female">
+			      <label for="b" class="w3-label">The driver of vehicle B only</label></p>
+			
+			      <p>
+			      <input id="c" class="w3-radio" type="radio" name="gender" value="">
+			      <label for="c" class="w3-label">Both drivers</label></p>
+			      </div>
+				</div>
+			    </div>
+			<button class="w3-button w3-block w3-teal">Submit>></button>
+			<hr>
+			
+			<div class="w3-bar">
+			  <button class="w3-button w3-left w3-light-grey">&laquo; Previous</button>
+			  <button class="w3-button w3-right w3-green">Next &raquo;</button>
+			</div>
+			
+			</div>
+        
+        
+        </div>
+    </div>
 </section>
 
 
