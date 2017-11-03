@@ -62,6 +62,8 @@
    
    <nav>
     <a href="<%=request.getContextPath()%>/manage" class="visited">Remote Access Info</a>
+    <a href="<%=request.getContextPath()%>/statics">Remote Access Statics</a>
+    <a href="<%=request.getContextPath()%>/questions">Learner Permit Test</a>
     <a href="<%=request.getContextPath()%>/logout">Logout</a>
    </nav>
    

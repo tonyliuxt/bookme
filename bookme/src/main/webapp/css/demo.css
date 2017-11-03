@@ -19,6 +19,18 @@ h2 {
 .demo-tip{
 	display:none;
 }
+.label-top{
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: middle;
+}
+.demo-info{
+	padding:0 0 12px 0;
+}
+.demo-tip{
+	display:none;
+}
 
         #fm{
             margin:0;

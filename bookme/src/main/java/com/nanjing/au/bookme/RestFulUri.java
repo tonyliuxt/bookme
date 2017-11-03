@@ -55,4 +55,13 @@ public class RestFulUri {
 	public static final String WEB_LOGIN =  "/login";
 	public static final String WEB_LOGOUT = "/logout";
 	public static final String WEB_MANAGE = "/manage";
+	public static final String WEB_QUESTIONS = "/questions";
+	public static final String WEB_STATICS = "/statics";
+
+	public static final String WEB_QUESTIONS_LIST = WEB_QUESTIONS + "/list";
+	public static final String WEB_QUESTIONS_ADD = WEB_QUESTIONS + "/add";
+	public static final String WEB_QUESTIONS_EDIT = WEB_QUESTIONS + "/edit";
+	public static final String WEB_QUESTIONS_DELETE = WEB_QUESTIONS + "/del";
+	public static final String WEB_QUESTIONS_RANDOMQT = "/randomqt";
+
 }

@@ -10,7 +10,7 @@
 .icon-clear{
 	background:url('images/clear.png') no-repeat center center;
 }
-.icon-remove{
+.icon-remove{ 
 	background:url('images/edit_remove.png') no-repeat center center;
 }
 .icon-save{
@@ -93,13 +93,4 @@
 }
 .icon-large-chart{
 	background:url('images/large_chart.png') no-repeat center center;
-}
-
-.icon-delete{
-	background:url('images/delete.png') no-repeat center center;
-}
-
-.icon-vac{
-	background:url('images/stakeholder.png') no-repeat center center;
-	background-size: 20px 20px;
 }

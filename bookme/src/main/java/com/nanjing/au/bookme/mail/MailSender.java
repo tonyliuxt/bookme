@@ -18,7 +18,7 @@ import org.slf4j.LoggerFactory;
 public class MailSender {
 	
 	public static String mailUsername = "liudrivingschool@gmail.com";
-	public static String mailPassword = "";
+	public static String mailPassword = "liuwang2@yunnan";
 
 	public static String mailHost = "smtp.gmail.com";
 	public static String mailPort = "587";

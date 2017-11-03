@@ -10,13 +10,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>墨尔本东南区 学车驾驶教练 刘教练0452382276 微信liu76xt</title>
-  <meta name="title" content="墨尔本东南区 学车驾驶教练 刘教练0452382276 微信liu76xt"/>
-  <meta name="description" content="墨尔本东南区 驾驶教练,普通话英语,资深DIA持牌教练； 灵活的套餐计划,一对一的课程设置,授课覆盖Glen Waverley,Burwood East为中心20公里范围内门到门接送授课；精通 BurwoodEast路局,Heatherton路局等维州路考考点分析。Mount Waverley,Heatherton,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave">
-  
-  <meta name="generator" content="墨尔本东南区 驾驶教练 学车教练 普通话英语 资深DIA持牌教练 Glen Waverley,Burwood East,Mount Waverley,Heatherton,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave">
-  <meta name="keywords" content="墨尔本东南区 驾驶教练 学车教练 精通 Burwood East路局  Heatherton路局 维州路考考点分析 路考经验积累"/>
+  <title>墨尔本东南区 学车驾驶教练 刘教练0452382276 微信liu76xt 学以致用驾校</title>
+  <meta name="title" content="<spring:message code='index.header.title' text='墨尔本东南区 学车驾驶教练 刘教练0452382276 微信liu76xt 学以致用驾校' />"/>
+  <meta name="description" content="墨尔本东南区 学车驾驶教练,普通话英语,资深DIA持牌教练；灵活的套餐计划,一对一的课程设置,授课覆盖Glen Waverley,Burwood East为中心20公里范围内门到门接送授课；精通 BurwoodEast路局,Heatherton路局等维州路考考点分析。Mount Waverley,Heatherton,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave">
+  <meta name="generator" content="墨尔本学以致用驾校 东南区学车 驾驶教练 普通话英语 资深DIA持牌教练 Glen Waverley,Burwood East,Mount Waverley,Heatherton,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave">
+  <meta name="keywords" content="墨尔本学以致用驾校 东南区学车 驾驶教练  精通 Burwood East路局  Heatherton路局 维州路考考点分析 路考经验积累"/>
 
+  <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/easyui.css"> 
   <link rel="shortcut icon" href="<%=request.getContextPath()%>/assets/images/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
@@ -30,8 +30,19 @@
   <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/dropdown/css/style.css">
   <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/theme/css/style.css">
   <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/w3.css">
+  
+  <script type="text/javascript" src="<%=request.getContextPath()%>/js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="<%=request.getContextPath()%>/js/jquery.easyui.min.js"></script>
+  
+<style> 
+a {
+    text-decoration:none;
+    color:#DAA520;
+}
+</style> 
 <script type="text/javascript">
-	//contactForm.onsubmit
+	//contactForm.onsubmit  #DAA520  #FFC300
 	function submitMessage(){
 		var url = '<%=request.getContextPath()%>/contact/post';
 	 	$.ajax({ 
@@ -79,7 +90,100 @@
 		  'expired-callback' : expiredCallback,
 		  'hl':'${pageContext.response.locale}'
         });
-      };	
+      };
+      
+      var number = 1;
+      var id = -1;
+      function loadRemote(){
+          $.getJSON("<%=request.getContextPath()%>/randomqt?id="+id, function(result){
+    	  	  id = result.id;
+    	  	  loadForm(result);
+          });
+      }
+      function loadForm(result){
+    	  if(result.id == null){
+    		  return;
+    	  }
+    	  clearForm();
+    	  $('#number').html(number);
+    	  $('#ctitle').html(result.ctitle);
+    	  $('#coption0').html(result.coptions[0]);
+    	  $('#coption1').html(result.coptions[1]);
+    	  $('#coption2').html(result.coptions[2]);
+    	  $('#answer').val(result.answer);
+    	  $('#hinstruction').html("点评："+result.cinstruction);
+    	  if(result.imgpath &&  (result.imgpath != "")){
+        	  $("#testimg").attr("src","<%=request.getContextPath()%>/css/testimg/" + result.imgpath + ".jpg");
+        	  $('#imgdiv').show();
+    	  }else{
+        	  $("#testimg").attr("src","");
+        	  $('#imgdiv').hide();
+    	  }
+      }
+      function clearForm(){
+    	  $('#imgdiv').hide();
+		  $('#hmust').hide();
+		  $('#hresult').hide();
+		  $('#hinstruction').hide();
+          $('#qtfm').form('clear');
+		  for(var i=0;i<3;i++){
+	          $('#sopt'+i).html('');
+		  }
+      }
+      function submitqt(){
+    	  var chk = false;
+		  $('#hmust').hide();
+		  $("#qtfm input[type=radio]:checked").each(function() {
+			  chk = true;
+		  });
+		  if(!chk){
+			  $('#hmust').show();
+			  return;
+		  }
+
+		  for(var i=0;i<3;i++){
+        	  $('#sopt'+i).html('&nbsp;&nbsp;'); //incorrect
+		  }
+		  
+		  var answer = $('#answer').val();
+    	  if($("#option"+answer).is(':checked')){
+    		  $('#hresult').html("结果：正确");
+    		  $('#hresult').css('color', 'green');
+    	  }else{
+    		  for(var i=0;i<3;i++){
+    			  if(answer == i) continue;
+    			  if($("#option"+i).is(':checked')){
+    	        	  $('#sopt'+i).html('&#10008;'); //incorrect
+    	        	  $('#sopt'+i).css('color', "red");
+    			  }
+    		  }
+    		  $('#hresult').html("结果：错误");
+    		  $('#hresult').css('color', 'red');
+    	  }
+    	  
+    	  $('#sopt'+answer).html('&#10004;'); //correct
+    	  $('#sopt'+answer).css('color', "green");
+		  $('#hresult').show();
+		  $('#hinstruction').show();
+      }
+      function resetqt(){
+           number = 1;
+           id = -1;
+           loadRemote();
+      }
+      function nextqt(){
+    	  if(id != null){
+    		  id = id+1;
+              number ++;
+        	  loadRemote();
+    	  }
+      }
+      function resetfrom(){
+    	  number = new Number($('#fromid').val());
+    	  id = new Number($('#fromid').val());
+          loadRemote();
+     }
+
 </script>
 <style> 
 #map2{
@@ -105,7 +209,7 @@
 }
 </style>
 </head>
-<body>
+<body onload="loadRemote();">
 <section id="menu-0">
 
     <nav class="navbar navbar-dropdown bg-color transparent navbar-fixed-top">
@@ -115,9 +219,9 @@
                 <div class="mbr-table-cell">
 
                     <div class="navbar-brand">
-                        <a href="#" class="navbar-logo"><img src="<%=request.getContextPath()%>/assets/images/logo.png" alt='<fmt:message key="index.logo.name" />'></a>
-                        <a class="navbar-caption" href="#">
-							<big class="mbr-price-term" style="color:red">L</big><spring:message code="index.logo.name" text="earning Into Using" />
+                        <a href="#" class="navbar-logo"><img src="<%=request.getContextPath()%>/assets/images/logo.png" alt='学以致用驾校'></a>
+                        <a class="navbar-caption" href="http://www.pigeonbooking.com.au/">
+							<big class="mbr-price-term" style="color:red">L</big><spring:message code="index.logo.name" text="学以致用驾校" />
 						</a>
                     </div>
 
@@ -133,7 +237,8 @@
 						<li class="nav-item"><a class="nav-link link" href="#features3-d"><spring:message code="index.header.stages" text="BASIC STAGES" /></a></li>
 						<li class="nav-item"><a class="nav-link link" href="#pricing-table1-b"><spring:message code="index.header.price" text="PRICE" /></a></li>
 						<li class="nav-item"><a class="nav-link link" href="#form1-0"><spring:message code="index.header.contact" text="CONTACT" /></a></li>
-						<li class="nav-item"><a class="nav-link link" href="#experience">路考分析</a></li>
+						<li class="nav-item"><a class="nav-link link" href="#experience"><spring:message code="index.header.analyse" text="路考分析" /></a></li>
+						<li class="nav-item"><a class="nav-link link" href="#questions"><spring:message code="index.header.test" text="交规模拟" /></a></li>
 						<li class="nav-item nav-link btn">
 							<a href="?language=en">English</a> <big style="color:white"> | </big> <a href="?language=zh_CN">中文</a>
 						</li>
@@ -217,7 +322,7 @@
 								</p>
                             </div>
 
-                            <div class="mbr-section-btn"><a class="btn btn-primary" href="http://www.yeeyi.com/bbs/thread-3778794-1-1.html" target="_blank">维州路考经验</a></div>
+                            <div class="mbr-section-btn"><a class="btn btn-primary" href="http://www.yeeyi.com/bbs/thread-3778794-1-1.html" target="_blank"><spring:message code="index.header.experiences" text="维州路考经验"/></a></div>
 
                         </div>
 
@@ -254,7 +359,7 @@
                     <h5 class="card-subtitle"><spring:message code="index.stages.one.desc" text="Including Learner Permit Test and Hazard Perception Test"/></h5>
                     <p class="card-text">
                     	<spring:message code="index.stages.one.dd1" text="You should firstly "/><a href="https://www.vicroads.vic.gov.au/licences/your-ls/get-your-ls/lpt" target="_blank"><spring:message code="index.stages.one.dd2" text="Practice Online"/></a>
-                    	或者参考 <a href="#hptdescription" > 危险察觉考试 </a>， 
+                    	<spring:message code="index.stages.one.dd9" text="Or attend "/> <a href="#hptdescription" > <spring:message code="index.stages.one.dd10" text="Hazard Perception Test"/> </a>， 
                     	<spring:message code="index.stages.one.dd3" text="when you feel confident to attend a real test you can "/><a href="https://billing.vicroads.vic.gov.au/bookings/Learner/TermsAndConditions" target="_blank"><spring:message code="index.stages.one.dd4" text="Book a Learner Permit test"/></a> 
                     	<spring:message code="index.stages.one.dd5" text="which costs around $40.90, after passing this, then you can"/>
                     	<a href="https://billing.vicroads.vic.gov.au/bookings/Probationary/TermsAndConditions" target="_blank"><spring:message code="index.stages.one.dd6" text="Book a Hazard Perception test"/></a> 
@@ -378,7 +483,8 @@
             </div>
 
         </div>
-
+    </div>
+    
     <div class="mbr-testimonials mbr-section mbr-section-nopadding">
         <div class="container">
             <div class="row">
@@ -420,8 +526,7 @@
           <div class="row">
               <div class="col-xs-12 text-xs-center">
                   <h3 class="mbr-section-title display-2"><spring:message code="index.price.title" text="PRICING TABLE"/></h3>
-                  <small class="mbr-section-subtitle"><spring:message code="index.price.desc" text="We kindly provide reasonable prices for different kinds of Learners."/></small>
-                  <!--  small class="mbr-plan-subtitle">以下价格优惠活动日期从2017/09/10到2017/10/31</small -->
+                  <small class="mbr-section-subtitle">我们为不同的学习计划设置相应的价格，更多优惠套餐请直接电话0452382276，或者微信liu76xt，咨询刘教练</small>
               </div>
           </div>
       </div>
@@ -452,7 +557,7 @@
                     <div class="mbr-plan-header card-block">
                       
                       <div class="card-title">
-                        <h3 class="mbr-plan-title">2-8<spring:message code="index.price.mfour" text="2-5 Lessons"/></h3>
+                        <h3 class="mbr-plan-title">4-8<spring:message code="index.price.mfour" text="4-8 Lessons"/></h3>
                         <small class="mbr-plan-subtitle"><spring:message code="index.price.mfour.desc" text="[90 minutes/Lesson]"/></small>
                       </div>
                       <div class="card-text">
@@ -471,7 +576,7 @@
                       <div class="mbr-plan-label"><spring:message code="index.price.hot" text="HOT!"/></div>
                       <div class="card-title">
                         <h3 class="mbr-plan-title">8 <spring:message code="index.price.msix" text="6+ Lessons"/></h3>
-                        <small class="mbr-plan-subtitle"><spring:message code="index.price.msix.desc" text="Including 30 mins practice before Road Test"/></small>
+                        <small class="mbr-plan-subtitle"><spring:message code="index.price.msix.desc" text="[含一次路考$120]"/></small>
                         
                       </div>
                       <div class="card-text">
@@ -489,13 +594,13 @@
                     <div class="mbr-plan-header card-block">
                       
                       <div class="card-title">
-                        <h3 class="mbr-plan-title"><spring:message code="index.price.test" text="Driving Test"/></h3>
-                        <small class="mbr-plan-subtitle"><spring:message code="index.price.test.desc" text="[50 minutes/Lesson]"/></small>
+                        <h3 class="mbr-plan-title"><spring:message code="index.price.test" text="路考套餐"/></h3>
+                        <small class="mbr-plan-subtitle"><spring:message code="index.price.test.desc" text="[45分钟考前练习+一次路考]"/></small>
                       </div>
                       <div class="card-text">
                           <div class="mbr-price">
                             <span class="mbr-price-value">$</span>
-                            <span class="mbr-price-figure">130</span>
+                            <span class="mbr-price-figure">155</span>
                           </div>
                           <small class="mbr-plan-price-desc"></small>
                       </div>
@@ -604,24 +709,30 @@
                         <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
 							路考报到后【报到的材料参考本帖后面附录】，考生到车内，系好安全带，钥匙通电，两边车窗玻璃放下来，等待考官：
 							</Br>1. Indicator/Signal Left & Right / off【左/右转向灯/关灯】
-							</Br>2. High/Low beam / Head Light/ High Light / High beam off【远/近光灯，大灯/关闭远光灯】
-							</Br>3. Hazard light【应急灯/双跳等】-- Keep hazard light
-							</Br>4. Wind Screen Wipers/Wipers with Water 【雨刮器 - 需要喷水刷一下】
-							</Br>然后考官绕到车的后面
+							</Br>2. Put on head lights on /Low beam / High beam / Back to low beam and leave them for test 【打开近光灯/远光灯/回到近光灯，考试期间保持近光灯】
+							</Br>3. Hazard/Emergency lights【应急灯/双跳灯】-- Leave them for a moment 【保持一会儿，因为考官要看车的另外一边】
+							</Br>4. Washers and Wipers / with Water 【雨刮器 - 需要喷水刷一下】
+							</Br>然后考官绕到车的后面 【Heatherton路局因为有些考试停车位对着镜子，考官偷懒就通过镜子观察灯光情况】
 							</Br>5. Indicator/Signal left, Indicator/Signal Right / Off【左右转向灯/关灯】
-							</Br>6. Hazard light off 【关闭应急灯】
-							</Br>7. Brake/Foot on Brake【刹车灯】
-							</Br>然后考官进入车内
+							</Br>6. Hazard/Emergency lights【应急灯/双跳灯】
+							</Br>7. Brake lights/Foot on Brake / Off brake【刹车灯】
+							</Br>然后考官进入车内【有时候是考官站在驾驶室外面问，看天气情况和考官个人喜好】
 							</Br>8. Front/Rear Demister【前后除雾器，通常给考官指一下就可以】
 							</Br>9. Air-conditioner【空调--根据天气情况确定是否使用，建议雨天的时候打开到一档除雾】
 							</Br>10. Handbrake【手刹位置，指一下给考官看】
-							</Br>11. Horn【喇叭，要按下响一下喇叭】
+							</Br>11. Beep your Horn【喇叭，要按下响一下喇叭】
 							</Br>
 							</Br>车内检查的内容就是这些，不同的考官以上顺序可能略有不同。 注意事项：
 							</Br>a.考试期间需要保持大灯开启-Keep Low Beam
 							</Br>b.如果是教练车需要测试副驾驶位置的刹车和油门踏板的警报声
 							</Br>c.考试期间考生不能和教练有语言交流，不明白的可以和考官确认
 							</Br>如果没有问题，考官就会说：如果你觉得可以我们就出发了，进入路考的第一阶段。	
+							</Br>
+							<B>需要特别注意:一下这些情况都发生过，会导致考试失败
+							</Br>1. 车辆需要发动才能开对吧，有的学员因为紧张没有发动，就挂档放手刹，后发现没有发动就直接去发动，结果发动不了，因为挂了档位:-)
+							</Br>2. 有的因为紧张没有松手刹，就踩着油门出发了，亲自见过一个印度的女考生哄着油门，刹车盘吱吱响着出发了，那考官和旁边教练的表情简直了:-)
+							</Br>3. 起步没有打灯，没有观察让右侧车辆，一个起步动作两个Critical Errors，考试即终止。
+							</B>
 							</Br>附录：路考报到携带的资料【请提前5分钟到柜台报到】：
 							</Br>1. 如果有Learner Permit驾照的，带上Learner驾照和Hazard Perception考试结果即可；
 							</Br>2. 如果持有海外驾照，则需携带海外驾照原件/附页 以及对应的翻译件，护照/住址证明/Hazard Perception考试结果；
@@ -689,7 +800,7 @@
 							</Br>续考试Immediately fail项汇总，并持续更新：
 							</Br>A.Too slow, 开车速度全程低于限速10km以上，比如默认50的路，总是开的不到40，甚至不到30，限速80的路开的不到70；
 							</Br>
-							</Br>B.Didn't Check the mirrors at all. 基本不看镜子，中镜或者两个后视镜， 特别是减速，停车或者过黄灯的时候不看镜；
+							</Br>B.Didn't Check the mirrors at all. 基本不看镜子，中镜或者两个后视镜， 特别是减速，转弯，停车或者过黄灯的时候不看镜；
 							</Br>
 							</Br>C.该减速的时候不减速，甚至加速。
 							</Br>  --比如行驶到斑马线的时候看到有闯红灯的行人不减速，Drive way有倒车出来的不减速，进入环岛的时候左侧有车fail give way的时候不减速。
@@ -759,6 +870,17 @@
 							</Br>2. 持有驾照12个月及以上
 							</Br>即可直接换维州驾照， 如果不满足上面两个条件的任何一个，则需要参加路考Drive Test【不需要参加理论和危险察觉考试】
 							</Br>
+							​</Br>维州路局新政【海外驾照】今天带学员去路局报名交规考试遇到新的规定: 
+							</Br>海外驾照持有者目前有两个选择
+							</Br>1.使用护照预约国内驾照的验证，通过后即可预约交规考试，风险测试，不需要申请learner permit，通过理论考试后即可预约和参加路考。收费$18。【之前是免费的，对于已经通过交规考试的应该还是免费验证的】
+							</Br>2.使用护照及住址证明等材料申请预约交规考试，通过后拿learner permit卡，拿卡后需三个月才能参加路考。收费$25。
+							</Br>对于急于考路考拿驾照的建议选择方案一。
+							</Br>对于不着急拿驾照的建议选择第二种方案，因为:
+							</Br>1. 如果没有learner，路考的时候是不能挂learner黄牌的。
+							</Br>2. 去风险测试和路考的时候只要带learner卡就行，不需要带护照等一堆材料。
+							</Br>3. learner卡也是一个身份证明，价钱和国内驾照验证差不多。
+							</Br>
+							</Br>
 							</Br>还是那句话： 我们开车的唯一目的是安全到达目的地，在路上的每一秒都要像新手一样注意力高度集中，
 							</Br>对于年轻人学车，多开多练习，将好的驾驶行为养成习惯是安全保障的第一步。
 						</p>
@@ -782,17 +904,26 @@
                         <p class="card-text" style="padding-left:20px; padding-bottom:20px;"></Br>
 							Burwood East路局大家都懂得，考官人好，路况相对简单，地理位置优越，所以报考人多周期长，以下是几个典型考点请参考：
 							</Br>A.考官的指令为左转进左道，而进入到左道在前方两百米结束，考生需要自己完成变道动作，两个典型的路口是
-							</Br>1.BlackBurn Road左转进入Burwood HWY
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/BlackBurnRoad_TurnInto_BurwoodHWY.PNG" style="padding-left:40px; width:80%;height:auto;max-width: 80%；"> 
-							</Br>2.SpringVale Road左转进入Burwood HWY
+							</Br>1.SpringVale Road左转进入Burwood HWY
 							</Br> <img src="<%=request.getContextPath()%>/assets/images/SpringRoad_TurnInto_BurwoodHWY.PNG" style="padding-left:40px; width:80%;height:auto;max-width: 80%；"> 
+							</Br>2.BlackBurn Road左转进入Burwood HWY
 							</Br>
 							</Br>B.下坡路的时候变道，很多同学是fail在这个地方变道超速
-							</Br>1. BlackBurn Road过 BurwoodHWY后，下坡变道
-							</Br>2. BlackBurn Road 右转进 Canterbury Road后第一个下坡变道
-							</Br>3. Canterbury Road 右转进 springvale road后小坡变道
-							</Br>4. SpringValeroad过 high bury前，后变道--实实在在的大坡啊
-							</Br>5. High buryroad 准备右拐进 springvaleroad的时候，下坡无指令变道。
+							</Br>1. BlackBurn Road 向东 过 BurwoodHWY后下坡变道 【通常是刚过红绿灯给变道指令，此路段限速60，是一个很长的大下坡，脚一直要在刹车上直到坡底】，如果是等红灯后通过，也就意味着后方车辆会比较多。
+							</Br>2. BlackBurn Road 右转进 Canterbury Road 后第一个下坡变道 【从左侧右转道右转进最左道  此路段限速70，通常车会比较多】
+							</Br>3. SpringValeroad过 high bury 后变道 通常是在哪个70的限速牌前给指令，容易分神看不到限速牌而超速  -- 特别是如果直接通过绿灯，实实在在的大坡啊。
+							</Br>4. High buryroad 准备【左拐】进 springvaleroad的时候，下坡无指令变道【HighBury Road单向两车道如果靠右则需要提前变道到左侧】。
+							</Br>5. Canterbury Road 右转进 springvale road后小坡变道 【此路段限速80，主要考察对车速的控制，不能开得太慢，要70以上】。
+							</Br>
+							</Br>C. Burwood【出】路局的三种走法，三个指令【如图橙色线所示】
+							</Br>1. At the traffic lights turn left. 红绿灯处左转【进左道】
+							</Br>2. At the traffic lights turn right from the right lane. 红绿灯处从右道右转【进右道】
+							</Br>3. At the traffic lights use the left lane turn right and ending into the far left lane. 红绿灯处从左道右转进最左道。
+							</Br>D. Burwood【回】路局的两种走法，两个指令【如图紫色线所示】
+							</Br>1. At the traffic lights turn right. 红绿灯处右转。应该从右道右转【进右道】
+							</Br>2. At the traffic lights turn left. 红绿灯处左转。应该左转直接【进右道】
+							</Br>注：回路局的指令比较简单，最好是进右道回路局，因为前面两道变一道是一个zip lane, 如果进左道则需要自动做一次变道：
+							</Br><img src="<%=request.getContextPath()%>/assets/images/burwoodinout1.jpg" style="padding-left:40px; width:80%;height:auto;max-width: 80%；">
 							</Br>
 						</p>
 						</div>
@@ -826,6 +957,9 @@
 							</Br>4. Warrigal road turn left into Cochranes road厂区限速60，限速牌在路口处，没有中线的两车道【如果你一直开低于50，则critical error，考官再找一个ce就fail了】
 							</Br> <img src="<%=request.getContextPath()%>/assets/images/Heatherton-60.PNG" style="padding-left:40px; width:70%;height:auto;max-width: 70%；"> 
 							</Br>
+							</Br>5. 出路局后的第一个红绿灯处，左转直接进右道【这个地方有两个学员fail过，就是因为紧张，只看了直行的车，而没有看到右转过来的车或者掉头的车【如图绿色圆圈所示的位置车辆】
+							</Br> 考官的指令是：At the traffic light turn left directly into the right lane.应该按如图所示的红线所示行车。
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/heathertoninout.jpg" style="padding-left:40px; width:auto;height:auto;max-width: 70%；"> 
 						</p>
 						</div>
                     </div>
@@ -999,15 +1133,81 @@
 
 </section>
 
+<section class="mbr-section" id="questions" style="background-color: rgb(255, 255, 255); padding-top: 80px; padding-bottom: 20px;">
+    <div class="mbr-section mbr-section-nopadding">
+        <div class="container">
+			<div class="w3-container w3-teal text-xs-center">
+				<h4>维州交规考试 模拟练习题测试</h4>
+				<small style="color:white;">真正的交规考试每次32题，答对25题即可通过</small>
+			</div>
+			<div class="w3-container">
+			<form id="qtfm" method="post" novalidate style="margin:0;">
+			<input type="hidden" name="answer" id="answer">
+				
+		  		<h6>第<label name="number" id="number"></label>题：<label name="ctitle" id="ctitle"></label></h6>
+				<div class="w3-row w3-margin">
+	                <div class="col-xs-12 col-md-6">
+	                    <div class="mbr-testimonial card mbr-testimonial-md">
+				      		<div class="w3-third" id="imgdiv" style="width:100%;height:100%;text-align:left;">
+				        		<img id="testimg" src="" >
+				      		</div>
+	                    </div>
+	                </div>
+                
+	                <div class="col-xs-12 col-md-6">
+	                    <div class="mbr-testimonial card mbr-testimonial-md" style="text-align:left;">
+					      	<div class="w3-third" style="padding-top:15px;padding-left:5px;width:100%;height:100%;">
+					      	<p><span id="sopt0"></span>
+					      	<input id="option0" class="w3-radio" type="radio" name="option" value="0">
+					      	<label for="option0" class="w3-label" id="coption0"></label></p>
+					
+					      	<p><span id="sopt1"></span>
+					      	<input id="option1" class="w3-radio" type="radio" name="option" value="1">
+					      	<label for="option1" class="w3-label" id="coption1"></label></p>
+					
+					      	<p><span id="sopt2"></span>
+					      	<input id="option2" class="w3-radio" type="radio" name="option" value="2">
+					      	<label for="option2" class="w3-label" id="coption2"></label></p>
+					      	</div>
+	                    </div>
+	                </div>
+				</div>
+			  	<h6 id="hmust" style="display:none; padding-left:5px; color:red;">请选择答案 </h6>
+			  	<h6 id="hresult" style="display:none; padding-left:5px;"></h6>
+			  	<h6 id="hinstruction" style="display:none; padding-left:5px;"></h6>
+			<button class="w3-button w3-block w3-teal" onclick="submitqt();return false;" style="position:relative; z-index:99999;">提交>></button>
+			</form>			
+
+			<hr>
+			<div class="w3-bar">
+<!-- 			  <button class="w3-button w3-left w3-light-grey" onclick="resetqt();">&laquo; 重新开始</button>
+ -->			  <button class="w3-button w3-left w3-light-grey">&laquo; 
+			    从第 
+			  	<select id="fromid" name="fromid" onchange="resetfrom();">
+			  		<option value="1">1</option>
+			  		<option value="20">20</option>
+			  		<option value="40">40</option>
+			  		<option value="60">60</option>
+			  		<option value="80">80</option>
+			  		<option value="100">100</option>
+			  	</select>
+			    开始
+			  </button>
+			  <button class="w3-button w3-right w3-green" onclick="nextqt();">后一题 &raquo;</button>
+			</div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-2" style="background-color: rgb(32, 32, 32); padding-top: 1.05rem; padding-bottom: 1.05rem;">
 		    <div class="card-block">
-		        <p class="text-xs-center">Copyright (c) 2017 pigeonbooking.com.au. All Rights Reserved. [Version:1.0.1]</p>
+		        <p class="text-xs-center">Copyright (c) 2017 pigeonbooking.com.au. All Rights Reserved. [Version:1.0.2]</p>
 		    </div>
 </footer>
 
 
-  <script src="<%=request.getContextPath()%>/assets/web/<%=request.getContextPath()%>/assets/jquery/jquery.min.js"></script>
   <script src="<%=request.getContextPath()%>/assets/tether/tether.min.js"></script>
   <script src="<%=request.getContextPath()%>/assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="<%=request.getContextPath()%>/assets/smooth-scroll/SmoothScroll.js"></script>

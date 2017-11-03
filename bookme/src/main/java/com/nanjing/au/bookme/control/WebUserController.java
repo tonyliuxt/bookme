@@ -56,6 +56,13 @@ public class WebUserController {
     	return "web";
 	}
 
+	@RequestMapping(value="/test", method = RequestMethod.GET)
+	public String test(Locale locale,HttpServletRequest request) {
+    	omtlogger.info("/ test... with language:" + locale + "... Ip address:"+request.getRemoteAddr());
+    	UtilLibs.recordClients(request.getRemoteAddr());
+    	return "test";
+	}
+
 	@RequestMapping(value="/handy", method = RequestMethod.GET)
 	public String handy(Locale locale,HttpServletRequest request) {
     	omtlogger.info("/ handy... with language:" + locale + "... Ip address:"+request.getRemoteAddr());

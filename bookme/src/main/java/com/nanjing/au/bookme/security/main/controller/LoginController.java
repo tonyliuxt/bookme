@@ -37,7 +37,7 @@ public class LoginController {
 	@PreAuthorize("hasRole('ADMIN')")
 	@RequestMapping(value=RestFulUri.WEB_WELCOME)
 	public String welcomePage() {
-		return "admin";
+		return "manage";
 	}
 	
 	@PreAuthorize("hasRole('ADMIN')")
@@ -46,6 +46,17 @@ public class LoginController {
 		return "manage";
 	}
 
+//	@PreAuthorize("hasRole('ADMIN')")
+	@RequestMapping(value=RestFulUri.WEB_STATICS)
+	public String statics() {
+		return "statics";
+	}
+
+	@PreAuthorize("hasRole('ADMIN')")
+	@RequestMapping(value=RestFulUri.WEB_QUESTIONS)
+	public String questionsPage() {
+		return "questions";
+	}
 	
 	@RequestMapping(value=RestFulUri.WEB_LOGOUT, method = RequestMethod.GET)
 	public String logoutPage (HttpServletRequest request, HttpServletResponse response) {
