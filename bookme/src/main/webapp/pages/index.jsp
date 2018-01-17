@@ -10,11 +10,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>墨尔本东南区 学车驾驶教练 刘教练0452382276 微信liu76xt 学以致用驾校</title>
+  <title><spring:message code='index.header.title' text='墨尔本东南区 学车驾驶教练 刘教练0452382276 微信liu76xt 学以致用驾校' /></title>
   <meta name="title" content="<spring:message code='index.header.title' text='墨尔本东南区 学车驾驶教练 刘教练0452382276 微信liu76xt 学以致用驾校' />"/>
-  <meta name="description" content="墨尔本东南区 学车驾驶教练,普通话英语,资深DIA持牌教练；灵活的套餐计划,一对一的课程设置,授课覆盖Glen Waverley,Burwood East为中心20公里范围内门到门接送授课；精通 BurwoodEast路局,Heatherton路局等维州路考考点分析。Mount Waverley,Heatherton,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave">
+  <meta name="description" content="<spring:message code='index.header.description' text='墨尔本东南区 学车驾驶教练,普通话英语,资深DIA持牌教练；灵活的套餐计划,一对一的课程设置,授课覆盖Glen Waverley,Burwood East为中心20公里范围内门到门接送授课；精通 BurwoodEast路局,Heatherton路局等维州路考考点分析。Mount Waverley,Heatherton,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave' />">
+  <meta name="keywords" content="<spring:message code='index.header.keywords' text='墨尔本学以致用驾校 东南区学车 驾驶教练  精通 Burwood East路局  Heatherton路局 维州路考考点分析 路考经验积累' />"/>
   <meta name="generator" content="墨尔本学以致用驾校 东南区学车 驾驶教练 普通话英语 资深DIA持牌教练 Glen Waverley,Burwood East,Mount Waverley,Heatherton,Vermount South,Blackburn,Boxhill,Doncaster,Clayton,Oakleigh,Notting Hill,Wheelers Hill,Wantirna,Scoreby,Knoxfield,Chadstone,Mulgrave">
-  <meta name="keywords" content="墨尔本学以致用驾校 东南区学车 驾驶教练  精通 Burwood East路局  Heatherton路局 维州路考考点分析 路考经验积累"/>
 
   <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/easyui.css"> 
   <link rel="shortcut icon" href="<%=request.getContextPath()%>/assets/images/logo.png" type="image/x-icon">
@@ -314,9 +314,9 @@ a {
                             <h6 class="mbr-section-title display-6"><spring:message code="index.overview.email" text="Email:"/><a class="nav-link link" href="mailto:liudrivingschool@gmail.com" target="_top">liudrivingschool@gmail.com</a></h6>
 
                             <div class="mbr-section-text lead">
-                                <p><spring:message code="index.overview.introfirst" text="Welcome to Liu's Driving School, an independent driving instructor based on"/><p>
-                                <p>Glen Waverley / Burwood East / Mount Waverley / Heatherton / Vermount South / Blackburn / Boxhill / Doncaster / Clayton / Oakleigh / Notting Hill / Wheelers Hill / Wantirna / Scoreby / Knoxfield / Chadstone / Mulgrave which is close to Burwood East and Heatherton VicRoads.<p>
-								<p><spring:message code="index.overview.introthird" text="I am a fully qualified TSC approved driving instructor and offer individual tailored tuition to students of all ages and abilities on a one to one basis."/><p>
+                                <p><spring:message code="index.overview.introfirst" text="Welcome to Liu's Driving School, a fully qualified TSC approved driving instructor who offer individual tailored tuition to students of all ages on a one to one basis."/><p>
+                                <p><spring:message code="index.overview.introsecond" text="Running around Burwood East and Heatherton VicRoads with enriched drive test experiences. Covering"/>
+								<BR><spring:message code="index.overview.introthird" text="Glen Waverley / Burwood East / Mount Waverley / Heatherton / Vermount South / Blackburn / Boxhill / Doncaster / Clayton / Oakleigh / Notting Hill / Wheelers Hill / Wantirna / Scoreby / Knoxfield / Chadstone / Mulgrave which is close to Burwood East and Heatherton VicRoads."/><p>
 								<p><spring:message code="index.overview.introfourth" text="I hope you find the website useful, if you have any feedback, suggestions for the site or questions then please do not hesitate to"/> 
 								<a class="nav-link link" href="#form1-0"> <spring:message code="index.overview.introfifth" text="Contact me"/> </a>
 								</p>
@@ -959,7 +959,7 @@ a {
 							</Br>
 							</Br>5. 出路局后的第一个红绿灯处，左转直接进右道【这个地方有两个学员fail过，就是因为紧张，只看了直行的车，而没有看到右转过来的车或者掉头的车【如图绿色圆圈所示的位置车辆】
 							</Br> 考官的指令是：At the traffic light turn left directly into the right lane.应该按如图所示的红线所示行车。
-							</Br> <img src="<%=request.getContextPath()%>/assets/images/heathertoninout.jpg" style="padding-left:40px; width:auto;height:auto;max-width: 70%；"> 
+							</Br> <img src="<%=request.getContextPath()%>/assets/images/heathertoninout.jpg" style="padding-left:40px; width:70%;height:auto;max-width: 70%；"> 
 						</p>
 						</div>
                     </div>
